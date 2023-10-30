@@ -38,8 +38,8 @@ sections:
           location: Copenhagen, Denmark
           date_start: '2023-09-01'
           date_end: '2023-12-31'
-          description: Assisting with the 15 ECTS, MSc Games programme class 'Games and Culture'.
-      - title: PhD Fellow
+          description:
+        - title: PhD Fellow
           company: IT University of Copenhagen
           company_url: 'https://en.itu.dk/'
           company_logo:
