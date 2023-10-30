@@ -106,11 +106,9 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: 'domford@uni-bremen.de'
+      email: domford@uni-bremen.de
       # Automatically link email and phone or display as text?
       autolink: true
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
     design:
       columns: '2'
 ---
