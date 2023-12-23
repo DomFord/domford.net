@@ -103,8 +103,7 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        To get in touch, please email me at
+      text:
       # Contact (add or remove contact options as necessary)
       email: dom@domford.net
       # Automatically link email and phone or display as text?
