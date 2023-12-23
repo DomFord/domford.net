@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Personal academic website of games researcher Dom Ford.'
+    twitter: 'domford_'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -57,7 +57,7 @@ footer:
 locale:
   date_format: '2 Jan 2006'
   time_format: '15.04'
-  address_format: en-us
+  address_format: en-de
 
 # Site features
 
