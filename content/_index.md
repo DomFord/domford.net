@@ -104,9 +104,9 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        To get in touch, please email me at
       # Contact (add or remove contact options as necessary)
-      email: domford@uni-bremen.de
+      email: dom@domford.net
       # Automatically link email and phone or display as text?
       autolink: true
     design:
