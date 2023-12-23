@@ -82,11 +82,9 @@ social:
 highlight_name: true
 ---
 
-I'm a postdoctoral researcher at the University of Bremen, part of the [Literatures and Media of Religion](https://www.uni-bremen.de/en/religionswissenschaft/profile-research/literatures-and-media-of-religions) lab, headed by Kerstin Radde-Antweiler, in the [ZeMKI Centre for Media, Communication and Information Research](https://www.uni-bremen.de/en/zemki/). My postdoc project focuses on community formation in digital games.
+I'm a postdoctoral researcher at the University of Bremen, part of the [Literatures and Media of Religion](https://www.uni-bremen.de/en/religionswissenschaft/profile-research/literatures-and-media-of-religions) lab, headed by Kerstin Radde-Antweiler, in the [ZeMKI Centre for Media, Communication and Information Research](https://www.uni-bremen.de/en/zemki/). My postdoc project focuses on community formation in digital games. I'm also the managing editor for the academic journal *[gamevironments](https://journals.suub.uni-bremen.de/index.php/gamevironments/)* and an editor for *[Eludamos](https://eludamos.org/index.php/eludamos)*.
 
 I wrote my PhD at the IT University of Copenhagen's [Center for Digital Play](https://digitalplay.itu.dk/). My dissertation, *[Mytholudics: Understanding Games As/Through Myth](https://domford.net/publication/ford-mytholudics-2022/)*, proposes a method for analysing games both as conduits of mythologies within society and as mythological structures in themselves.
-
-I'm also the managing editor for the academic journal *[gamevironments](https://journals.suub.uni-bremen.de/index.php/gamevironments/)* and an editor for *[Eludamos](https://eludamos.org/index.php/eludamos)*.
 
 This is my website where you'll find links to all the other relevant internet places you can find me at, all of my publications, games and other projects, and the occasional blog post whenever I feel like writing something here.
 
