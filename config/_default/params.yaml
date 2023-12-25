@@ -57,7 +57,7 @@ footer:
 locale:
   date_format: '2 Jan 2006'
   time_format: '15.04'
-  address_format: en-us
+  address_format: de
 
 # Site features
 
