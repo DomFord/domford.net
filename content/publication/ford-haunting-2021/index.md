@@ -1,13 +1,12 @@
 ---
-title: 'The haunting of ancient societies in the Mass Effect trilogy and textitThe
-  Legend of Zelda: Breath of the Wild'
+title: "The haunting of ancient societies in the Mass Effect trilogy and The
+  Legend of Zelda: Breath of the Wild"
 authors:
-- Dom Ford
-date: '2021-12-01'
-publishDate: '2023-12-27T10:12:56.987619Z'
-publication_types:
-- article-journal
-publication: '*Game Studies*'
+- admin
+date: "2021-12-01"
+publishDate: "2023-12-27T10:12:56.987619Z"
+publication_types: ["article-journal"]
+publication: "*Game Studies*, *21*(4)"
 abstract: "I examine the prevalent construction of the long-lost yet technologically
   more highly-advanced society in the Mass Effect trilogy and The Legend of Zelda:
   Breath of the Wild. First, I situate this construction within its long history,
@@ -23,7 +22,6 @@ abstract: "I examine the prevalent construction of the long-lost yet technologic
   on each layer, opening up some of the potential strategies for this game-internal
   nostalgia and haunting, while not being exhaustive."
 tags:
-- notion
 links:
 - name: URL
   url: http://gamestudies.org/2104/articles/dom_ford
