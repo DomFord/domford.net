@@ -27,6 +27,7 @@ tags:
 - cities
 - neomedievalism
 - space
+featured: false
 links:
 - url_pdf: http://www.digra.org/wp-content/uploads/digital-library/DiGRA_2019_paper_97.pdf
 - name: URL
