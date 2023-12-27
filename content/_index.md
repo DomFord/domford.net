@@ -90,8 +90,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: card
-      columns: '2'
+      view: masonry
   - block: collection
     content:
       title: Publications
