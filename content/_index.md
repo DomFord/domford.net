@@ -89,7 +89,6 @@ sections:
       # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-       # Choose a layout view
        columns: '1'
        view: masonry
   - block: contact
