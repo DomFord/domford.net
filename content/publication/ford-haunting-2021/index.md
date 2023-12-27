@@ -22,6 +22,7 @@ abstract: "I examine the prevalent construction of the long-lost yet technologic
   on each layer, opening up some of the potential strategies for this game-internal
   nostalgia and haunting, while not being exhaustive."
 tags:
+featured: true
 links:
 - name: URL
   url: http://gamestudies.org/2104/articles/dom_ford
