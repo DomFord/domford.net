@@ -91,6 +91,7 @@ sections:
     design:
       # Choose a layout view
       view: masonry
+      columns: 4
   - block: collection
     content:
       title: Publications
