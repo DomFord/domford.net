@@ -32,6 +32,7 @@ tags:
 - postcolonialism
 - technological determinism
 - videogames
+featured: true
 links:
 - name: URL
   url: http://gamestudies.org/1602/articles/ford
