@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "The BBC, 'Objective Journalism' and Myth"
+title: "The BBC, ‘Objective Journalism' and Myth"
 subtitle: ""
 summary: ""
 authors: []
@@ -51,8 +51,6 @@ The myth is that of the household economy. Using the household economy as a cent
 It doesn’t take an economist to see that this approach to government spending is, frankly, bollocks. For one thing, in a household reducing spending does not reduce income. At a national level, it does. For a more detailed dismantling of the economic claims of this approach and of the above BBC explainer video, I’d recommend this clip from a recent *Novara Media* podcast, presented by Michael Walker and Aaron Bastani, and with economic analysis from James Meadway:
 
 {{< youtube VXIJN82HsgU >}}
-
-
 
 Indeed, it is not even framed as an ‘argument’ as such. In fully mythologised fashion, the logic of the metaphor is taken as an essential truth. *This is just how government spending **works***. “And *like anyone who’s facing debts*,” says David, “the government has three options.” These three options, for the BBC, are to cut spending, raise taxes, or to borrow more.
 

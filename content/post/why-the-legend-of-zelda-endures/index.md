@@ -1,4 +1,5 @@
 ---
+
 title: Why The Legend of Zelda Endures
 subtitle: The Legend of Zelda turns 35
 date: 2021-02-21T11:10:44.554Z
@@ -9,24 +10,27 @@ featured: true
 authors: []
 tags: [myth, The Legend of Zelda, familiarity, strangeness, game design, narrative]
 authors:
-  - admin
-tags:
-  - myth
-  - The Legend of Zelda
-  - familiarity
-  - strangeness
-  - game design
-  - narrative
-categories:
-  - Myth
-image:
+
+- admin
+  tags:
+- myth
+- The Legend of Zelda
+- familiarity
+- strangeness
+- game design
+- narrative
+  categories:
+- Myth
+  image:
   filename: featured.jpg
   focal_point: Smart
   preview_only: false
   caption: Link meets Impa in Breath of the Wild
   alt_text: Impa tells the player-character, Link, "You have not changed a bit.
-    Once a hero, always a hero."
+  Once a hero, always a hero."
+
 ---
+
 [I was recently interviewed by DR](https://www.dr.dk/nyheder/kultur/gaming/en-af-de-bedste-nogensinde-derfor-er-legendarisk-spilserie-stadig-et), the Danish public broadcaster, about the what makes the The Legend of Zelda series so enduring and popular for the occasion of its 35th anniversary. On this day in 1986, *The Legend of Zelda* was released on the Famicom. *Breath of the Wild*, released 32 years later with [a score of 97 on Metacritic](https://www.metacritic.com/game/switch/the-legend-of-zelda-breath-of-the-wild), doesn't suggest it's a series that has grown long in the tooth.
 
 I was asked to explain what was so special about The Legend of Zelda that it could survive and thrive for so long. From an academic perspective, I avoid making value statements—that's the job of reviewers and opinion piece writers. The series is clearly successful, and also happen to like it a lot. But the more interesting question to me was in what makes a videogame series long-lasting. And, more than that, what makes it also so consistently loved. Plenty of other series have a long list of titles—Call of Duty or Assassin's Creed, for instance—but few seem so consistently acclaimed: the vast majority of Zelda games have [a Metacritic score in the 90s](https://www.metacritic.com/pictures/legend-of-zelda-games-ranked-worst-to-best), and usually in the mid-to-high 90s. (I'm aware of [the many problems with using Metacritic](https://kotaku.com/metacritic-matters-how-review-scores-hurt-video-games-472462218), but it does, at least, offer a way to see at a glance when a game is near-universally acclaimed, especially ones which have been out for a while.)
