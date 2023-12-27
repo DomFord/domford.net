@@ -19,12 +19,11 @@ tags:
 - game design
 - narrative
  image:
-  filename: featured.jpg
   focal_point: Smart
   preview_only: false
-  caption: Link meets Impa in Breath of the Wild
-  alt_text: Impa tells the player-character, Link, "You have not changed a bit.
-  Once a hero, always a hero."
+  caption: 'Link meets Impa in Breath of the Wild.'
+  alt_text: 'Impa tells the player-character, Link, "You have not changed a bit.
+  Once a hero, always a hero."'
 ---
 
 [I was recently interviewed by DR](https://www.dr.dk/nyheder/kultur/gaming/en-af-de-bedste-nogensinde-derfor-er-legendarisk-spilserie-stadig-et), the Danish public broadcaster, about the what makes the The Legend of Zelda series so enduring and popular for the occasion of its 35th anniversary. On this day in 1986, *The Legend of Zelda* was released on the Famicom. *Breath of the Wild*, released 32 years later with [a score of 97 on Metacritic](https://www.metacritic.com/game/switch/the-legend-of-zelda-breath-of-the-wild), doesn't suggest it's a series that has grown long in the tooth.
