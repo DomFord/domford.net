@@ -90,7 +90,7 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: masonry
+      view: card
       columns: 4
   - block: contact
     id: contact
