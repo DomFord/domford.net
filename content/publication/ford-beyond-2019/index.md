@@ -28,9 +28,8 @@ tags:
 - neomedievalism
 - space
 links:
+- url_pdf: http://www.digra.org/wp-content/uploads/digital-library/DiGRA_2019_paper_97.pdf
 - name: URL
   url: 
     http://www.digra.org/digital-library/publications/beyond-the-wall-the-boundaries-of-the-neomedieval-town-in-singleplayer-roleplaying-games/
-  pdf:
-    http://www.digra.org/wp-content/uploads/digital-library/DiGRA_2019_paper_97.pdf
 ---
