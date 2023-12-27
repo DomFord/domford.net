@@ -1,6 +1,6 @@
 ---
-title: "'eXplore, eXpand, eXploit, eXterminate': Affective writing of postcolonial
-  history and education in *Civilization V*"
+title: "“eXplore, eXpand, eXploit, eXterminate”: Affective writing of postcolonial
+  history and education in Civilization V"
 authors:
 - Dom Ford
 date: "2016-12-01"
