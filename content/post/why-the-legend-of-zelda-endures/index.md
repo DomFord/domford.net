@@ -9,14 +9,7 @@ draft: false
 featured: true
 authors: 
 - admin
-tags:
-- myth
-- The Legend of Zelda
-- familiarity
-- strangeness
-- game design
-- narrative
- image:
+image:
   focal_point: Smart
   preview_only: false
   caption: 'Link meets Impa in Breath of the Wild.'
