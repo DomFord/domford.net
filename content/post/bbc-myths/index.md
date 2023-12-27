@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "The BBC, ‘Objective Journalism' and Myth"
+title: "The BBC, ‘Objective Journalism’ and Myth"
 subtitle: ""
 summary: ""
 authors: []
