@@ -147,4 +147,3 @@ Likewise, many games could easily have made the list but didn’t, for whatever 
 And, of course, I have not nearly played even all of the most well-known titles of the decade.
 
 Reflecting on my list, there is what I suspected: a tendency towards big, AAA, ‘gamer’-type games. In the 20s, I need to spend more time engaging with smaller developers and games on platforms like [itch.io](https://itch.io/). I also live in Copenhagen, a city with a thriving indie scene, and work in a university with a fantastic games programme. I’ve played some awesome games within this community, and I’m looking forward to continuing with that over the years.
-

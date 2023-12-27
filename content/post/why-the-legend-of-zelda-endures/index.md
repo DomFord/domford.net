@@ -18,8 +18,6 @@ tags:
 - strangeness
 - game design
 - narrative
-categories:
-- Myth
  image:
   filename: featured.jpg
   focal_point: Smart
