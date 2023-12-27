@@ -81,9 +81,6 @@ sections:
       title: Games
       subtitle: ''
       text: ''
-      filters:
-      	folders:
-        	- project
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Choose how many pages you would like to offset by
