@@ -71,7 +71,6 @@ abstract: This dissertation outlines a mythological framework for understanding 
   model for understanding the world that is virtually instantiated and how they are
   influenced by, influence and relate to models for understanding the world—mythologies—in
   the real world.
-tags:
 links:
 - name: URL
   url: 
