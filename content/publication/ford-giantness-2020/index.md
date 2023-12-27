@@ -2,7 +2,8 @@
 title: "Giantness and excess in Dark Souls"
 authors:
 - admin
-date: "2020-09-01"doi: "10.1145/3402942.3402966"
+date: "2020-09-01"
+doi: "10.1145/3402942.3402966"
 publishDate: "2023-12-27T10:12:57.014574Z"
 publication_types: ["paper-conference"]
 publication: "*Proceedings of the International Conference on the Foundations of Digital
