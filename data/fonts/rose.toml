@@ -2,10 +2,10 @@
 name = "Rose"
 
 # Optional Google font URL
-google_fonts = "family=Cutive+Mono&family=Lora:wght@400;700&family=Lato:ital,wght@400;700&display=swap"
+google_fonts = "family=Cutive+Mono&family=Lora:wght@700&family=Lato:ital,wght@400;700&display=swap"
 
 # Font families
-heading_font = "Lora:wght@400"
+heading_font = "Lora"
 body_font = "Lato"
 nav_font = "Lora"
 mono_font = "Cutive Mono"
