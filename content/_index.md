@@ -90,8 +90,8 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: card
-      columns: 4
+            columns: 1
+      view: masonry
   - block: contact
     id: contact
     content:
