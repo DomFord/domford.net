@@ -1,14 +1,14 @@
 ---
-title: 'Beyond the wall: the boundaries of the neomedieval town in singleplayer roleplaying
-  games'
+title: "Beyond the wall: The boundaries of the neomedieval town in singleplayer roleplaying
+  games"
 authors:
-- Dom Ford
+- admin
 date: '2019-08-01'
 publishDate: '2023-12-27T10:12:57.001338Z'
-publication_types:
-- paper-conference
-publication: '*Proceedings of the 2019 DiGRA International Conference: Game, Play
-  and the Emerging Ludo-Mix*'
+publication_types: ["paper-conference"]
+
+publication: "*Proceedings of the 2019 DiGRA International Conference: Game, Play
+  and the Emerging Ludo-Mix*"
 abstract: The cities of the ever prevalent neomedieval fantasy roleplaying game are
   integral to their gameworlds. They act as quest hubs, goals, centres for action
   and places of safety. Much of the loop of the game revolves around leaving the city
@@ -31,4 +31,6 @@ links:
 - name: URL
   url: 
     http://www.digra.org/digital-library/publications/beyond-the-wall-the-boundaries-of-the-neomedieval-town-in-singleplayer-roleplaying-games/
+  pdf:
+    http://www.digra.org/wp-content/uploads/digital-library/DiGRA_2019_paper_97.pdf
 ---
