@@ -7,8 +7,6 @@ summary: On its 35th anniversary, I dig into why The Legend of Zelda series has
   been so enduring and so consistently loved.
 draft: false
 featured: true
-authors: []
-tags: [myth, The Legend of Zelda, familiarity, strangeness, game design, narrative]
 authors: 
 - admin
 tags:
