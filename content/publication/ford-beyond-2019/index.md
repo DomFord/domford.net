@@ -3,8 +3,8 @@ title: "Beyond the wall: The boundaries of the neomedieval town in singleplayer 
   games"
 authors:
 - admin
-date: '2019-08-01'
-publishDate: '2023-12-27T10:12:57.001338Z'
+date: "2019-08-01"
+publishDate: "2023-12-27T10:12:57.001338Z"
 publication_types: ["paper-conference"]
 
 publication: "*Proceedings of the 2019 DiGRA International Conference: Game, Play
@@ -20,7 +20,6 @@ abstract: The cities of the ever prevalent neomedieval fantasy roleplaying game 
   games, and how the ways in which it produces boundaries alters and affects how players
   interact with the gameworld.
 tags:
-- notion
 - roleplaying games
 - borders
 - boundaries
@@ -31,6 +30,5 @@ featured: false
 links:
 - url_pdf: http://www.digra.org/wp-content/uploads/digital-library/DiGRA_2019_paper_97.pdf
 - name: URL
-  url: 
-    http://www.digra.org/digital-library/publications/beyond-the-wall-the-boundaries-of-the-neomedieval-town-in-singleplayer-roleplaying-games/
+  url: http://www.digra.org/digital-library/publications/beyond-the-wall-the-boundaries-of-the-neomedieval-town-in-singleplayer-roleplaying-games/
 ---

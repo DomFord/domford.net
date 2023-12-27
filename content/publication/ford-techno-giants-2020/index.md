@@ -19,7 +19,6 @@ abstract: 'The relationship between humankind and technology is fundamental, but
   boundary as being exceeding difficult to define and place, despite a constant desire
   to. The figure of the giant offers a powerful focal point for these representations.'
 tags:
-- notion
 - Fallout
 - Mass Effect
 - nostalgia
@@ -37,6 +36,6 @@ tags:
 - transhumanism
 links:
 - name: URL
-  url: 
-    http://www.digra.org/digital-library/publications/techno-giants-the-giant-the-machine-and-the-human/
+  url: http://www.digra.org/digital-library/publications/techno-giants-the-giant-the-machine-and-the-human/
+url_pdf: 
 ---

@@ -72,7 +72,6 @@ abstract: This dissertation outlines a mythological framework for understanding 
   influenced by, influence and relate to models for understanding the world—mythologies—in
   the real world.
 tags:
-- notion
 links:
 - name: URL
   url: 

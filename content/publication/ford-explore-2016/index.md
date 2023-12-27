@@ -21,7 +21,6 @@ abstract: Civilization V as one of the most successful and definitive works
   Civilization V for education and the conception of history in the minds of the players,
   drawing on other recent scholars who have similarly problematized the series.
 tags:
-- notion
 - affect
 - Civilisation V
 - education

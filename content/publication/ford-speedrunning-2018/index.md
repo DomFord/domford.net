@@ -32,7 +32,5 @@ tags:
 - space
 - implied player
 - transgression
-links:
-- name: URL
-  url: http://rgdoi.net/10.13140/RG.2.2.12357.91369
+
 ---
