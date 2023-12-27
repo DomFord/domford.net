@@ -18,9 +18,9 @@ tags:
 - strangeness
 - game design
 - narrative
-  categories:
+categories:
 - Myth
-  image:
+ image:
   filename: featured.jpg
   focal_point: Smart
   preview_only: false
