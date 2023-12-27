@@ -1,12 +1,11 @@
 ---
-title: 'Mytholudics: understanding games as/through myth'
+title: "Mytholudics: Understanding games as/through myth"
 authors:
-- Dom Ford
-date: '2022-11-01'
-publishDate: '2023-12-27T10:12:57.036704Z'
-publication_types:
-- thesis
-abstract: 'This dissertation outlines a mythological framework for understanding how
+- admin
+date: "2022-11-01"
+publishDate: "2023-12-27T10:12:57.036704Z"
+publication_types: ["thesis"]
+abstract: This dissertation outlines a mythological framework for understanding how
   games produce meaning. The central question is: how does a mythological approach
   help to understand the way games make meaning? I first theorise mythology as it
   applies to games and play. This is expressed through a cycle showing how mythology
@@ -71,7 +70,7 @@ abstract: 'This dissertation outlines a mythological framework for understanding
   By analysing the underpinnings of those organising structures, we can outline the
   model for understanding the world that is virtually instantiated and how they are
   influenced by, influence and relate to models for understanding the world—mythologies—in
-  the real world.'
+  the real world.
 tags:
 - notion
 links:

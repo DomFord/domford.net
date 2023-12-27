@@ -1,15 +1,15 @@
 ---
-title: 'Speedrunning: transgressive play in digital space'
+title: "Speedrunning: Transgressive play in digital space"
 authors:
-- Dom Ford
-date: '2018-11-01'
-publishDate: '2023-12-27T10:12:57.029063Z'
-publication_types:
-- manuscript
-abstract: 'In textitHow To Do Things With Videogames, Ian Bogost argues that videogames
+- admin
+date: "2018-11-01"
+publishDate: "2023-12-27T10:12:57.029063Z"
+doi: "10.13140/RG.2.2.12357.91369"
+publication_types: ["speech"]
+abstract: In How To Do Things With Videogames, Ian Bogost argues that videogames
   offer “an experience of the ‘space between points’ that had been reduced or eliminated
   by the transportation technologies that began with the train” (2011, 49). But when
-  we watch a speedrun of a game such as textitThe Legend of Zelda: Ocarina of Time
+  we watch a speedrun of a game such as The Legend of Zelda: Ocarina of Time
   (Nintendo EAD 1998), what we instead see is a player determined to destroy as much
   of that ‘space between points’ as possible. It is a game that takes most players
   tens of hours to complete, but is finished in just over 17 minutes by the best speedrunners,
@@ -26,9 +26,8 @@ abstract: 'In textitHow To Do Things With Videogames, Ian Bogost argues that vid
   and representational implications that arise from them. To do this, I bring in spatial,
   digital and videogame theorists such as Paul Virilio, Tom Apperley and Espen Aarseth,
   as well as work on other transgressive spatial practices such as parkour in order
-  to see if and how they relate.'
+  to see if and how they relate.
 tags:
-- notion
 - speedrunning
 - space
 - implied player
