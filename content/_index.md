@@ -60,7 +60,7 @@ sections:
     design:
       columns: '2'
       view: citation
-- block: collection
+  - block: collection
     id: posts
     content:
       title: Blog
