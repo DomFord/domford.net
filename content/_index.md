@@ -50,9 +50,9 @@ sections:
     design:
       columns: '2'
   - block: collection
+    id: publications
     content:
       title: Publications
-      id: publications
       count: 0
       filters:
         folders:
