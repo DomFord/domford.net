@@ -52,6 +52,7 @@ sections:
   - block: collection
     content:
       title: Publications
+      id: publications
       count: 0
       filters:
         folders:
