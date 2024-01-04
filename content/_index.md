@@ -74,7 +74,7 @@ sections:
       count: 0
       filters:
         folders:
-          - publication
+          - monograph
         exclude_featured: true
     design:
       columns: '2'
