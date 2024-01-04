@@ -61,6 +61,9 @@ sections:
       offset: 0
       # Page order: descending (desc) or ascending (asc) date.
       order: desc
+      filters:
+          folders:
+           - post
     design:
       # Choose a layout view
       view: compact
