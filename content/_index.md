@@ -50,6 +50,17 @@ sections:
     design:
       columns: '2'
   - block: collection
+    content:
+      title: Publications
+      count: 0
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+- block: collection
     id: posts
     content:
       title: Blog
@@ -68,17 +79,6 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-  - block: collection
-    content:
-      title: Publications
-      count: 0
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
   - block: collection
     id: games
     content:
