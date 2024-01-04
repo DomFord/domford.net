@@ -90,7 +90,7 @@ sections:
       order: desc
     design:
        columns: '1'
-       view: masonry
+       view: showcase
   - block: contact
     id: contact
     content:
