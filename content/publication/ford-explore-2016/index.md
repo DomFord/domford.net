@@ -2,7 +2,7 @@
 title: "“eXplore, eXpand, eXploit, eXterminate”: Affective writing of postcolonial
   history and education in Civilization V"
 authors:
-- Dom Ford
+- admin
 date: "2016-12-01"
 publishDate: "2023-12-27T10:12:56.958006Z"
 publication_types: ["article-journal"]
