@@ -58,7 +58,7 @@ social:
     link: https://twitter.com/DomFord_
     label: Follow me on Twitter
     display:
-      header: true
+      header: false
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/dominic-ford/
