@@ -6,8 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: zinc
-  theme_night: zinc
+  color: zinc
   font: rose
   font_size: M
 
