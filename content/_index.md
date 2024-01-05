@@ -34,7 +34,7 @@ sections:
         - title: Assistant Lecturer
           company: IT University of Copenhagen
           company_url: 'https://en.itu.dk/'
-          company_logo: 'https://www.itu.dk/-/media/DK/Om-ITU/Presse/ITU-Logoer/ITU_logo_UK-jpg.jpg'
+          company_logo:
           location: Copenhagen, Denmark
           date_start: '2023-09-01'
           date_end: '2023-12-31'
