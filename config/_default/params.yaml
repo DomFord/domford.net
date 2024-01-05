@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  color: rose
   mode: system
+  color: rose
   font: rose
   font_size: M
 
