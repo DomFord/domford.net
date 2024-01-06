@@ -15,6 +15,8 @@ tags:
 
 ---
 
+# Extended abstract
+
 City-builder games allow the player to “build your dream city” (*‎SimCity BuildIt*, 2023) where “you’re only limited by your imagination” (Paradox Interactive, n.d.). Of course, those are marketing statements, but most titles emphasise a large degree of creative freedom. Players generally understand that their virtual city is, in fact, limited. Computational power, assets included in the game, gameplay mechanics. But less acknowledged is the degree to which city builders limit the imagination too. The hidden choices—conscious or not—regarding what is and is not *possible* in gameplay also limit the imagination. Outside of the game too, I argue, these game design decisions play a role in limiting the imagination for what cities can be in general.
 
 It is important that city-builder game developers consider the theoretical ramifications and possibilities of their design choices. Likewise, it is important that researchers consider carefully what conceptions of the city these games construct, particularly as they advocate for city builders within the contexts of education and activism.
