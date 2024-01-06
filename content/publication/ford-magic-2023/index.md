@@ -4,7 +4,7 @@ title: "The magic prison: Game rules as a tool for dread in Sir Gawain and the
 authors:
 - admin
 - Sophie Thorkildsen
-date: "2023-01-01"
+date: "2023-06-01"
 publishDate: "2023-12-27T10:12:57.060491Z"
 publication_types: ["paper-conference"]
 publication: "*Extended Abstract Proceedings of the 2023 DiGRA International Conference:
