@@ -121,7 +121,8 @@ features:
     provider: ''
     api_key: ''
     zoom: 15
-  citation_style: 'APA'
+  publications:
+    citation_style: 'apa'
 
 # Extensions
 
