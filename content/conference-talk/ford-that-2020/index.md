@@ -16,6 +16,8 @@ tags:
 url_video: https://youtu.be/FtKy3gfXC1o
 ---
 
+# Extended abstract
+
 *World of Warcraft Classic* (Blizzard Entertainment, 2019) drew a great deal of attention when it was released. After years of hostility towards unsanctioned private servers hosting ‘vanilla’ *WoW* (Blizzard Entertainment, 2004)—the base game without any of its eight expansions—Blizzard decided to release their own, official pre-*Burning Crusade* (2007) version to much press attention and fanfare.
 
 But one similar endeavour with continued success is *Old School RuneScape* (*OSRS*) (Jagex, 2013b), the surprising longevity of which can perhaps be credited with giving Blizzard a precedent. With both *OSRS* and now *WoW Classic*, a key question lay under debates on their design philosophies: how much, and in what way, should it be updated? *OSRS* chose a ‘parallel universe’ strategy: simply developing and updating the game as normal, but from its earlier starting point. Over six years after its release in late 2013, *OSRS* is now unrecognisable from the ‘main’ game, *RuneScape 3* (Jagex, 2013a), from its starting point of a 2007 backup of *RuneScape 2* (Jagex, 2004),
