@@ -1,5 +1,5 @@
 ---
-title: "The city, according to city builders: The mythlogy of city-builder games"
+title: "The city, according to city builders: The mythology of city-builder games"
 authors:
 - admin
 date: "2023-10-20"
