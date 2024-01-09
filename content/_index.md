@@ -70,6 +70,18 @@ sections:
       columns: '2'
       view: citation
   - block: collection
+    id: conference-talks
+    content:
+      title: Conference talks
+      count: 0
+      filters:
+        folders:
+          - conference-talk
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
     id: posts
     content:
       title: Blog
