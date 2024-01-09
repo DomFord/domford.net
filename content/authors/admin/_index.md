@@ -28,6 +28,7 @@ interests:
   - Myth and games
   - Digital game communities
   - The past and nostalgia in games
+  - Reality formation in digital society
 
 # Education to show in About widget
 education:
