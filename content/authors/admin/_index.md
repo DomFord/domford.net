@@ -33,7 +33,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Game Studies
+    - course: PhD Game Studies
       institution: IT University of Copenhagen
       year: 2022
     - course: MSc Game Design and Theory
