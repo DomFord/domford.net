@@ -47,6 +47,14 @@ sections:
           date_start: '2019-08-01'
           date_end: '2022-11-03'
           description:
+        - title: Teaching Assistant
+          company: IT University of Copenhagen
+          company_url: 'https://en.itu.dk/'
+          company_logo:
+          location: Copenhagen, Denmark
+          date_start: '2018-06-01'
+          date_end: '2019-06-03'
+          description:
     design:
       columns: '2'
   - block: collection
