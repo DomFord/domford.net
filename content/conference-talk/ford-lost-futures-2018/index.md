@@ -8,11 +8,7 @@ doi: ""
 publication_types: ["speech"]
 abstract: "In this paper, I will explore why this trope seems so prevalent in open-world games, how it changes the configuration of the gameworld, and how the player’s experience is shaped by it. My examination is framed around five intertwined terms and their theoretical context. Hauntology, presence, absence, lost futures, and nostalgia."
 tags:
-- speedrunning
-- space
-- implied player
-- transgression
-
+- lost futures
 ---
 
 # Extended abstract
