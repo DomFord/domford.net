@@ -11,7 +11,7 @@ tags:
 - lost futures
 ---
 
-*This presentation has since been developed into [a journal article]({{< relref "/publication/ford-haunting-2021" >}}) which largely supersedes this work.*
+*This presentation has since been developed into [a journal article]({{< relref "/publication/ford-haunting-2021" >}}).*
 
 # Extended abstract
 
