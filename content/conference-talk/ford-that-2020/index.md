@@ -2,7 +2,7 @@
 title: "That old school feeling: Processes of mythmaking in Old School RuneScape"
 authors:
 - admin
-date: "2020-10-01"
+date: "2020-10-22"
 publishDate: "2023-12-27T10:12:56.981268Z"
 publication_types: ["speech"]
 abstract: "What is ‘old school’ about Old School RuneScape? In this presentation,
@@ -15,6 +15,8 @@ abstract: "What is ‘old school’ about Old School RuneScape? In this presenta
 tags:
 url_video: https://youtu.be/FtKy3gfXC1o
 ---
+
+Presented at the 2020 History of Games Conference: Transnational Game Histories, online, 21–24 October.
 
 # Extended abstract
 
