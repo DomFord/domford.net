@@ -11,6 +11,8 @@ tags:
 - lost futures
 ---
 
+*This presentation has since been developed into [a journal article]({{< relref "/publication/ford-haunting-2021" >}}) which largely supersedes this work.*
+
 # Extended abstract
 
 The long-lost, ancient civilisation that somehow had technology that far surpasses the current level is a common trope in videogames that feature large, open worlds. The *Mass Effect* trilogy (2007; 2010; 2012) features the Protheans, whose unparalleled feats of technology and engineering such as the mass relays laid the foundations for the galaxy Shepard steps into. *Horizon Zero Dawn* (2017) explores a primitive world littered with technological marvels left by the Old Ones. *The Legend of Zelda: Breath of the Wild* (2017) is centred around the Ancient Sheikah society, who 10,000 years prior to the game’s setting had developed teleportation between towers and shrines, powerful runes, and even a motorbike. Their technology was later used to build the giant mechanical Divine Beasts and Guardians. All this while the warriors of the day are still using steel swords.
