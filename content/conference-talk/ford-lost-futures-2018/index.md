@@ -11,6 +11,8 @@ tags:
 - lost futures
 ---
 
+Presented at the 2018 Nordic DiGRA Conference in Bergen, Norway, 28–30 November.
+
 *This presentation has since been developed into [a journal article]({{< relref "/publication/ford-haunting-2021" >}}).*
 
 # Extended abstract

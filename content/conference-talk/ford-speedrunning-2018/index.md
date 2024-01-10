@@ -35,6 +35,8 @@ tags:
 
 ---
 
+Presented at the 2018 Nordic DiGRA Conference in Bergen, Norway, 28–30 November.
+
 # Extended abstract
 
 In *How To Do Things With Videogames*, Ian Bogost argues that videogames offer “an experience of the ‘space between points’ that had been reduced or eliminated by the transportation technologies that began with the train” (2011, 49). But when we watch a speedrun of a game such as *The Legend of Zelda: Ocarina of Time* (Nintendo EAD 1998), what we instead see is a player determined to destroy as much of that ‘space between points’ as possible. It is a game that takes most players tens of hours to complete, but is finished in just over 17 minutes by the best speedrunners, utilizing glitches that manipulate the game’s code to skip enormous chunks of both the narrative and the gameworld. Once an underground hobby conducted between users swapping footage on obscure internet forums, speedrunning has shot into the mainstream in recent years following the rise of livestreaming platforms and livestreamed events such as Games Done Quick and the European Speedsters Assembly. So what does speedrunning mean as a mode of play, and what can it reveal about the relationship between player and gameworld?
