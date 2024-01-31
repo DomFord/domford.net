@@ -1,5 +1,5 @@
 ---
-title: "A world to escape to? Digital gamesworlds as otherworlds"
+title: "A world to escape to? Digital gameworlds as otherworlds"
 authors:
 - admin
 date: "2024-01-26"
