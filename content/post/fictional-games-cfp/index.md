@@ -3,7 +3,7 @@
 title: Special issue on fictional games and fictional game studies
 subtitle: Eludamos special issue call for papers
 date: 2021-02-21T11:10:44.554Z
-summary: Along with Stefano Gualeni and Riccardo Fassone, I am editing a special issue of Eludamos on fictional games and fictional game studies
+summary: Along with Stefano Gualeni and Riccardo Fassone, I am editing a special issue of Eludamos on fictional games and fictional game studies.
 draft: false
 featured: true
 authors: 
@@ -29,7 +29,7 @@ In their foundational academic work on games that exclusively exist as fictions,
 
 Concentrating on the uses and the cultural value of fictional games - as well as their relevance to the field of game studies - this special issue thus solicits contributions that are short and focused.
 
-* **Short:** we expect the submitted texts to not exceed 5000 words in length (not counting the bibliography), and
+* **Short:** we expect the submitted texts to not exceed **5000 words** in length (not counting the bibliography), and
 * **Focused:** the editors encourage submissions that discuss a single case study of a fictional game (or a few related case studies) that the authors find particularly interesting to analyze and theorize about.
 
 A successful submission leverages conceptual tools from fields such as literary theory, game studies, game design, and the philosophy of fiction, and engages with questions such as: what roles can imaginary games have in storytelling? Why do fiction authors outline rules and behaviors of games that the audience will never actually play? Can we apply tools and methods that are specific to game studies to better understand fictional games? What can fictional games teach us about games and play?
@@ -56,5 +56,5 @@ When submitting your article, please clearly mark your contribution as belonging
 
 Please use the online submission system for all correspondence with the guest editors and editors: https://septentrio.uit.no/index.php/eludamos/submission/wizard
 
-### About Eludamos
-Eludamos is an open-access international, interdisciplinary, peer-reviewed journal dedicated to the academic study of computer games and play. The journal is indexed in Scopus and DOAJ. See a complete description of _Eludamos_ and its objectives at https://eludamos.org/index.php/eludamos/about.
+### About _Eludamos_
+_Eludamos_ is an open-access international, interdisciplinary, peer-reviewed journal dedicated to the academic study of computer games and play. The journal is indexed in Scopus and DOAJ. See a complete description of _Eludamos_ and its objectives at https://eludamos.org/index.php/eludamos/about.
