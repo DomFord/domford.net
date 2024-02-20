@@ -36,9 +36,13 @@ A successful submission leverages conceptual tools from fields such as literary 
 
 ### Important dates
 **Full paper submission deadline: 15 October 2024**
+
 Review results: January 2025
+
 Revisions due: 15 March 2025
+
 Final notification of acceptance/rejection: 1 May 2025
+
 Publication: 30 June 2025
 
 ### Submission guidelines
