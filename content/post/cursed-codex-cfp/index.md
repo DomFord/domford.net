@@ -1,5 +1,5 @@
 ---
-title: Call for chapters – The Cursed Codex: Essays on the Souls Games
+title: Call for chapters – Essays on the Souls Games
 subtitle:  Trade publication with Tune & Fairweather
 date: 2024-05-30T11:10:44.554Z
 summary: Call for chapters for a popular, illustrated essay collection to be published with Tune & Fairweather.
