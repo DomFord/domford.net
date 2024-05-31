@@ -9,7 +9,7 @@ design:
 
 sections:
   - block: resume-biography-3
-    id: about-me
+    id: about
     content:
       username: admin
       text: ''
