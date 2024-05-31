@@ -16,6 +16,6 @@ main:
   - name: Games
     url: /#games
     weight: 40
-  - name: Contact
-    url: /#contact
+  - name: Experience
+    url: experience/
     weight: 50
