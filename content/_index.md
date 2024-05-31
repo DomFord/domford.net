@@ -21,10 +21,7 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: resume-languages
-    content:
-      title: Languages
-      username: admin
+      columns: '2'
   - block: collection
     id: publications
     content:
