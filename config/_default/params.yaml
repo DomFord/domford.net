@@ -7,8 +7,6 @@
 appearance:
   mode: system
   color: emerald
-  font: rose
-  font_size: M
  
 # SEO
 marketing:
