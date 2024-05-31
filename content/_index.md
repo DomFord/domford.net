@@ -13,8 +13,6 @@ sections:
     content:
       username: admin
       text: ''
-    design:
-      css_class: dark
   - block: collection
     id: publications
     content:
