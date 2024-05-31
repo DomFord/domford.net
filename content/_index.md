@@ -74,16 +74,4 @@ sections:
     design:
        columns: '1'
        view: showcase
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle:
-      text:
-      # Contact (add or remove contact options as necessary)
-      email: dom@domford.net
-      # Automatically link email and phone or display as text?
-      autolink: true
-    design:
-      columns: '2'
 ---
