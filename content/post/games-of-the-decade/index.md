@@ -1,33 +1,12 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "My Ten Games of the Decade"
-subtitle: ""
-summary: "Looking back on a decade of big games and big life changes"
-authors: []
-tags: [games of the decade]
-categories: [Lists]
-date: 2020-01-02T12:48:14+01:00
-lastmod: 2020-01-02T12:48:14+01:00
-featured: true
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+title: My ten games of the decade
+summary: Looking back on a decade of big games and big life changes.
+date: 2020-01-02
+tags:
+  - lists
 image:
   caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
-
 With everyone and their mother writing games of the year or games of the decade lists at the moment, I’m well aware that the last thing people want is my opinion on the matter. But I write this more as an exercise for myself. And, to be fair, the end of a decade is a biggie.
 
 I want to explore which games have resonated most with me over the past ten years or so. In that, I hope I can also see some blind spots that I can look to rectify during the 20s. I am well aware that I am biased as a player and as a human. I might find that I have played a disappointingly low number of games made by or with marginalised people, or by people outside of my Anglosphere cultural environment.

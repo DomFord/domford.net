@@ -1,19 +1,13 @@
 ---
 title: Call for papers – Special issue on fictional games and fictional game studies
-subtitle: Eludamos special issue call for papers
-date: 2021-02-21T11:10:44.554Z
 summary: Along with Stefano Gualeni and Riccardo Fassone, I am editing a special issue of Eludamos on fictional games and fictional game studies.
-draft: false
-featured: true
-authors: 
-
-- admin
-  image:
-  focal_point: Smart
-  preview_only: false
-  caption:
-  alt_text:
-
+date: 2024-02-16
+tags:
+  - call for papers
+  - fictional games
+  - special issue
+image:
+  caption: ''
 ---
 
 [See this call on the _Eludamos_ website.](https://eludamos.org/index.php/eludamos/announcement/view/117)

@@ -1,19 +1,13 @@
 ---
 title: Call for chapters – Essays on the Souls Games
-subtitle:  Trade publication with Tune & Fairweather
-date: 2024-05-30T11:10:44.554Z
 summary: Call for chapters for a popular, illustrated essay collection to be published with Tune & Fairweather.
-draft: false
-featured: true
-authors: 
-
-- admin
-  image:
-  focal_point: Smart
-  preview_only: false
-  caption:
-  alt_text:
-
+date: 2024-05-31
+tags:
+  - Call for papers
+  - FromSoftware
+  - Book
+image:
+  caption: ''
 ---
 
 **Editors:** Dom Ford (University of Bremen), Stefano Gualeni (University of Malta), Nele Van de Mosselaer (Tilburg University) and Daniel Vella (University of Malta)

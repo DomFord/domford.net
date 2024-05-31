@@ -1,31 +1,14 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "The BBC, ‘Objective Journalism’ and Myth"
-subtitle: ""
-summary: ""
-authors: []
-tags: [myth, BBC, journalism, objectivity, politics]
-categories: [Myth, Politics]
-date: 2020-05-22T21:58:54+02:00
-lastmod: 2020-05-22T21:58:54+02:00
-featured: false
-draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+title: The BBC, ‘objective journalism’ and myth
+summary:
+date: 2020-05-22
+tags:
+  - myth
+  - BBC
+  - journalism
+  - politics
 image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
+  caption: ''
 ---
 
 With polarised politics, fake news, increasingly sophisticated social media bots and all manner of other diversions and illusions, it’s perhaps no surprise that many yearn for journalism that is objective, unbiased and nonpartisan. Such a thing does not, of course, exist. In fact, the idea is a dangerous one. To strive for some invented standard of objective journalism is a process of mythologising a particular way of understanding the world.  There is no greater illustration of this (for me as a Brit, at least), than the BBC.

@@ -1,17 +1,11 @@
 ---
-
 title: Why The Legend of Zelda Endures
-subtitle: The Legend of Zelda turns 35
-date: 2021-02-21T11:10:44.554Z
-summary: On its 35th anniversary, I dig into why The Legend of Zelda series has
-  been so enduring and so consistently loved.
-draft: false
-featured: true
-authors: 
-- admin
+summary: The Legend of Zelda turns 35
+date: 2021-02-21
+tags:
+  - Legend of Zelda
+  - myth
 image:
-  focal_point: Smart
-  preview_only: false
   caption: 'Link meets Impa in Breath of the Wild.'
   alt_text: 'Impa tells the player-character, Link, "You have not changed a bit.
   Once a hero, always a hero."'
