@@ -12,6 +12,9 @@ last_name: Ford
 # Is this the primary user of the site?
 superuser: true
 
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
 # Role/position/tagline
 role: Postdoctoral Researcher
 
@@ -27,61 +30,86 @@ bio: My research focuses on myth, digital game communities, monsters, spatiality
 interests:
   - Myth and games
   - Digital game communities
-  - The past and nostalgia in games
+  - Representations of the past
   - Reality formation in digital society
 
 # Education to show in About widget
 education:
-  courses:
-    - course: PhD Game Studies
+    - area: PhD Game Studies
       institution: IT University of Copenhagen
-      year: 2022
-    - course: MSc Game Design and Theory
+      date_start: 2019-08-01
+      date_end: 2022-12-16
+    - area: MSc Game Design and Theory
       institution: IT University of Copenhagen
       year: 2019
-    - course: MA English Literary Studies
+      date_start: 2017-08-20
+      date_end: 2019-06-16
+    - area: MA English Literary Studies
       institution: University of Exeter
       year: 2016
-    - course: BA (Hons) English
+      date_start: 2015-09-01
+      date_end: 2026-12-01
+    - area: BA (Hons) English
       institution: University of Exeter
       year: 2015
+      date_start: 2012-09-01
+      date_end: 2025-06-01
+
+work:
+  - position: Postdoctoral Researcher
+    company_name: University of Bremen
+    company_url: 'https://www.uni-bremen.de/en/'
+    company_logo: ''
+    date_start: 2023-04-01
+    date_end: ''
+    summary: ''
+  - position: Assistant Lecturer
+    company_name: IT University of Copenhagen
+    company_url: 'https://en.itu.dk/'
+    company_logo: ''
+    date_start: 2023-09-01
+    date_end: 2023-12-31
+    summary: ''
+  - position: PhD Fellow
+    company_name: IT University of Copenhagen
+    company_url: 'https://en.itu.dk/'
+    company_logo: ''
+    date_start: 2019-08-01
+    date_end: 2022-11-03
+    summary: ''
+  - position: Teaching Assistant
+    company_name: IT University of Copenhagen
+    company_url: 'https://en.itu.dk/'
+    company_logo: ''
+    date_start: 2018-06-01
+    date_end: 2019-06-03
+    summary: ''
+
+languages:
+  - name: English
+    percent: 100
+  - name: Danish
+    percent: 80
 
 # Social/Academic Networking
-# For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: mailto:domford@uni-bremen.de
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/DomFord_
-    label: Follow me on Twitter
-    display:
-      header: false
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/dominic-ford/
-  - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: ai
-    link: https://scholar.google.dk/citations?user=dv4EhC0AAAAJ
-  - icon: orcid
-    icon_pack: ai
-    link: https://orcid.org/0000-0001-5545-602X
-  - icon: researchgate
-    icon_pack: ai
-    link: https://www.researchgate.net/profile/Dom_Ford
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  # - icon: cv
-  # icon_pack: ai
-  # link: uploads/resume.pdf
-
-# Highlight the author in author lists? (true/false)
-highlight_name: true
+profiles:
+  - icon: at-symbol
+    url: 'mailto:domford@uni-bremen.de'
+    label: E-mail me
+  - icon: brands/x
+    url: https://x.com/DomFord_/
+  - icon: brands/github
+    url: https://github.com/DomFord
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/dominic-ford/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.dk/citations?user=dv4EhC0AAAAJ
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0001-5545-602X
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Dom_Ford
 ---
+## About me
 
 I'm a postdoctoral researcher at the University of Bremen, part of the [Media and Religion](https://www.uni-bremen.de/en/zemki/research/labs/media-and-religion) lab in the [ZeMKI Centre for Media, Communication and Information Research](https://www.uni-bremen.de/en/zemki/). My postdoc project focuses on community formation in digital games. I'm also the managing editor for the academic journal *[gamevironments](https://journals.suub.uni-bremen.de/index.php/gamevironments/)* and an editor for *[Eludamos](https://eludamos.org/index.php/eludamos)*.
 

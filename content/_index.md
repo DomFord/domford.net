@@ -4,59 +4,17 @@ title: ''
 date: 2022-10-24
 type: landing
 
+design:
+  spacing: '6rem'
+
 sections:
-  - block: about.biography
-    id: about
+  - block: resume-biography-3
+    id: about-me
     content:
-      title: About me
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Postdoctoral Researcher
-          company: University of Bremen
-          company_url: 'https://www.uni-bremen.de/en/'
-          company_logo:
-          location: Bremen, Germany
-          date_start: '2023-04-01'
-          date_end: ''
-          description:
-        - title: Assistant Lecturer
-          company: IT University of Copenhagen
-          company_url: 'https://en.itu.dk/'
-          company_logo:
-          location: Copenhagen, Denmark
-          date_start: '2023-09-01'
-          date_end: '2023-12-31'
-          description:
-        - title: PhD Fellow
-          company: IT University of Copenhagen
-          company_url: 'https://en.itu.dk/'
-          company_logo:
-          location: Copenhagen, Denmark
-          date_start: '2019-08-01'
-          date_end: '2022-11-03'
-          description:
-        - title: Teaching Assistant
-          company: IT University of Copenhagen
-          company_url: 'https://en.itu.dk/'
-          company_logo:
-          location: Copenhagen, Denmark
-          date_start: '2018-06-01'
-          date_end: '2019-06-03'
-          description:
+      text: ''
     design:
-      columns: '2'
+      css_class: dark
   - block: collection
     id: publications
     content:
