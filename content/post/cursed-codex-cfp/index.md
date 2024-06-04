@@ -2,6 +2,7 @@
 title: Call for chapters – Essays on the Souls Games
 summary: Call for chapters for a popular, illustrated essay collection to be published with Tune & Fairweather.
 date: 2024-05-31
+draft: true
 tags:
   - Call for papers
   - FromSoftware
