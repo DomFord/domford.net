@@ -91,16 +91,16 @@ This naturally includes **remakes**, **remasters**, **DLCs**, etc. of those titl
 
 We look forward to reading your submissions!
 
-*Dom Ford*
+*Dom Ford*\
 [domford@uni-bremen.de](mailto:domford@uni-bremen.de)
 
-*Stefano Gualeni*
+*Stefano Gualeni*\
 [stefano.gualeni@um.edu.mt](mailto:stefano.gualeni@um.edu.mt)
 
-*Nele Van de Mosselaer*
+*Nele Van de Mosselaer*\
 [N.VandeMosselaer@tilburguniversity.edu](mailto:N.VandeMosselaer@tilburguniversity.edu)
 
-*Daniel Vella*
+*Daniel Vella*\
 [daniel.m.vella@um.edu.mt](mailto:daniel.m.vella@um.edu.mt)
 
 ## References
