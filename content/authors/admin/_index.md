@@ -20,8 +20,8 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Bremen
-    url: https://www.uni-bremen.de/en/
+  - name: ZeMKI Centre for Media, Communication and Information Research, University of Bremen
+    url: https://zemki.uni-bremen.de/en/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research focuses on myth, digital game communities, monsters, spatiality and the representation and depiction of history
