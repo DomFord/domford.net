@@ -6,8 +6,7 @@ date: "2020-09-01"
 doi: "10.1145/3402942.3402966"
 publishDate: "2023-12-27T10:12:57.014574Z"
 publication_types: ["paper-conference"]
-publication: "*Proceedings of the International Conference on the Foundations of Digital
-  Games (FDG ‘20)*"
+publication: "*Proceedings of the International Conference on the Foundations of Digital Games (FDG ‘20)*"
 doi: "10.1145/3402942.3402966"
 abstract: Using the Dark Souls series as an example, I examine how a frame of ‘monster
   of excess’ can be used to read giantness in digital games. The monster of excess

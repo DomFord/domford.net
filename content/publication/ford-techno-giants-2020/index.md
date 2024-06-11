@@ -35,6 +35,6 @@ tags:
 - transhumanism
 links:
 - name: URL
-  url: http://www.digra.org/digital-library/publications/techno-giants-the-giant-the-machine-and-the-human/
-url_pdf: http://www.digra.org/wp-content/uploads/digital-library/DiGRA_2020_paper_92.pdf
+  url: https://dl.digra.org/index.php/dl/article/view/1168
+url_pdf: https://dl.digra.org/index.php/dl/article/view/1168/1168
 ---

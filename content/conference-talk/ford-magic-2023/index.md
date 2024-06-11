@@ -11,7 +11,7 @@ publication: "*Extended Abstract Proceedings of the 2023 DiGRA International Con
   Limits and Margins of Games*"
 abstract: "The late 14th-century poem *Sir Gawain and the Green Knight* (Anderson 1996) and Daniel Mullins Games’ recent roguelike deck-building digital game *Inscryption* (2021) have in common the narrative frame of a game. In this paper, we examine these as examples of the very concept of the ‘magic circle’ of games being used to evoke dread, horror or uncanniness. In both examples, the protagonists are trapped within a game and forced to play. Crucially, the rules of these games are enforced and adhered to strictly by the antagonists, even though in their roles as game masters they could easily tip the scales in their favour."
 doi: 10.13140/RG.2.2.32866.71364
-url_pdf: http://digra.org:9998/DiGRA_2023_CR_7982.pdf
+url_pdf: https://dl.digra.org/index.php/dl/article/view/2122/2121
 ---
 
 Presented at the 2023 DiGRA International Conference: Limits and Margins of Games, Seville, Spain, 19–23 June.

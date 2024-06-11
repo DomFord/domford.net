@@ -6,7 +6,7 @@ authors:
 date: "2019-08-01"
 publishDate: "2023-12-27T10:12:57.001338Z"
 publication_types: ["paper-conference"]
-url_pdf: http://www.digra.org/wp-content/uploads/digital-library/DiGRA_2019_paper_97.pdf
+url_pdf: https://dl.digra.org/index.php/dl/article/view/1073/1073
 
 publication: "*Proceedings of the 2019 DiGRA International Conference: Game, Play
   and the Emerging Ludo-Mix*"
@@ -30,5 +30,5 @@ tags:
 featured: false
 links:
 - name: URL
-  url: http://www.digra.org/digital-library/publications/beyond-the-wall-the-boundaries-of-the-neomedieval-town-in-singleplayer-roleplaying-games/
+  url: https://dl.digra.org/index.php/dl/article/view/1073
 ---

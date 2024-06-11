@@ -2,6 +2,7 @@
 title: Call for chapters – Essays on the Souls Games
 summary: Call for chapters for a popular, illustrated essay collection to be published with Tune & Fairweather.
 date: 2024-05-31
+draft: true
 tags:
   - Call for papers
   - FromSoftware
@@ -10,7 +11,7 @@ image:
   caption: ''
 ---
 
-**Editors:** Dom Ford (University of Bremen), Stefano Gualeni (University of Malta), Nele Van de Mosselaer (Tilburg University) and Daniel Vella (University of Malta)
+**Editors:** Dom Ford (University of Bremen), [Stefano Gualeni](https://gua-le-ni.com/) (University of Malta), Nele Van de Mosselaer (Tilburg University) and Daniel Vella (University of Malta)
 
 **Publisher:** [Tune & Fairweather](https://www.tuneandfairweather.com/)
 
@@ -91,16 +92,16 @@ This naturally includes **remakes**, **remasters**, **DLCs**, etc. of those titl
 
 We look forward to reading your submissions!
 
-*Dom Ford*
+*Dom Ford*\
 [domford@uni-bremen.de](mailto:domford@uni-bremen.de)
 
-*Stefano Gualeni*
+*Stefano Gualeni*\
 [stefano.gualeni@um.edu.mt](mailto:stefano.gualeni@um.edu.mt)
 
-*Nele Van de Mosselaer*
+*Nele Van de Mosselaer*\
 [N.VandeMosselaer@tilburguniversity.edu](mailto:N.VandeMosselaer@tilburguniversity.edu)
 
-*Daniel Vella*
+*Daniel Vella*\
 [daniel.m.vella@um.edu.mt](mailto:daniel.m.vella@um.edu.mt)
 
 ## References
@@ -109,7 +110,7 @@ Andriano, Angelo Maria. 2024. ‘Enjoying the Uncertainty: How *Dark Souls* Perf
 
 Ball, Kevin D. 2017. ‘Fan Labor, Speculative Fiction, and Video Game Lore in the *Bloodborne* Community’. *Transformative Works and Cultures* 25. https://doi.org/10.3983/twc.2017.01156.
 
-Caracciolo, Marco. 2024. *On Soulsring Worlds: Narrative Complexity, Digital Communities, and Interpretation in* Dark Souls *and* Elden Ring. London, England: Routledge. [On Soulsring Worlds | Narrative Complexity, Digital Communities, and I](https://doi.org/10.4324/9781032684024).
+Caracciolo, Marco. 2024. *On Soulsring Worlds: Narrative Complexity, Digital Communities, and Interpretation in* Dark Souls *and* Elden Ring. London, England: Routledge. [https://doi.org/10.4324/9781032684024](https://doi.org/10.4324/9781032684024).
 
 Ford, Dom. 2024 (forthcoming). ‘Approaching FromSoftware’s *Souls* Games as Myth’. *Transactions of the Digital Games Research Association* 7 (1).
 
@@ -131,7 +132,7 @@ FromSoftware. 2009a. ‘Demon’s Souls’. PlayStation 3. Digital game directed
 
 ———. 2022. ‘Elden Ring’. Microsoft Windows. Digital game directed by Hidetaka Miyazaki and Yui Tanimura, published by Bandai Namco Entertainment.
 
-Gama, Vítor Castelões, and Marcelo Velloso Garcia. 2019. ‘Beyond the Walls of *Bloodborne*: Gothic Tropes and Lovecraftian Games’. *Aeternum: The Journal of Contemporary Gothic Studies* 6 (2): 49–60. [Volume 6, Issue 2 | aeternum-journal](https://www.aeternumjournal.com/volume-6-issue-2)
+Gama, Vítor Castelões, and Marcelo Velloso Garcia. 2019. ‘Beyond the Walls of *Bloodborne*: Gothic Tropes and Lovecraftian Games’. *Aeternum: The Journal of Contemporary Gothic Studies* 6 (2): 49–60. [https://www.aeternumjournal.com/volume-6-issue-2](https://www.aeternumjournal.com/volume-6-issue-2)
 
 Hoedt, Madelon. 2019. *Narrative Design and Authorship in* Bloodborne*: An Analysis of the Horror Videogame*. Studies in Gaming. Jefferson, NC: McFarland & Company.
 
@@ -147,7 +148,7 @@ Mecheri, Damien, and Romieu Sylvain. 2017. Dark Souls *beyond the Grave Volume 1
 
 Mukherjee, Hiranya. 2024. ‘“Fear the Old Blood”: The Gothicism of *Bloodborne*’. *Games and Culture* 19 (1): 94–115. https://doi.org/10.1177/15554120231155325.
 
-Nuenen, Tom van. 2016. ‘Playing the Panopticon: Procedural Surveillance in *Dark Souls*’. *Games and Culture* 11 (5): 510–27. [Playing the Panopticon: Procedural Surveillance in Dark Souls - Tom van Nuenen, 2016](https://doi.org/10.1177/1555412015570967).
+Nuenen, Tom van. 2016. ‘Playing the Panopticon: Procedural Surveillance in *Dark Souls*’. *Games and Culture* 11 (5): 510–27. [https://doi.org/10.1177/1555412015570967](https://doi.org/10.1177/1555412015570967).
 
 Parkin, Simon, ed. 2023. *Blood Echoes: A* Bloodborne *Anthology*. Dublin, Ireland: Tune & Fairweather.
 
@@ -159,4 +160,4 @@ Terrasa Torres, Mateo. 2022. *La Estética de la Dificultad: Teoría y Motivos e
 
 Van de Mosselaer, Nele, and Stefano Gualeni. 2020. ‘The Implied Designer and the Experience of Gameworlds’. In *Proceedings of the 2020 DiGRA International Conference: Play Everywhere*. Tampere, Finland: DiGRA. https://dl.digra.org/index.php/dl/article/view/1219
 
-Vella, Daniel. 2015. ‘No Mastery without Mystery: *Dark Souls* and the Ludic Sublime’. *Game Studies* 15 (1). [Game Studies - No Mastery Without Mystery: <i>Dark Souls</i> and the Ludic Sublime](http://gamestudies.org/1501/articles/vella).
+Vella, Daniel. 2015. ‘No Mastery without Mystery: *Dark Souls* and the Ludic Sublime’. *Game Studies* 15 (1). [http://gamestudies.org/1501/articles/vella](http://gamestudies.org/1501/articles/vella).
