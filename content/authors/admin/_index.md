@@ -37,20 +37,24 @@ interests:
 education:
     - area: PhD Game Studies
       institution: IT University of Copenhagen
+      url: https://en.itu.dk/
       date_start: 2019-08-01
       date_end: 2022-12-16
     - area: MSc Game Design and Theory
       institution: IT University of Copenhagen
+      url: https://en.itu.dk/
       year: 2019
       date_start: 2017-08-20
       date_end: 2019-06-16
     - area: MA English Literary Studies
       institution: University of Exeter
+      url: https://www.exeter.ac.uk/
       year: 2016
       date_start: 2015-09-01
       date_end: 2026-12-01
     - area: BA (Hons) English
       institution: University of Exeter
+      url: https://www.exeter.ac.uk/
       year: 2015
       date_start: 2012-09-01
       date_end: 2025-06-01
