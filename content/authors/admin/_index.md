@@ -20,7 +20,7 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: ZeMKI Centre for Media, Communication and Information Research, University of Bremen
+  - name: ZeMKI, University of Bremen
     url: https://zemki.uni-bremen.de/en/
 
 # Short bio (displayed in user profile at end of posts)
