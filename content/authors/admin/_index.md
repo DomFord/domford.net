@@ -63,6 +63,20 @@ work:
     date_start: 2023-04-01
     date_end: ''
     summary: ''
+  - position: Managing Editor
+    company_name: gamevironments
+    company_url: 'https://journals.suub.uni-bremen.de/index.php/gamevironments/'
+    company_logo: ''
+    date_start: 2023-04-01
+    date_end: ''
+    summary: ''
+  - position: Editor
+    company_name: Eludamos
+    company_url: 'https://eludamos.org/index.php/eludamos'
+    company_logo: ''
+    date_start: 2020-09-01
+    date_end: ''
+    summary: ''
   - position: Assistant Lecturer
     company_name: IT University of Copenhagen
     company_url: 'https://en.itu.dk/'
