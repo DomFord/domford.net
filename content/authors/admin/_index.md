@@ -51,13 +51,13 @@ education:
       url: https://www.exeter.ac.uk/
       year: 2016
       date_start: 2015-09-01
-      date_end: 2026-12-01
+      date_end: 2016-12-01
     - area: BA (Hons) English
       institution: University of Exeter
       url: https://www.exeter.ac.uk/
       year: 2015
       date_start: 2012-09-01
-      date_end: 2025-06-01
+      date_end: 2015-06-01
 
 work:
   - position: Postdoctoral Researcher
