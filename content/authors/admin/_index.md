@@ -110,10 +110,11 @@ languages:
     percent: 80
 
 awards:
-  - title: Elite Research Travel Grant (EliteForsk-rejsestipendium)
+  - title: Elite Research Travel Grant
     url: https://ufm.dk/forskning-og-innovation/forskningsformidling/eliteforsk/prismodtagere/prismodtagere-2021/eliteforsk-rejsestipendierne-2021/dom-ford
     date: 2021-05-06
-    awarder: Ministry of Higher Education and Science (Uddannelses- og Forskningsministeriet)
+    awarder: Danish Ministry of Higher Education and Science
+    summary: 'DKK 200,000 (approx. EUR 27,000) for research travel during the PhD.'
 
 # Social/Academic Networking
 profiles:
