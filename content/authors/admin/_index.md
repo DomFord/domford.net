@@ -120,10 +120,10 @@ profiles:
     url: https://github.com/DomFord
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/dominic-ford/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.dk/citations?user=dv4EhC0AAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0001-5545-602X
+  - icon: academicons/google-scholar
+    url: https://scholar.google.dk/citations?user=dv4EhC0AAAAJ
   - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/Dom_Ford
 ---
