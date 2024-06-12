@@ -114,7 +114,10 @@ awards:
     url: https://ufm.dk/forskning-og-innovation/forskningsformidling/eliteforsk/prismodtagere/prismodtagere-2021/eliteforsk-rejsestipendierne-2021/dom-ford
     date: 2021-05-06
     awarder: Danish Ministry of Higher Education and Science
-    summary: 'DKK 200,000 (approx. EUR 27,000) for research travel during the PhD.'
+    summary: |
+      - DKK 200,000 (approx. EUR 27,000) for research travel during the PhD.
+      - Research stays at Jagiellonian University, Kraków, Poland, Charles University in Prague, Czechia, and the University of Malta.
+      - Conferences in Poland, Spain, Norway and Sweden.
 
 # Social/Academic Networking
 profiles:
