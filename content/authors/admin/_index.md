@@ -109,6 +109,12 @@ languages:
   - name: Danish
     percent: 80
 
+awards:
+  - title: Elite Research Travel Grant (EliteForsk-rejsestipendium)
+    url: https://ufm.dk/forskning-og-innovation/forskningsformidling/eliteforsk/prismodtagere/prismodtagere-2021/eliteforsk-rejsestipendierne-2021/dom-ford
+    date: 2021-05-06
+    awarder: Ministry of Higher Education and Science (Uddannelses- og Forskningsministeriet)
+
 # Social/Academic Networking
 profiles:
   - icon: at-symbol
