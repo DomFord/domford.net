@@ -115,9 +115,16 @@ awards:
     date: 2021-05-06
     awarder: Danish Ministry of Higher Education and Science
     summary: |
-      - DKK 200,000 (approx. EUR 27,000) for research travel during the PhD.
-      - Research stays at Jagiellonian University, Kraków, Poland, Charles University in Prague, Czechia, and the University of Malta.
-      - Conferences in Poland, Spain, Norway and Sweden.
+      - DKK 200,000 (approx. EUR 27,000) for research travel during the PhD
+      Research stays:
+      - Jagiellonian University, Kraków, Poland
+      - Charles University in Prague, Czechia
+      - University of Malta
+      Conferences:
+      - Poland
+      - Spain
+      - Norway
+      - Sweden
 
 # Social/Academic Networking
 profiles:
