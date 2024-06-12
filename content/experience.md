@@ -19,6 +19,10 @@ sections:
       # Education or Experience section first?
       is_education_first: false
       columns: 2
+  - block: resume-awards
+    content:
+      title: Grants and awards
+      username: admin
   - block: resume-languages
     content:
       title: Languages
