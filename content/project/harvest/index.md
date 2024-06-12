@@ -6,7 +6,7 @@ summary: "Explore a mysterious hollow world from the inside."
 authors: []
 tags: []
 categories: []
-date: 2022-12-02T14:28:25+01:00
+date: 2018-05-17
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

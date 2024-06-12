@@ -6,7 +6,7 @@ summary: "Bring light to a dark world through exploration and combat."
 authors: []
 tags: []
 categories: []
-date: 2022-12-01T13:12:17+01:00
+date: 2017-10-09
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

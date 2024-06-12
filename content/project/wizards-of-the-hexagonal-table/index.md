@@ -6,7 +6,7 @@ summary: "An over-the-top card game about balancing your mana. Push it to the li
 authors: []
 tags: []
 categories: []
-date: 2022-12-01T13:15:44+01:00
+date: 2017-11-26
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

@@ -6,7 +6,7 @@ summary: "Select the genes for the new generation as you respond to national cri
 authors: []
 tags: []
 categories: []
-date: 2018
+date: 2018-02-11
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://mattwild.itch.io/unnatural-selection"

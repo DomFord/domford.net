@@ -6,7 +6,7 @@ summary: "A Halloween-themed endless musical vertical platformer."
 authors: []
 tags: []
 categories: []
-date: 2022-12-01T13:14:38+01:00
+date: 2017-11-06
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

@@ -6,7 +6,7 @@ summary: "A top-down two player co-op zombie shooter with a twist – one player
 authors: []
 tags: []
 categories: []
-date: 2022-12-01T12:57:35+01:00
+date: 2017-10-02
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
