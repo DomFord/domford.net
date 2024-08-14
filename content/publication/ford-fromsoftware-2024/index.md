@@ -12,7 +12,6 @@ tags:
 - FromSoftware
 - myth
 - Souls
-featured: true
 links:
 - name: URL
   url: https://doi.org/10.26503/todigra.v6i3.2175
