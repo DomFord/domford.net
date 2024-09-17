@@ -12,6 +12,7 @@ builders limit the imagination too. The hidden choices—conscious or not—rega
 is not possible in gameplay also limit the imagination. Outside of the game too, I argue, these 
 game design decisions play a role in limiting the imagination for what cities can be in general."
 tags:
+url_video: https://youtu.be/2hksc5WeMvY
 
 ---
 
