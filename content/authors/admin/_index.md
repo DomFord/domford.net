@@ -152,3 +152,5 @@ I'm a postdoctoral researcher at the University of Bremen, part of the [Media an
 I wrote my PhD at the IT University of Copenhagen's [Center for Digital Play](https://digitalplay.itu.dk/). My dissertation, *[Mytholudics](https://domford.net/publication/ford-mytholudics-2022/)*, proposes a method for analysing games both as conduits of mythologies within society and as mythological structures in themselves. I'm rewriting this into a book with De Gruyter, which should come out in 2025.
 
 Here you'll find links to all the other relevant internet places you can find me at, all of my publications, games and other projects, and the occasional blog post whenever I feel like writing something here.
+
+Last update: 7 October 2024.
