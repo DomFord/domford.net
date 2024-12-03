@@ -1,5 +1,5 @@
 ---
-title: "What went wrong with *Cities: Skylines II*, according to players: A qualitative analysis of player perceptions of a poor digital game launch"
+title: "What went wrong with Cities: Skylines II, according to players: A qualitative analysis of player perceptions of a poor digital game launch"
 authors:
 - admin
 date: "2024-10-11"
