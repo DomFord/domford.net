@@ -151,8 +151,8 @@ I'm a postdoctoral researcher at the University of Bremen, part of the [Media an
 
 My postdoc project focuses on [community formation in digital games](https://zemki.uni-bremen.de/en/forschungsprojekt/community-formation-in-digital-games/) and I teach media studies, games and design in the ZeMKI's [study programmes](https://zemki.uni-bremen.de/en/studies/). I'm also the managing editor for *[gamevironments](https://journals.suub.uni-bremen.de/index.php/gamevironments/)* and an editor for *[Eludamos](https://eludamos.org/index.php/eludamos)*.
 
-I wrote my PhD at the IT University of Copenhagen's [Center for Digital Play](https://digitalplay.itu.dk/). My dissertation, *[Mytholudics](https://domford.net/publication/ford-mytholudics-2022/)*, proposes a method for analysing games both as conduits of mythologies within society and as mythological structures in themselves. I've rewritten this from scratch into a book, *Mytholudics: Games and Myth*, coming out with De Gruyter in 2025.
+I wrote my PhD at the IT University of Copenhagen's [Center for Digital Play](https://digitalplay.itu.dk/). My dissertation, *[Mytholudics](https://domford.net/publication/ford-mytholudics-2022/)*, proposes a method for analysing games both as conduits of mythologies within society and as mythological structures in themselves. I've rewritten this from scratch into a book, *Mytholudics: Games and Myth*, coming out with De Gruyter in April 2025.
 
 Here you'll find links to all the other relevant internet places you can find me at, all of my publications, games and other projects, and the occasional blog post whenever I feel like writing something here.
 
-*Last update: 3 December 2024.*
+*Last update: 3 January 2025.*
