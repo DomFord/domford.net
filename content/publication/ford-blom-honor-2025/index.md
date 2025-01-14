@@ -2,6 +2,7 @@
 title: "'Honor died on the beach': Constructing Japaneseness through monstrosity in Ghost of Tsushima"
 authors:
 - admin
+- Joleen Blom
 date: "2025-01-14"
 publishDate: "2025-01-14T10:12:56.987619Z"
 publication_types: ["chapter"]
