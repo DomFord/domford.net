@@ -1,5 +1,5 @@
 ---
-title: ""Honor died on the beach": Constructing Japaneseness through monstrosity in Ghost of Tsushima"
+title: "'Honor died on the beach': Constructing Japaneseness through monstrosity in Ghost of Tsushima"
 authors:
 - admin
 date: "2025-01-14"
