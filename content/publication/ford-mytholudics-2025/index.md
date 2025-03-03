@@ -5,7 +5,6 @@ authors:
 date: "2025-04-21"
 publishDate: "2025-04-21T10:12:57.036704Z"
 publication_types: ["book"]
-publisher: "De Gruyter Oldenbourg"
 abstract: "Games create worlds made of many different elements, but also of rules, systems and structures for how we act in them. So how can we make sense of them? Mytholudics: Games and Myth lays out an approach to understanding games using theories from myth and folklore.
 
 Myth is taken here not as an object but as a process, a way of expressing meaning. It works to naturalise arbitrary constellations of signs, to connect things in meaning. Behind the phrase ‘just the way it is’ is a process of mythologization that has cemented it.
