@@ -24,6 +24,6 @@ abstract: "I examine the prevalent construction of the long-lost yet technologic
 tags:
 featured: false
 links:
-- name: URL
+- name: URL (🔓)
   url: http://gamestudies.org/2104/articles/dom_ford
 ---

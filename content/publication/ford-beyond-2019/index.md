@@ -29,6 +29,6 @@ tags:
 - space
 featured: false
 links:
-- name: URL
+- name: URL (🔓)
   url: https://dl.digra.org/index.php/dl/article/view/1073
 ---
