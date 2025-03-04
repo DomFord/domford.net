@@ -6,7 +6,7 @@ authors:
 date: "2021-12-01"
 publishDate: "2023-12-27T10:12:56.987619Z"
 publication_types: ["article-journal"]
-publication: "*Game Studies*, *21*(4)"
+publication: "*Game Studies*, vol. 21, no. 4"
 abstract: "I examine the prevalent construction of the long-lost yet technologically
   more highly-advanced society in the Mass Effect trilogy and The Legend of Zelda:
   Breath of the Wild. First, I situate this construction within its long history,

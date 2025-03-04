@@ -6,7 +6,7 @@ authors:
 date: "2016-12-01"
 publishDate: "2023-12-27T10:12:56.958006Z"
 publication_types: ["article-journal"]
-publication: "*Game Studies*, *16*(2)"
+publication: "*Game Studies*, vol. 16, no. 2 (War/Game: Studying Relations Between Violent Conflict, Games, and Play)"
 abstract: Civilization V as one of the most successful and definitive works
   of the 4X videogame genre presents a clear narrative of empire-building that, I
   will argue, is problematic when set against postcolonial theory. With many studies
