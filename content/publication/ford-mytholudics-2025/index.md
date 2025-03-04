@@ -9,7 +9,10 @@ abstract: "Games create worlds made of many different elements, but also of rule
 tags:
 - myth
 - mytholudics
+- heroes
+- monsters
 summary: "My book outlining a method for analysing games through a lens of myth called mytholudics."
+featured: false
 links:
 - name: URL
   url: https://www.degruyter.com/document/isbn/9783111341279/html
