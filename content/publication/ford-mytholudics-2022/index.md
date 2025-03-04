@@ -10,6 +10,6 @@ split into two lenses, heroism and monstrosity. Finally, I reflect on these anal
 summary: "My doctoral dissertation outlining a method for analysing games through a lens of myth called mytholudics."
 featured: false
 links:
-- name: URL (🔓)
+- name: URL 🔓
   url: https://pure.itu.dk/en/publications/mytholudics-understanding-games-asthrough-myth
 ---
