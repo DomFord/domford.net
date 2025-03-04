@@ -12,6 +12,6 @@ tags:
 - alienation
 - networks
 links:
-- name: DOI (🔓)
+- name: DOI 🔓
   url: https://doi.org/10.48783/gameviron.v21.i21.260
 ---

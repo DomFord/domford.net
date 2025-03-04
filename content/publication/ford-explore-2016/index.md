@@ -33,6 +33,6 @@ tags:
 - videogames
 featured: false
 links:
-- name: URL (🔓)
+- name: URL 🔓
   url: http://gamestudies.org/1602/articles/ford
 ---

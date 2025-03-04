@@ -12,6 +12,6 @@ tags:
 - myth
 - Souls
 links:
-- name: DOI (🔓)
+- name: DOI 🔓
   url: https://doi.org/10.26503/todigra.v6i3.2175
 ---
