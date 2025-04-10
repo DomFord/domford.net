@@ -24,8 +24,7 @@ organizations:
     url: https://zemki.uni-bremen.de/en/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research focuses on myth, digital game communities, monsters, spatiality and the representation and depiction of history
-  and the past (both real and fictional histories) in digital games.
+bio: My research focuses on myth, digital game communities, monsters, spatiality and the representation and depiction of history and the past (both real and fictional histories) in digital games.
 # Interests to show in About widget
 interests:
   - Myth and games
