@@ -146,7 +146,7 @@ profiles:
 ---
 ## About me
 
-I'm a postdoctoral researcher at the University of Bremen, part of the [Media and Religion](https://www.uni-bremen.de/en/zemki/research/labs/media-and-religion) lab in the [ZeMKI Centre for Media, Communication and Information Research](https://www.uni-bremen.de/en/zemki/).
+I'm a postdoctoral researcher at the University of Bremen, part of the [Media and Religion](https://zemki.uni-bremen.de/en/lab-medien-und-religion/lab-media-and-religion/) lab in the [ZeMKI Centre for Media, Communication and Information Research](https://www.uni-bremen.de/en/zemki/).
 
 My postdoc project focuses on [community formation in digital games](https://zemki.uni-bremen.de/en/forschungsprojekt/community-formation-in-digital-games/) and I teach media studies, games and design in the ZeMKI's [study programmes](https://zemki.uni-bremen.de/en/studies/). I'm also the managing editor for *[gamevironments](https://journals.suub.uni-bremen.de/index.php/gamevironments/)* and an editor for *[Eludamos](https://eludamos.org/index.php/eludamos)*.
 
@@ -156,4 +156,4 @@ I wrote my PhD at the IT University of Copenhagen's [Center for Digital Play](ht
 
 Here you'll find links to all the other relevant internet places you can find me at, all of my publications, games and other projects, and the occasional blog post whenever I feel like writing something here.
 
-*Last update: 28 May 2025.*
+*Last update: 11 June 2025.*
