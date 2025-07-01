@@ -1,5 +1,5 @@
-title: "Communicative artificial intelligence for nonplayer characters in digital games: Mapping the field"
 ---
+title: "Communicative artificial intelligence for nonplayer characters in digital games: Mapping the field"
 authors:
 - admin
 date: "2025-07-03"
