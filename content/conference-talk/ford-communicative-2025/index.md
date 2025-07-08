@@ -21,7 +21,9 @@ Much of the critical academic research focus has been on the impacts of communic
 Andreas Hepp et al. argue that, in principle, communicative AI:
 
 (1)	is based on various forms of automation designed for the central purpose of communication,
+
 (2)	is embedded within digital infrastructures, and
+
 (3)	is entangled with human practices. (2023, 48)
 
 When research does not thoroughly engage with especially that third point, how it is entangled with human practices, then we miss a vital aspect: “the processing of these systems cannot be understood beyond human practice” (Hepp et al. 2023, 49). Entanglement here refers to Karen Barad: “individuals do not pre-exist their interactions; rather, individuals emerge through and as part of their entangled intra-relating” (2006, ix). Communicative AI is entangled in both use and production, as LLMs are trained on real human communication. Therefore, we should not consider these as novel, separate technologies, but as developments deeply intertwined with our past and present communication. Hepp et al. argue that this is how we avoid buying into the hype of generative AI ourselves: “we should take note of the hype insofar as it may stand for a fundamental change in the ways we all communicate” (Hepp et al. 2023, 53). I argue that the use of communicative AI in NPC dialogue may constitute such a fundamental change, and so deserves critical attention.
