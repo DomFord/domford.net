@@ -156,4 +156,4 @@ I wrote my PhD at the IT University of Copenhagen's [Center for Digital Play](ht
 
 Here you'll find links to all the other relevant internet places you can find me at, all of my publications, games and other projects, and the occasional blog post whenever I feel like writing something here.
 
-*Last update: 1 July 2025.*
+*Last update: 8 July 2025.*
