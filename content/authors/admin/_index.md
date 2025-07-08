@@ -115,7 +115,7 @@ awards:
     date: 2024-06-19
     awarder: iRights.Lab
     summary: |
-      - EUR 1,000 for the winner of each category (shortlist and winner to be announced).
+      - EUR 1,000 for the winner of each category.
       - Longlisted in the category Young Talent: "New impulses come not least from people who are at the beginning of their scientific careers and who know nothing else than to receive and share literature, sources or other data online. This category is aimed at individuals who have adopted the basic idea of Open Access from the outset and inspire other people at the beginning of their academic careers through their commitment."
       - Award funded by the German Federal Ministry of Education and Research (BMBF).
   - title: Elite Research Travel Grant
