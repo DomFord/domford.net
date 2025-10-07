@@ -20,11 +20,11 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: ZeMKI, University of Bremen
-    url: https://zemki.uni-bremen.de/en/
+  - name: Center for Digital Narrative, University of Bergen
+    url: https://www4.uib.no/en/research/research-centres/center-for-digital-narrative
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research focuses on myth, digital game communities, monsters, spatiality and the representation and depiction of history and the past (both real and fictional histories) in digital games.
+bio: My research focuses on myth, AI NPCs, digital game communities, monsters, spatiality and the representation and depiction of history and the past (both real and fictional histories) in digital games.
 # Interests to show in About widget
 interests:
   - Myth and games
@@ -61,18 +61,25 @@ education:
 
 work:
   - position: Postdoctoral Researcher
+    company_name: University of Bergen
+    company_url: 'https://www.uib.no/en'
+    company_logo: ''
+    date_start: 2025-10-01
+    date_end: ''
+    summary: ''
+  - position: Postdoctoral Researcher
     company_name: University of Bremen
     company_url: 'https://www.uni-bremen.de/en/'
     company_logo: ''
     date_start: 2023-04-01
-    date_end: ''
+    date_end: '2025-09-30'
     summary: ''
   - position: Managing Editor
     company_name: gamevironments
     company_url: 'https://journals.suub.uni-bremen.de/index.php/gamevironments/'
     company_logo: ''
     date_start: 2023-04-01
-    date_end: ''
+    date_end: '2025-09-30'
     summary: ''
   - position: Editor
     company_name: Eludamos
@@ -147,14 +154,14 @@ profiles:
 ---
 ## About me
 
-I'm a postdoctoral researcher at the University of Bremen, part of the [Media and Religion](https://zemki.uni-bremen.de/en/lab-medien-und-religion/lab-media-and-religion/) lab in the [ZeMKI Centre for Media, Communication and Information Research](https://www.uni-bremen.de/en/zemki/).
+I'm a postdoctoral researcher at the [Center for Digital Narrative](https://www4.uib.no/en/research/research-centres/center-for-digital-narrative) at the [University of Bergen](https://www.uib.no/en), as part of the [LEAD AI programme](https://www.uib.no/en/leadai). My current project looks at nonplayer characterss in games with AI-generated dialogue, how players respond to the use of this technology and how this use may challenge ideas in the philosophy of fiction like intentionality. I am also an editor for *[Eludamos](https://eludamos.org/index.php/eludamos)*.
+ 
+Previously I was a postdoc at the [University of Bremen](https://www.uni-bremen.de/en/), part of the [Media and Religion](https://zemki.uni-bremen.de/en/lab-medien-und-religion/lab-media-and-religion/) lab in the [ZeMKI Centre for Media, Communication and Information Research](https://www.uni-bremen.de/en/zemki/). There I focused on [community formation in digital games](https://zemki.uni-bremen.de/en/forschungsprojekt/community-formation-in-digital-games/) and taught media studies, games and design in the ZeMKI's [study programmes](https://zemki.uni-bremen.de/en/studies/). I was also the managing editor for *[gamevironments](https://journals.suub.uni-bremen.de/index.php/gamevironments/)*.
 
-My postdoc project focuses on [community formation in digital games](https://zemki.uni-bremen.de/en/forschungsprojekt/community-formation-in-digital-games/) and I teach media studies, games and design in the ZeMKI's [study programmes](https://zemki.uni-bremen.de/en/studies/). I'm also the managing editor for *[gamevironments](https://journals.suub.uni-bremen.de/index.php/gamevironments/)* and an editor for *[Eludamos](https://eludamos.org/index.php/eludamos)*.
-
-My first book, *[Mytholudics: Games and Myth](https://www.degruyter.com/document/isbn/9783111341279/html)*, proposes a method for analysing games both as conduits of mythologies within society and as mythological structures in themselves. It's out now and published by De Gruyter.
+My first book, *[Mytholudics: Games and Myth](https://doi.org/10.1515/9783111341743)*, proposes a method for analysing games both as conduits of mythologies within society and as mythological structures in themselves. It's out now and published by De Gruyter.
 
 I wrote my PhD at the IT University of Copenhagen's [Center for Digital Play](https://digitalplay.itu.dk/) between 2019 and 2022.
 
 Here you'll find links to all the other relevant internet places you can find me at, all of my publications, games and other projects, and the occasional blog post whenever I feel like writing something here.
 
-*Last update: 8 July 2025.*
+*Last update: 7 October 2025.*
