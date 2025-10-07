@@ -161,7 +161,7 @@ Previously I was a postdoc at the [University of Bremen](https://www.uni-bremen.
 
 My first book, *[Mytholudics: Games and Myth](https://doi.org/10.1515/9783111341743)*, proposes a method for analysing games both as conduits of mythologies within society and as mythological structures in themselves. It's out now and published by De Gruyter.
 
-I wrote my PhD at the [IT University of Copenhagen's](https://itu.dk/en) [Center for Digital Play](https://digitalplay.itu.dk/) between 2019 and 2022.
+I wrote my PhD at the [IT University of Copenhagen's](https://en.itu.dk/) [Center for Digital Play](https://digitalplay.itu.dk/) between 2019 and 2022.
 
 Here you'll find links to all the other relevant internet places you can find me at, all of my publications, games and other projects, and the occasional blog post whenever I feel like writing something here.
 
