@@ -27,6 +27,7 @@ organizations:
 bio: My research focuses on myth, AI NPCs, digital game communities, monsters, spatiality and the representation and depiction of history and the past (both real and fictional histories) in digital games.
 # Interests to show in About widget
 interests:
+  - AI-generated NPC dialogue
   - Myth and games
   - Digital game communities
   - Representations of the past
