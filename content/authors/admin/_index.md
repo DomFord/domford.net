@@ -155,7 +155,7 @@ profiles:
 ---
 ## About me
 
-I'm a postdoctoral researcher at the [Center for Digital Narrative](https://www4.uib.no/en/research/research-centres/center-for-digital-narrative) at the [University of Bergen](https://www.uib.no/en), as part of the [LEAD AI programme](https://www.uib.no/en/leadai). My current project looks at nonplayer characterss in games with AI-generated dialogue, how players respond to the use of this technology and how this use may challenge ideas in the philosophy of fiction like intentionality. I am also an editor for *[Eludamos](https://eludamos.org/index.php/eludamos)*.
+I'm a postdoctoral researcher at the [Center for Digital Narrative](https://www4.uib.no/en/research/research-centres/center-for-digital-narrative) at the [University of Bergen](https://www.uib.no/en), as part of the [LEAD AI programme](https://www.uib.no/en/leadai). My current project looks at nonplayer characters in games with AI-generated dialogue, how players respond to the use of this technology and how this use may challenge ideas in the philosophy of fiction like intentionality. I am also an editor for *[Eludamos](https://eludamos.org/index.php/eludamos)*.
  
 Previously I was a postdoc at the [University of Bremen](https://www.uni-bremen.de/en/), part of the [Media and Religion](https://zemki.uni-bremen.de/en/lab-medien-und-religion/lab-media-and-religion/) lab in the [ZeMKI Centre for Media, Communication and Information Research](https://www.uni-bremen.de/en/zemki/). There I focused on [community formation in digital games](https://zemki.uni-bremen.de/en/forschungsprojekt/community-formation-in-digital-games/) and taught media studies, games and design in the ZeMKI's [study programmes](https://zemki.uni-bremen.de/en/studies/). I was also the managing editor for *[gamevironments](https://journals.suub.uni-bremen.de/index.php/gamevironments/)*.
 
@@ -165,4 +165,4 @@ I wrote my PhD at the [IT University of Copenhagen's](https://en.itu.dk/) [Cente
 
 Here you'll find links to all the other relevant internet places you can find me at, all of my publications, games and other projects, and the occasional blog post whenever I feel like writing something here.
 
-*Last update: 7 October 2025.*
+*Last update: 21 October 2025.*
