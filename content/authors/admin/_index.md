@@ -140,8 +140,6 @@ profiles:
   - icon: at-symbol
     url: 'mailto:dom@domford.net'
     label: E-mail me
-  - icon: brands/x
-    url: https://x.com/DomFord_/
   - icon: brands/github
     url: https://github.com/DomFord
   - icon: brands/linkedin
