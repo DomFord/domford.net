@@ -10,7 +10,7 @@ publication_types: ["article-journal"]
 publication: "*Eludamos: Journal for Computer Game Culture*, vol. 16, no. 1: Fictional Games"
 abstract: "We explain the concept of fictional games and the theoretical and disciplinary progression that this special issue represents. We summarise the issue and the contributions within it."
 tags:
-- fictionall games
+- fictional games
 - game studies
 - fiction
 - narrative
