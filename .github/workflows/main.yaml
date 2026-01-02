@@ -13,10 +13,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Zola
+      - name: Install Zola (prebuilt)
         run: |
-          sudo apt update
-          sudo apt install -y zola
+          ZOLA_VERSION="v0.20.0"   # set the version you want
+          curl -sL "https://github.com/getzola/zola/releases/download/${ZOLA_VERSION}/zola-${ZOLA_VERSION#v}-x86_64-unknown-linux-gnu.tar.gz" -o zola.tar.gz
+          tar -xzf zola.tar.gz
+          sudo mv zola /usr/local/bin/
+          zola --version
 
       - name: Build site
         run: zola build
