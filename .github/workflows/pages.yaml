@@ -22,9 +22,11 @@ jobs:
         run: |
           set -euo pipefail
 
+          # Configure version (no leading v here)
           ZOLA_VERSION="0.20.0"
           TAG="v${ZOLA_VERSION}"
 
+          # Map runner arch to asset substring
           ARCH="$(uname -m)"
           if [ "$ARCH" = "x86_64" ]; then
             ARCH_SUB="x86_64"
@@ -38,42 +40,42 @@ jobs:
           API_URL="https://api.github.com/repos/getzola/zola/releases/tags/${TAG}"
           echo "Querying $API_URL"
 
-          # Fetch release JSON and capture HTTP status
-          HTTP_FILE="release_response.json"
-          HTTP_STATUS="$(curl -sS -w '%{http_code}' -o "$HTTP_FILE" "$API_URL")"
+          # Fetch release JSON and HTTP status into files
+          RESPONSE_FILE="release_response.json"
+          HTTP_STATUS="$(curl -sS -w '%{http_code}' -o "$RESPONSE_FILE" "$API_URL")"
 
           if [ "$HTTP_STATUS" -ne 200 ]; then
             echo "GitHub API returned HTTP $HTTP_STATUS. Showing response for debugging:"
-            sed -n '1,200p' "$HTTP_FILE"
+            sed -n '1,200p' "$RESPONSE_FILE"
             exit 1
           fi
 
-          # Ensure .assets exists and is an array
-          if ! jq -e '.assets and (.assets | type == "array")' "$HTTP_FILE" >/dev/null; then
+          # Ensure assets is an array
+          if ! jq -e '.assets and (.assets | type == "array")' "$RESPONSE_FILE" >/dev/null; then
             echo "Unexpected release JSON structure; showing response for debugging:"
-            sed -n '1,200p' "$HTTP_FILE"
+            sed -n '1,200p' "$RESPONSE_FILE"
             exit 1
           fi
 
           # Try to find an asset whose name contains 'linux' and the arch substring
           DOWNLOAD_URL="$(jq -r --arg arch "$ARCH_SUB" '
             .assets[]
-            | select((.name|ascii_downcase) | test("linux") and (.name|ascii_downcase|test($arch)))
+            | select((.name // "" | ascii_downcase) | test("linux") and (.name // "" | ascii_downcase | test($arch)))
             | .browser_download_url
-          ' "$HTTP_FILE" | head -n1 || true)"
+          ' "$RESPONSE_FILE" | head -n1 || true)"
 
           # Fallback: any linux asset
           if [ -z "${DOWNLOAD_URL:-}" ] || [ "$DOWNLOAD_URL" = "null" ]; then
             DOWNLOAD_URL="$(jq -r '
               .assets[]
-              | select((.name|ascii_downcase) | test("linux"))
+              | select((.name // "" | ascii_downcase) | test("linux"))
               | .browser_download_url
-            ' "$HTTP_FILE" | head -n1 || true)"
+            ' "$RESPONSE_FILE" | head -n1 || true)"
           fi
 
           if [ -z "${DOWNLOAD_URL:-}" ] || [ "$DOWNLOAD_URL" = "null" ]; then
             echo "Could not find a Linux asset for Zola ${TAG} via the Releases API. Response:"
-            sed -n '1,200p' "$HTTP_FILE"
+            sed -n '1,200p' "$RESPONSE_FILE"
             exit 1
           fi
 
@@ -91,4 +93,29 @@ jobs:
           fi
 
           # Find the zola binary inside the extracted files
-          ZOLA_BIN="$(find zola-extract -type f -name zola -perm /111 -print -quit
+          ZOLA_BIN="$(find zola-extract -type f -name zola -perm /111 -print -quit || true)"
+          if [ -z "$ZOLA_BIN" ]; then
+            ZOLA_BIN="$(find zola-extract -type f -name zola -print -quit || true)"
+          fi
+
+          if [ -z "$ZOLA_BIN" ]; then
+            echo "Could not find the zola binary inside the release archive. Listing extracted files:"
+            ls -R zola-extract
+            exit 1
+          fi
+
+          echo "Installing Zola from: $ZOLA_BIN"
+          sudo mv "$ZOLA_BIN" /usr/local/bin/zola
+          sudo chmod +x /usr/local/bin/zola
+          zola --version
+
+      - name: Build site
+        run: |
+          set -euo pipefail
+          zola build
+
+      - name: Deploy to gh-pages
+        uses: shalzz/zola-deploy-action@v0.21.0
+        env:
+          PAGES_BRANCH: gh-pages
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
