@@ -13,45 +13,68 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Zola (prebuilt, verified)
+      - name: Install Zola (release asset via GitHub API)
         run: |
           set -euo pipefail
 
-          # Choose Zola version (no leading v here)
+          # version without leading v for display; tag includes v
           ZOLA_VERSION="0.20.0"
           TAG="v${ZOLA_VERSION}"
 
-          # Map runner arch to Zola asset name
+          # map runner arch to asset substring
           ARCH="$(uname -m)"
           if [ "$ARCH" = "x86_64" ]; then
-            ASSET_ARCH="x86_64-unknown-linux-gnu"
+            ARCH_SUB="x86_64"
           elif [ "$ARCH" = "aarch64" ] || [ "$ARCH" = "arm64" ]; then
-            ASSET_ARCH="aarch64-unknown-linux-gnu"
+            ARCH_SUB="aarch64"
           else
             echo "Unsupported architecture: $ARCH"
             exit 1
           fi
 
-          ASSET_NAME="zola-${ZOLA_VERSION}-${ASSET_ARCH}.tar.gz"
-          URL="https://github.com/getzola/zola/releases/download/${TAG}/${ASSET_NAME}"
+          # query GitHub Releases API for the tag and pick the linux asset matching arch
+          API_URL="https://api.github.com/repos/getzola/zola/releases/tags/${TAG}"
+          echo "Querying $API_URL"
+          DOWNLOAD_URL="$(curl -sSfL "$API_URL" \
+            | python3 - <<'PY'
+              import sys, json
+              data = json.load(sys.stdin)
+              assets = data.get("assets", [])
+              arch = sys.argv[1]
+              for a in assets:
+                  name = a.get("name","").lower()
+                  if "linux" in name and arch in name:
+                      print(a.get("browser_download_url"))
+                      sys.exit(0)
+              # fallback: try any linux asset
+              for a in assets:
+                  if "linux" in a.get("name","").lower():
+                      print(a.get("browser_download_url"))
+                      sys.exit(0)
+              sys.exit(1)
+              PY
+                        "$ARCH_SUB")"
 
-          echo "Downloading Zola ${TAG} for ${ASSET_ARCH} from ${URL}"
-          # -f to fail on HTTP errors, -L to follow redirects, -sS for silent but show errors
-          curl -fL "$URL" -o zola.tar.gz
+                        if [ -z "${DOWNLOAD_URL:-}" ]; then
+                          echo "Could not find a Linux asset for Zola ${TAG} via the Releases API."
+                          exit 1
+                        fi
 
-          # Verify it's a gzip tarball before extracting
-          if file zola.tar.gz | grep -qi 'gzip compressed data'; then
-            tar -xzf zola.tar.gz
-          else
-            echo "Downloaded file is not a gzip tarball. Inspect zola.tar.gz or check the URL: $URL"
-            file zola.tar.gz
-            exit 1
-          fi
+                        echo "Downloading Zola from: $DOWNLOAD_URL"
+                        curl -fL "$DOWNLOAD_URL" -o zola.tar.gz
 
-          # The tarball contains the zola binary at top-level
-          sudo mv zola /usr/local/bin/
-          sudo chmod +x /usr/local/bin/zola
-          zola --version
+                        # sanity check and extract
+                        if file zola.tar.gz | grep -qi 'gzip compressed data'; then
+                          tar -xzf zola.tar.gz
+                        else
+                          echo "Downloaded file is not a gzip tarball; showing first 200 bytes for debugging:"
+                          head -c 200 zola.tar.gz | sed -n '1,200p'
+                          exit 1
+                        fi
+
+                        sudo mv zola /usr/local/bin/
+                        sudo chmod +x /usr/local/bin/zola
+                        zola --version
 
       - name: Build site
         run: zola build
