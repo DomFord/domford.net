@@ -13,12 +13,44 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Zola (prebuilt)
+      - name: Install Zola (prebuilt, verified)
         run: |
-          ZOLA_VERSION="v0.20.0"   # set the version you want
-          curl -sL "https://github.com/getzola/zola/releases/download/${ZOLA_VERSION}/zola-${ZOLA_VERSION#v}-x86_64-unknown-linux-gnu.tar.gz" -o zola.tar.gz
-          tar -xzf zola.tar.gz
+          set -euo pipefail
+
+          # Choose Zola version (no leading v here)
+          ZOLA_VERSION="0.20.0"
+          TAG="v${ZOLA_VERSION}"
+
+          # Map runner arch to Zola asset name
+          ARCH="$(uname -m)"
+          if [ "$ARCH" = "x86_64" ]; then
+            ASSET_ARCH="x86_64-unknown-linux-gnu"
+          elif [ "$ARCH" = "aarch64" ] || [ "$ARCH" = "arm64" ]; then
+            ASSET_ARCH="aarch64-unknown-linux-gnu"
+          else
+            echo "Unsupported architecture: $ARCH"
+            exit 1
+          fi
+
+          ASSET_NAME="zola-${ZOLA_VERSION}-${ASSET_ARCH}.tar.gz"
+          URL="https://github.com/getzola/zola/releases/download/${TAG}/${ASSET_NAME}"
+
+          echo "Downloading Zola ${TAG} for ${ASSET_ARCH} from ${URL}"
+          # -f to fail on HTTP errors, -L to follow redirects, -sS for silent but show errors
+          curl -fL "$URL" -o zola.tar.gz
+
+          # Verify it's a gzip tarball before extracting
+          if file zola.tar.gz | grep -qi 'gzip compressed data'; then
+            tar -xzf zola.tar.gz
+          else
+            echo "Downloaded file is not a gzip tarball. Inspect zola.tar.gz or check the URL: $URL"
+            file zola.tar.gz
+            exit 1
+          fi
+
+          # The tarball contains the zola binary at top-level
           sudo mv zola /usr/local/bin/
+          sudo chmod +x /usr/local/bin/zola
           zola --version
 
       - name: Build site
