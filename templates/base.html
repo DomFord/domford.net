@@ -1,0 +1,46 @@
+{% set cdn_version = now() | date(format="%d%m%Y%H%M%S") %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>
+    {%- if page.title -%} {{ page.title }}
+    {%- elif section.title -%} {{ section.title }} 
+    {%- endif -%}
+  </title>
+{% if dsc is not defined %}
+  <meta name="description" content="{{ config.description }}">  
+{% else %}
+  <meta name="description" content="{{ dsc }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+{% endif %}
+  <meta name="author" content="{{config.extra.author}}">
+  {% if page.extra.keywords is defined %}<meta name="keywords" content="{{ page.extra.keywords }}">{% endif %}
+  <link type="text/css" rel="stylesheet" href="{{config.base_url | safe }}css/grid.css?v={{ cdn_version }}">
+  <link type="text/css" rel="stylesheet" href="{{config.base_url | safe }}css/style.css?v={{ cdn_version }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  {% if config.extra.stats and config.mode != 'serve' %}
+  <script async src="{{config.extra.stats.script_src}}" data-website-id="{{config.extra.stats.site_id}}" nonce="{{config.extra.nonce}}"></script>
+  {% endif %}
+  <script src = "{{config.base_url | safe }}js/codecopy.js?v={{ cdn_version }}" nonce="{{config.extra.nonce}}"></script>
+  <script src="{{config.base_url | safe }}js/mermaid.min.js?v={{ cdn_version }}" nonce="{{config.extra.nonce}}"></script>
+  {%- if config.build_search_index -%}
+  <script src="{{config.base_url | safe }}elasticlunr.min.js?v={{ cdn_version }}" nonce="{{config.extra.nonce}}"></script>
+  <script src="{{config.base_url | safe }}js/search.js?v={{ cdn_version }}" nonce="{{config.extra.nonce}}"></script>
+  {%- endif -%}
+</head>
+<body>
+{% include 'header.html' %}
+<main>
+  <div class="container" id="main-container">
+        {% block content %} {% endblock %}
+  </div>
+</main>
+{% include 'footer.html' %}
+<script src = "{{config.base_url | safe }}js/colortheme.js?v={{ cdn_version }}" nonce="{{config.extra.nonce}}"></script>
+<script src = "{{config.base_url | safe }}js/init.js?v={{ cdn_version }}" nonce="{{config.extra.nonce}}"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<div class="profile-block">
+    <div id="index-image">
+        <img src="{{ config.base_url }}{{ config.extra.avatar_src }}"
+             alt="avatar"
+             class="avatar">
+    </div>
+
+    <div class="profile-author">
+        <h1 class="profile-name">{{ config.extra.author }}</h1>
+        <h3 class="profile-position">{{ config.extra.author_position }}</h3>
+        <h4 class="profile-affiliation">{{ config.extra.author_affiliation }}</h4>
+    </div>
+
+    <div class="profile-links">
+
+        {% if config.extra.email %}
+            <a href="{{ config.extra.email }}"
+               aria-label="Email"
+               class="icon email"></a>
+        {% endif %}
+
+        {% if config.extra.orcid %}
+            <a href="{{ config.extra.orcid }}"
+               aria-label="ORCID"
+               class="icon orcid"></a>
+        {% endif %}
+
+        {% if config.extra.google_scholar %}
+            <a href="{{ config.extra.google_scholar }}"
+               aria-label="Google Scholar"
+               class="icon google-scholar"></a>
+        {% endif %}
+
+        {% if config.extra.researchgate %}
+            <a href="{{ config.extra.researchgate }}"
+               aria-label="ResearchGate"
+               class="icon researchgate"></a>
+        {% endif %}
+
+        {% if config.extra.linkedin %}
+            <a href="{{ config.extra.linkedin }}"
+               aria-label="LinkedIn"
+               class="icon linkedin"></a>
+        {% endif %}
+
+        {% if config.extra.bluesky %}
+            <a href="{{ config.extra.bluesky }}"
+               aria-label="Bluesky"
+               class="icon bluesky"></a>
+        {% endif %}
+        
+    </div>
+</div>

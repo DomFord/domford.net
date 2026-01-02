@@ -1,0 +1,168 @@
+/* =========================
+   Publication layout
+   ========================= */
+
+.pub-year {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--muted-color);
+}
+
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-item {
+  margin-bottom: 1.5rem;
+}
+
+.pub-type {
+  font-family: 'Inter', sans-serif;
+  font-size: small;
+  font-style: italic;
+  opacity: 0.5;
+  margin-bottom: 0.2rem;
+  border-top: 1px dotted var(--muted-color);
+  padding-top: 1rem;
+}
+
+.pub-title {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--main-color);
+  margin-bottom: 0.2rem;
+}
+
+.pub-venue {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.pub-authors {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--main-color);
+}
+
+.pub-citation {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--muted-color);
+}
+
+.pub-icon {
+  height: 1em;
+  vertical-align: middle;
+  margin-right: 0.2em;
+  margin-top: 0.3rem;
+}
+
+/* =========================
+   Abstract disclosure (grid-based)
+   ========================= */
+
+.pub-abstract {
+  margin-top: 0.6rem;
+}
+
+/* Summary */
+.pub-abstract > summary {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--main-color);
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.pub-abstract > summary .abstract-label {
+  text-decoration: underline;
+}
+
+.pub-abstract > summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-abstract > summary::before {
+  content: "▸";
+  transition: transform 160ms ease;
+}
+
+.pub-abstract[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+/* Grid animation container */
+.pub-abstract-text {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 260ms cubic-bezier(.2, .6, .3, 1);
+  margin-top: 0.4rem;
+  padding-left: 0.5rem;
+}
+
+/* Inner wrapper — THIS is the magic */
+.pub-abstract-inner {
+  overflow: hidden;
+  font-size: small;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.pub-abstract-inner p {
+  font-size: inherit;
+  margin-top: 0.4rem;
+}
+
+/* Open state */
+.pub-abstract[open] > .pub-abstract-text {
+  grid-template-rows: 1fr;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .pub-abstract-text,
+  .pub-abstract > summary::before {
+    transition: none;
+  }
+}
+
+
+/* =========================
+   Year column layout
+   ========================= */
+
+.pub-year-row {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 2.5rem;
+}
+
+.pub-year-col {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  position: relative;
+}
+
+.pub-year-col::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background-color: var(--muted-color);
+}
+
+.pub-year {
+  align-self: center;
+}

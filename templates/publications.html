@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% set pages = section.pages | sort(attribute="date", reverse=true) %}
+{% set grouped = pages | group_by(attribute="year") %}
+
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-6 content">
+
+    <!--<div class="row pub-year-row">
+      <div class="col-2"></div>
+      <div class="col-10">
+        <h1>Publications</h1>
+      </div>
+    </div>-->
+
+{# Collect years #}
+{% set years = [] %}
+{% for y, _items in grouped %}
+  {% set_global years = years | concat(with=[y]) %}
+{% endfor %}
+
+{# Sort years newest → oldest #}
+{% set years = years | sort | reverse %}
+
+{% for year in years %}
+  {% set items = grouped[year] %}
+
+  <div class="row pub-year-row">
+    <div class="col-2 pub-year-col">
+      <div class="pub-year">
+        {{ year }}
+      </div>
+    </div>
+    <div class="col-10">
+      <ul class="pub-list">
+        {# Sort publications newest → oldest #}
+        {% for page in items | sort(attribute="date") | reverse %}
+          <li class="pub-item">
+            {% if page.extra.type is defined %}
+            <div class="pub-type">
+              {{ page.extra.type | safe }}
+            </div>
+            {% endif %}
+            <div class="pub-title">
+              {% if page.extra.title_html is defined %}
+                {{ page.extra.title_html | safe }}
+              {% else %}
+                {{ page.title }}
+              {% endif %}
+            </div>
+
+              <div class="pub-venue">
+                {% if page.extra.conference %}
+                  {{ page.extra.conference }}, {{ page.extra.place }}
+              {% elif page.extra.venue %}
+                <em>{{ page.extra.venue }}</em>
+
+              {% endif %}
+              </div>
+
+
+            <div class="pub-authors">
+              {{ page.extra.all_authors }}
+            </div>
+
+            {% if page.content %}
+              <details class="pub-abstract">
+                <summary><span class="abstract-label">Abstract</span></summary>
+                <div class="pub-abstract-text">
+                  <div class="pub-abstract-inner">
+                  {{ page.content | safe }}
+                  </div>
+                </div>
+              </details>
+            {% endif %}
+
+            {% if page.extra.citation %}
+              <div class="pub-citation">
+                {{ page.extra.citation | safe }}
+              </div>
+            {% endif %}
+
+              <div class="pub-icon">
+            {% if page.extra.doi %}
+                <a href="https://doi.org/{{ page.extra.doi }}"
+                   aria-label="DOI"
+                   class="icon link"></a>
+            {% elif page.extra.url %}
+                <a href="{{ page.extra.url }}"
+                   aria-label="URL"
+                   class="icon link"></a>
+            {% endif %}
+              </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endfor %}
+  </div>
+</div>
+{% endblock %}

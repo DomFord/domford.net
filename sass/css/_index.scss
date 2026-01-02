@@ -1,0 +1,23 @@
+#index-text {
+    font-size: 1rem;
+    font-weight: 300;
+}
+#flexbox {
+    display: flex;
+    align-items: center;
+}
+#index-image {
+    text-align: center;
+    display: block;
+    img {
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+    }
+}
+.latest-links p {
+    font-size: 0.8rem;
+}
+.latest-links h3 {
+    font-size: 1rem;
+}

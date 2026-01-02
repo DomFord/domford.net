@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@junobuild/core": "^3.3.2"
+  }
+}

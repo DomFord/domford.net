@@ -1,0 +1,60 @@
+# The URL the site will be built for
+base_url = "https://domford.net/"
+
+minify_html = true
+
+# The site title and description; used in feeds by default.
+title = "Dom Ford"
+description = "Personal academic website of games researcher Dom Ford."
+
+# The default language; used in feeds.
+default_language = "en"
+
+# The site theme to use.
+# theme = "pico"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+taxonomies = [
+    {name = "tags"},
+    {name = "type"}
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "css"
+
+[search]
+index_format = "elasticlunr_json"
+
+[extra]
+# Put all your custom variables here
+index_page="about"
+top_menu = ["about","publications","conferences", "posts"]
+copyright_string = "(CC BY) Dom Ford 2025. Powered by [Zola](https://getzola.org/), theme adapted from [pico](https://github.com/kuznetsov17/pico)."
+author = "Dom Ford"
+author_position = "Postdoctoral Research Fellow"
+author_affiliation = "Center for Digital Narrative, University of Bergen"
+avatar_src = "images/avatar.png"
+logo_src = "images/favicon.webp"
+
+# Contact and social media
+email = "mailto:dom@domford.net"
+orcid = "https://orcid.org/0000-0001-5545-602X"
+google_scholar = "https://scholar.google.com/citations?user=dv4EhC0AAAAJ"
+researchgate = "https://www.researchgate.net/profile/Dom_Ford"
+linkedin = "https://www.linkedin.com/in/dominic-ford/"
+bluesky = "https://bsky.app/profile/domford.bsky.social"
+uib = "https://www4.uib.no/en/find-employees/Dom.Ford"
+
+nonce=""
+
+# [extra.footer.icons]
+# github = "#"
+# linkedin = "#"

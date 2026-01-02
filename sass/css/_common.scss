@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter-Italic.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+html,body {
+    height: 100%;
+    min-height: 100%;
+}
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-color);
+    color: var(--main-color);
+}
+p {
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: normal;
+}
+a:link, a:visited, a:active {
+
+    color: var(--main-color); 
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+}
+a:hover {
+    color: var(--hover-color);
+    text-decoration: none;
+}
+a.muted:link,
+a.muted:visited,
+a.muted:active {
+    color: var(--muted-text, #777);
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.2);
+}
+
+a.muted:hover {
+    color: var(--hover-color);
+    text-decoration-color: currentColor;
+}
+svg {
+    pointer-events: all;
+}
+h1,h2,h3,h4,h5,h6,b, strong {
+    font-family: var(--font-family-headers);
+    font-weight: bold;
+}
+h1 {
+    font-size: xx-large;
+}
+h2 {
+    font-size: x-large;
+}
+h3 {
+    font-size: large;
+    margin-bottom: 1rem;
+}
+h4 {
+    font-size: medium;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+details > summary {
+    font-size: 1rem;
+    font-weight: 250 !important;
+    text-decoration: underline;
+    text-decoration-skip-ink: auto;
+}
+.invis {
+    color: var(--main-color);
+    filter: opacity(0.6);
+}
+.pagination {
+    text-align: center;
+    font-size: .8em;
+    a:link, a:visited, a:active {
+        padding-top: .5em;
+        padding-bottom: .5em;
+        padding-left: .8em;
+        padding-right: .8em;
+        border-bottom: .2em solid var(--main-color);
+        margin: .5em;
+    }
+    a:hover {
+        color: var(--main-color);
+        background-color: var(--hover-bg);
+        svg:hover {
+            fill: var(--hover-color);
+        }
+    }
+    a.current {
+        background-color: var(--hover-bg);
+    }
+}
+.shares {
+    ul {
+        li {
+            list-style: none;
+            display: inline-block;
+            padding: .5em;
+        }
+    }
+}

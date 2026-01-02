@@ -1,0 +1,81 @@
+<div class="latest-links">
+{% set pubs_section = get_section(path="publications/_index.md") %}
+{% if not pubs_section %}
+  {% set_global pubs_section = none %}
+  {% for s in get_sections() %}
+    {% if s.path == "publications" or s.title == "Publications" %}
+      {% set_global pubs_section = s %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if pubs_section %}
+  {% set sorted_pubs = pubs_section.pages | sort(attribute="date", reverse=true) %}
+  {% set latest_pub = sorted_pubs | last %}
+  {% if latest_pub %}
+
+      <h3>Latest publication</h3>
+      <p>
+        {% if latest_pub.extra.citation is defined %}
+          {{ latest_pub.extra.citation | safe }}
+        {% else %}
+          {{ latest_pub.title }}
+        {% endif %}
+    </p>
+  {% endif %}
+{% endif %}
+
+{% set conferences_section = get_section(path="conferences/_index.md") %}
+{% if not conferences_section %}
+    {% set_global conferences_section = none %}
+    {% for s in get_sections() %}
+      {% if  s.path == "conferences" or s.title == "Conferences" %}
+        {% set_global conferences_section = s %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if conferences_section %}
+  {% set sorted_pubs = conferences_section.pages | sort(attribute="date", reverse=true) %}
+  {% set latest_conference = sorted_pubs | last %}
+  {% if latest_conference %}
+    <h3>Latest conference talk</h3>
+    <p>
+        {% if latest_conference.extra.citation is defined %}
+          {{ latest_conference.extra.citation | safe }}
+        {% else %}
+          {{ latest_conference.title }}
+        {% endif %}
+    </p>
+  {% endif %}
+{% endif %}
+
+
+{# --- Posts: same pattern --- #}
+{% set posts_section = get_section(path="posts/_index.md") %}
+{% if not posts_section %}
+  {% set_global posts_section = none %}
+  {% for s in get_sections() %}
+    {% if s.path == "posts" or s.title == "Posts" %}
+      {% set_global posts_section = s %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if posts_section %}
+  {% set sorted_posts = posts_section.pages | sort(attribute="date", reverse=true) %}
+  {% set latest_post = sorted_posts | last %}
+  {% if latest_post %}
+    <h3>Latest post</h3>
+    <p>
+      <a href="{{ latest_post.permalink }}">
+        {% if latest_post.extra.title_html is defined %}
+          {{ latest_post.extra.title_html | safe }}
+        {% else %}
+          {{ latest_post.title }}
+        {% endif %}
+      </a>
+    </p>
+  {% endif %}
+{% endif %}
+</div>

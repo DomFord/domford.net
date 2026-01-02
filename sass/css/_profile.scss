@@ -1,0 +1,86 @@
+.profile-block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem; /* master spacing control */
+}
+
+.profile-block h1,
+.profile-block h2,
+.profile-block h3,
+.profile-block h4 {
+  margin: 0;
+  line-height: 1.25;
+}
+
+.profile-name {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+
+.profile-links {
+    margin-top: 0.5rem;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin: 0.25rem;
+  margin-bottom: 2rem;
+
+  /* The visible color of the icon */
+  background-color: var(--icon-color);
+
+  /* Mask setup */
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+
+  /* Optional: smooth hover transitions */
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.icon:hover {
+  background-color: var(--icon-color-hover);
+  transform: translateY(-2px);
+}
+
+.icon.email {
+  mask-image: url("/icons/email.svg");
+  -webkit-mask-image: url("/icons/email.svg");
+}
+
+.icon.orcid {
+  mask-image: url("/icons/orcid.svg");
+  -webkit-mask-image: url("/icons/orcid.svg");
+}
+
+.icon.google-scholar {
+  mask-image: url("/icons/googlescholar.svg");
+  -webkit-mask-image: url("/icons/googlescholar.svg");
+}
+
+.icon.researchgate {
+  mask-image: url("/icons/researchgate.svg");
+  -webkit-mask-image: url("/icons/researchgate.svg");
+}
+
+.icon.linkedin {
+  mask-image: url("/icons/linkedin.svg");
+  -webkit-mask-image: url("/icons/linkedin.svg");
+}
+
+.icon.bluesky {
+  mask-image: url("/icons/bluesky.svg");
+  -webkit-mask-image: url("/icons/bluesky.svg");
+}
+
+.icon.link {
+  mask-image: url(/icons/link.svg);
+  -webkit-mask-image: url("/icons/link.svg");
+}
