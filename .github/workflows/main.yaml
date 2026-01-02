@@ -13,15 +13,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Ensure jq is available
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
       - name: Install Zola (release asset via GitHub API)
         run: |
           set -euo pipefail
 
-          # version without leading v for display; tag includes v
+          # Zola version (no leading v here); change to the version you want
           ZOLA_VERSION="0.20.0"
           TAG="v${ZOLA_VERSION}"
 
-          # map runner arch to asset substring
+          # Map runner arch to asset substring used in release names
           ARCH="$(uname -m)"
           if [ "$ARCH" = "x86_64" ]; then
             ARCH_SUB="x86_64"
@@ -32,52 +37,71 @@ jobs:
             exit 1
           fi
 
-          # query GitHub Releases API for the tag and pick the linux asset matching arch
           API_URL="https://api.github.com/repos/getzola/zola/releases/tags/${TAG}"
           echo "Querying $API_URL"
+
+          # Try to find an asset whose name contains 'linux' and the arch substring
           DOWNLOAD_URL="$(curl -sSfL "$API_URL" \
-            | python3 - <<'PY'
-              import sys, json
-              data = json.load(sys.stdin)
-              assets = data.get("assets", [])
-              arch = sys.argv[1]
-              for a in assets:
-                  name = a.get("name","").lower()
-                  if "linux" in name and arch in name:
-                      print(a.get("browser_download_url"))
-                      sys.exit(0)
-              # fallback: try any linux asset
-              for a in assets:
-                  if "linux" in a.get("name","").lower():
-                      print(a.get("browser_download_url"))
-                      sys.exit(0)
-              sys.exit(1)
-              PY
-                        "$ARCH_SUB")"
+            | jq -r --arg arch "$ARCH_SUB" '
+                .assets[] |
+                select((.name|ascii_downcase) | test("linux") and (.name|ascii_downcase|test($arch))) |
+                .browser_download_url
+              ' \
+            | head -n1
+          )"
 
-                        if [ -z "${DOWNLOAD_URL:-}" ]; then
-                          echo "Could not find a Linux asset for Zola ${TAG} via the Releases API."
-                          exit 1
-                        fi
+          # Fallback: any linux asset
+          if [ -z "${DOWNLOAD_URL:-}" ] || [ "$DOWNLOAD_URL" = "null" ]; then
+            DOWNLOAD_URL="$(curl -sSfL "$API_URL" \
+              | jq -r '
+                  .assets[] |
+                  select((.name|ascii_downcase) | test("linux")) |
+                  .browser_download_url
+                ' \
+              | head -n1
+            )"
+          fi
 
-                        echo "Downloading Zola from: $DOWNLOAD_URL"
-                        curl -fL "$DOWNLOAD_URL" -o zola.tar.gz
+          if [ -z "${DOWNLOAD_URL:-}" ] || [ "$DOWNLOAD_URL" = "null" ]; then
+            echo "Could not find a Linux asset for Zola ${TAG} via the Releases API."
+            exit 1
+          fi
 
-                        # sanity check and extract
-                        if file zola.tar.gz | grep -qi 'gzip compressed data'; then
-                          tar -xzf zola.tar.gz
-                        else
-                          echo "Downloaded file is not a gzip tarball; showing first 200 bytes for debugging:"
-                          head -c 200 zola.tar.gz | sed -n '1,200p'
-                          exit 1
-                        fi
+          echo "Downloading Zola from: $DOWNLOAD_URL"
+          curl -fL "$DOWNLOAD_URL" -o zola.tar.gz
 
-                        sudo mv zola /usr/local/bin/
-                        sudo chmod +x /usr/local/bin/zola
-                        zola --version
+          # Verify the downloaded file is a gzip tarball
+          if file zola.tar.gz | grep -qi 'gzip compressed data'; then
+            mkdir -p zola-extract
+            tar -xzf zola.tar.gz -C zola-extract
+          else
+            echo "Downloaded file is not a gzip tarball; showing first 200 bytes for debugging:"
+            head -c 200 zola.tar.gz | sed -n '1,200p'
+            exit 1
+          fi
+
+          # Find the zola binary inside the extracted files
+          ZOLA_BIN="$(find zola-extract -type f -name zola -perm /111 -print -quit || true)"
+          if [ -z "$ZOLA_BIN" ]; then
+            # maybe binary is named zola or inside a folder without exec bit; try any file named zola
+            ZOLA_BIN="$(find zola-extract -type f -name zola -print -quit || true)"
+          fi
+
+          if [ -z "$ZOLA_BIN" ]; then
+            echo "Could not find the zola binary inside the release archive."
+            ls -R zola-extract
+            exit 1
+          fi
+
+          echo "Installing Zola from: $ZOLA_BIN"
+          sudo mv "$ZOLA_BIN" /usr/local/bin/zola
+          sudo chmod +x /usr/local/bin/zola
+          zola --version
 
       - name: Build site
-        run: zola build
+        run: |
+          set -euo pipefail
+          zola build
 
       - name: Deploy to gh-pages
         uses: shalzz/zola-deploy-action@v0.21.0
