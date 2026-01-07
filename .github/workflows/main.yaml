@@ -24,30 +24,20 @@ jobs:
       - name: Build site
         run: zola build
 
-      - name: Upload built site as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: site-public
-          path: public
-          retention-days: 7
-
-      - name: Show built index (debug)
-        run: sed -n '1,40p' public/index.html
-      
-      - name: Show workspace root
-        run: ls -la /home/runner/work/domford.net/domford.net
-
       - name: Show build output
         run: |
           echo "CWD: $(pwd)"
-          ls -la public || true
-          echo "Public tree:"
-          find public -maxdepth 3 -type f -print || true
+          ls -la public
+          find public -maxdepth 3 -type f -print
+
+      - name: Fail if public missing
+        run: test -d public && test "$(ls -A public)" || (echo "public missing or empty" && exit 1)
 
       - name: Deploy site to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          allow_empty_commit: true
           enable_jekyll: false
+          allow_empty_commit: false
+
