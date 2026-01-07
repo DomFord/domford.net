@@ -63,6 +63,8 @@ show_date = true / false # displays publication date in page
 I am using this theme for my [notes](https://viku.me/notes/), or probably blog. 
 The section template supports pagination, tags, sorts the pages by publication date. You may see the working example [here](@/posts/_index.md)
 
+test
+
 
 # Search
 The theme supports the search using [elasticrunrjs](http://elasticlunr.com). To enable the search, you will need the following configuration in **config.toml**:
