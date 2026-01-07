@@ -1,35 +1,16 @@
 on: push
 name: Build and deploy GH Pages
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: checkout
         uses: actions/checkout@v4
-
-      - name: Install Zola
-        run: |
-          ZOLA_VERSION="0.21.0"
-          ARCH="x86_64-unknown-linux-gnu"
-          URL="https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-${ARCH}.tar.gz"
-          curl -sL "$URL" -o zola.tar.gz
-          tar -xzf zola.tar.gz
-          sudo mv zola /usr/local/bin/zola
-
-      - name: Build site
-        run: zola build --base-url "https://domford.github.io/domford.net"
-
-      - name: Show built index (debug)
-        run: sed -n '1,40p' public/index.html
-
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          publish_branch: gh-pages
+      - name: build_and_deploy
+        uses: shalzz/zola-deploy-action@master
+        env:
+          # Target branch
+          PAGES_BRANCH: github-pages
+          # Provide personal access token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BUILD_THEMES: false
