@@ -6,11 +6,16 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v4
+      - name: Build only (debug)
+        run: zola build $BUILD_FLAGS
+      - name: Show effective base_url
+        run: sed -n '1,5p' public/index.html
       - name: build_and_deploy
-        uses: shalzz/zola-deploy-action@master
+        uses: shalzz/zola-deploy-action@v0.21.0
         env:
           # Target branch
           PAGES_BRANCH: gh-pages
           # Provide personal access token
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILD_THEMES: false
+          BUILD_FLAGS: '--base-url "https://domford.github.io/domford.net"'
