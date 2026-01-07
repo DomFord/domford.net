@@ -4,24 +4,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: checkout
         uses: actions/checkout@v4
-
-      - name: Setup Zola
-        uses: webfactory/setup-zola@v2
-        with:
-          zola-version: '0.21.0'
-
-      - name: Build site (debug)
-        run: zola build --base-url "https://domford.github.io/domford.net"
-
-      - name: Show built index (debug)
-        run: sed -n '1,20p' public/index.html
-
-      - name: Deploy
-        uses: shalzz/zola-deploy-action@v0.21.0
+      - name: build_and_deploy
+        uses: shalzz/zola-deploy-action@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Target branch
           PAGES_BRANCH: gh-pages
+          # Provide personal access token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILD_THEMES: false
           BUILD_FLAGS: '--base-url "https://domford.github.io/domford.net"'
