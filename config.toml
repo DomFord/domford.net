@@ -41,8 +41,8 @@ copyright_string = "(CC BY) Dom Ford 2025. Powered by [Zola](https://getzola.org
 author = "Dom Ford"
 author_position = "Postdoctoral Research Fellow"
 author_affiliation = "Center for Digital Narrative, University of Bergen"
-avatar_src = "images/avatar.png"
-logo_src = "images/favicon.webp"
+avatar_src = "static/images/avatar.png"
+logo_src = "static/images/favicon.webp"
 
 # Contact and social media
 email = "mailto:dom@domford.net"
