@@ -7,7 +7,27 @@
         <div id="menu">
           <ul>
           {% for menuitem in config.extra.top_menu %}
-            <li><a href="{% if menuitem == config.extra.index_page %}{{config.base_url | safe }}{% else %}{{config.base_url | safe }}{{ menuitem }}{% endif %}" class="{% if menuitem in current_url and menuitem != '/' %} active{% elif menuitem == config.extra.index_page and current_url == config.base_url %} active{% endif %}">{{ menuitem }}</a></li>
+            {% if menuitem == config.extra.index_page %}
+              {% set href = get_url(path="") %}
+            {% else %}
+              {% set href = get_url(path=menuitem) %}
+            {% endif %}
+
+            {% set is_active = false %}
+
+            {% if current_url == href %}
+              {% set is_active = true %}
+            {% else %}
+              {% if href != get_url(path="") %}
+                {% if current_url | replace(from=href, to="") != current_url %}
+                  {% set is_active = true %}
+                {% endif %}
+              {% endif %}
+            {% endif %}
+
+            <li>
+              <a href="{{ href }}" class="{% if is_active %}active{% endif %}">{{ menuitem }}</a>
+            </li>
           {% endfor %}
           </ul>
         </div>
