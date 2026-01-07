@@ -7,40 +7,7 @@
         <div id="menu">
           <ul>
           {% for menuitem in config.extra.top_menu %}
-            {# Build the href using get_url so it respects base_url and subpaths #}
-            {% if menuitem == config.extra.index_page %}
-              {% set href = get_url(path="") %}
-            {% else %}
-              {% set href = get_url(path=menuitem) %}
-            {% endif %}
-
-            {# Determine active state: exact match or current_url starts with href for section pages #}
-            {% for menuitem in config.extra.top_menu %}
-              {# Build href using get_url so it respects base_url and subpaths #}
-              {% if menuitem == config.extra.index_page %}
-                {% set href = get_url(path="") %}
-              {% else %}
-                {% set href = get_url(path=menuitem) %}
-              {% endif %}
-
-              {# Default to false then set true with simple if/elif tests #}
-              {% set is_active = false %}
-
-              {% if current_url == href %}
-                {% set is_active = true %}
-              {% elif href != get_url(path="") and (current_url starts_with href) %}
-                {% set is_active = true %}
-              {% endif %}
-
-              <li>
-                <a href="{{ href }}" class="{% if is_active %}active{% endif %}">{{ menuitem }}</a>
-              </li>
-            {% endfor %}
-
-
-            <li>
-              <a href="{{ href }}" class="{% if is_active %}active{% endif %}">{{ menuitem }}</a>
-            </li>
+            <li><a href="{% if menuitem == config.extra.index_page %}{{config.base_url | safe }}{% else %}{{config.base_url | safe }}{{ menuitem }}{% endif %}" class="{% if menuitem in current_url and menuitem != '/' %} active{% elif menuitem == config.extra.index_page and current_url == config.base_url %} active{% endif %}">{{ menuitem }}</a></li>
           {% endfor %}
           </ul>
         </div>
