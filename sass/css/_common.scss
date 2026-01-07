@@ -12,6 +12,20 @@
   font-style: italic;
   font-display: swap;
 }
+@font-face {
+    font-family: "Lora";
+    src: url("fonts/Lora.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Lora";
+    src: url("fonts/Lora-Italic.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
 html,body {
     height: 100%;
     min-height: 100%;
