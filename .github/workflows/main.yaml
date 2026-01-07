@@ -19,3 +19,4 @@ jobs:
           TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BUILD_THEMES: false
           BUILD_FLAGS: --base-url "https://domford.github.io/domford.net"
+          BUILD_FLAGS: '--base-url "https://domford.github.io/domford.net"'
