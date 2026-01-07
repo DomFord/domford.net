@@ -27,7 +27,7 @@ jobs:
       - name: Show built index (debug)
         run: sed -n '1,40p' public/index.html
 
-      - name: Deploy to gh-pages
+      - name: Deploy site to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
