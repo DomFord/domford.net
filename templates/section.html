@@ -23,7 +23,7 @@
       {%- for i in range(start=pag_start, end=pag_end+1) -%}
         <a class="{% if paginator.current_index == i %} current {% endif %}" href="{{ paginator.base_url | safe }}{{ i ~ '/' }}">{{i}}</a>
       {%- endfor -%}
-      {%- if paginator.next -%}<a href = {{paginator.next}}>&rarr;</a>{%- endif -%}
+      {%- if paginator.next -%}<a href = "{{ paginator.next }}">&rarr;</a>{%- endif -%}
       {%- endif -%}
       </div>
   </div>
