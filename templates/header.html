@@ -4,33 +4,66 @@
     <div class="row">
       <div class="col-2"></div>
       <div class="col-8" id="top">
-        <div id="menu">
-          <ul>
-          {% for menuitem in config.extra.top_menu %}
-            {% if menuitem == config.extra.index_page %}
-              {% set href = get_url(path="") %}
-            {% else %}
-              {% set href = get_url(path=menuitem) %}
-            {% endif %}
 
-            {% set is_active = false %}
+        
+<div id="menu">
+  <ul>
+  {# base_url fallback #}
+  {% if config.base_url is defined and config.base_url != "" %}
+    {% set base = config.base_url %}
+  {% else %}
+    {% set base = "" %}
+  {% endif %}
 
-            {% if current_url == href %}
-              {% set is_active = true %}
-            {% else %}
-              {% if href != get_url(path="") %}
-                {% if current_url | replace(from=href, to="") != current_url %}
-                  {% set is_active = true %}
-                {% endif %}
-              {% endif %}
-            {% endif %}
+  {% for menuitem in config.extra.top_menu %}
+    {% if menuitem == config.extra.index_page %}
+      {% set href = get_url(path="") %}
+    {% else %}
+      {% set href = get_url(path=menuitem) %}
+    {% endif %}
 
-            <li>
-              <a href="{{ href }}" class="{% if is_active %}active{% endif %}">{{ menuitem }}</a>
-            </li>
-          {% endfor %}
-          </ul>
-        </div>
+    {# Normalize: remove base_url prefix #}
+    {% set norm_current = current_url | replace(from=base, to="") %}
+    {% set norm_href = href | replace(from=base, to="") %}
+
+    {# Normalize root forms #}
+    {% if norm_current == "/" %}
+      {% set norm_current = "" %}
+    {% endif %}
+    {% if norm_href == "/" %}
+      {% set norm_href = "" %}
+    {% endif %}
+
+    {# Precompute helper values #}
+    {% set norm_href_slash = norm_href ~ "/" %}
+    {% set is_active = false %}
+
+    {# Exact match (allow href and href/ to both match) #}
+    {% if norm_current == norm_href or norm_current == norm_href_slash %}
+      {% set is_active = true %}
+    {% else %}
+      {# Parent match: check whether norm_current starts with norm_href + "/" by replacing that prefix and seeing if it changed #}
+      {% if norm_href != "" %}
+        {% set prefix = norm_href_slash %}
+        {% set replaced = norm_current | replace(from=prefix, to="") %}
+        {% if replaced != norm_current %}
+          {% set is_active = true %}
+        {% endif %}
+      {% endif %}
+    {% endif %}
+
+    <li>
+      <a href="{{ href }}" class="{% if is_active %}active{% endif %}">{{ menuitem }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
+
+
+
+
+
         {%- if config.build_search_index -%}
         </1><div id="searchBox">  
           <span class="icon icon-search head"></span>
