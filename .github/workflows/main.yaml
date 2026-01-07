@@ -1,7 +1,7 @@
 on: push
 name: Build and deploy GH Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -20,7 +20,6 @@ jobs:
           curl -sL "$URL" -o zola.tar.gz
           tar -xzf zola.tar.gz
           sudo mv zola /usr/local/bin/zola
-          zola --version
 
       - name: Build site
         run: zola build --base-url "https://domford.github.io/domford.net"
