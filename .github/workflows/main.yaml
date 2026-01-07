@@ -11,7 +11,7 @@ jobs:
       - name: Show effective base_url
         run: sed -n '1,5p' public/index.html
       - name: build_and_deploy
-        uses: shalzz/zola-deploy-action@v0.21.0
+        uses: shalzz/zola-deploy-action@master
         env:
           # Target branch
           PAGES_BRANCH: gh-pages
