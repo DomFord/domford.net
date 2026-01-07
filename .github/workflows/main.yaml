@@ -1,12 +1,15 @@
-on: push
 name: Build and deploy to GitHub Pages
+on:
+  push:
+    branches: [ main ]
+
 permissions:
   contents: write
   pages: write
   id-token: write
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,7 +27,7 @@ jobs:
       - name: Build site
         run: zola build
 
-      - name: Show build output
+      - name: Show build output (debug)
         run: |
           echo "CWD: $(pwd)"
           ls -la public
@@ -33,11 +36,10 @@ jobs:
       - name: Fail if public missing
         run: test -d public && test "$(ls -A public)" || (echo "public missing or empty" && exit 1)
 
-      - name: Deploy site to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          enable_jekyll: false
-          allow_empty_commit: false
+          path: ./public
 
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
