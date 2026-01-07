@@ -42,7 +42,7 @@ author = "Dom Ford"
 author_position = "Postdoctoral Research Fellow"
 author_affiliation = "Center for Digital Narrative, University of Bergen"
 avatar_src = "images/avatar.png"
-logo_src = "images/favicon.webp"
+logo_src = "images/favicon.ico"
 
 # Contact and social media
 email = "mailto:dom@domford.net"
