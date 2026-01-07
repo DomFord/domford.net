@@ -27,7 +27,7 @@ jobs:
       - name: Build site
         run: zola build
 
-      - name: Show build output (debug)
+      - name: Show build output
         run: |
           echo "CWD: $(pwd)"
           ls -la public
@@ -41,8 +41,5 @@ jobs:
         with:
           path: ./public
 
-      - name: Deploy site to gh-pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
