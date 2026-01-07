@@ -28,7 +28,7 @@
 
               {% if current_url == href %}
                 {% set is_active = true %}
-              {% elif href != get_url(path="") and current_url starts_with href %}
+              {% elif href != get_url(path="") and (current_url starts_with href) %}
                 {% set is_active = true %}
               {% endif %}
 
