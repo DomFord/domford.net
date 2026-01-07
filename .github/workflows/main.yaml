@@ -37,9 +37,9 @@ jobs:
         run: test -d public && test "$(ls -A public)" || (echo "public missing or empty" && exit 1)
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4.0.5
