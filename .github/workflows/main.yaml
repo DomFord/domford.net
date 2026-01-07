@@ -33,6 +33,16 @@ jobs:
 
       - name: Show built index (debug)
         run: sed -n '1,40p' public/index.html
+      
+      - name: Show workspace root
+        run: ls -la /home/runner/work/domford.net/domford.net
+
+      - name: Show build output
+        run: |
+          echo "CWD: $(pwd)"
+          ls -la public || true
+          echo "Public tree:"
+          find public -maxdepth 3 -type f -print || true
 
       - name: Deploy site to gh-pages
         uses: peaceiris/actions-gh-pages@v4
