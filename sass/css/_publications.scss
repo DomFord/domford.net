@@ -51,16 +51,17 @@
 }
 
 .pub-citation {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   font-size: 0.9rem;
-  color: var(--muted-color);
+  color: var(--main-color);
+  opacity: 0.9;
 }
 
 .pub-icon {
   height: 1em;
   vertical-align: middle;
   margin-right: 0.2em;
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
 }
 
 /* =========================
