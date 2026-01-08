@@ -18,7 +18,7 @@
   {% if page.extra.keywords is defined %}<meta name="keywords" content="{{ page.extra.keywords }}">{% endif %}
   <link type="text/css" rel="stylesheet" href="{{ get_url(path="css/grid.css") }}?v={{ cdn_version }}">
   <link type="text/css" rel="stylesheet" href="{{ get_url(path="css/style.css") }}?v={{ cdn_version }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path="images/apple-touch-icon.png") }}>
   <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path=config.extra.logo_src) }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path=config.extra.logo_src) }}">
   <link rel="manifest" href="{{ get_url(path="site.webmanifest") }}">

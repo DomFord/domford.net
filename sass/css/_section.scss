@@ -1,7 +1,8 @@
 .reading-time {
-    padding-left: .5em;
     line-height: 1em;
     font-size: .8em;
+    display: block;
+    margin-bottom: 1rem;
 }
 #catlist, #taglist {
     ul {
