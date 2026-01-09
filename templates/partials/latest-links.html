@@ -78,4 +78,31 @@
     </p>
   {% endif %}
 {% endif %}
+
+{% set media_section = get_section(path="media/_index.md") %}
+{% if not media_section %}
+  {% set_global media_section = none %}
+  {% for s in get_sections() %}
+    {% if s.path == "media" or s.title == "Media" %}
+      {% set_global media_section = s %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if media_section %}
+  {% set sorted_media = media_section.pages | sort(attribute="date", reverse=true) %}
+  {% set latest_media = sorted_media | last %}
+  {% if latest_media %}
+    <h3>Latest press or media</h3>
+    <p>
+      <a href="{{ latest_media.extra.url }}">
+        {% if latest_media.extra.title_html is defined %}
+          {{ latest_media.extra.title_html | safe }}
+        {% else %}
+          {{ latest_media.title }}
+        {% endif %}
+      </a>
+    </p>
+  {% endif %}
+{% endif %}
 </div>

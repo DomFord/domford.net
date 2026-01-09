@@ -53,14 +53,13 @@
             </div>
 
               <div class="pub-venue">
-                {% if page.extra.conference %}
-                  {{ page.extra.conference }}, {{ page.extra.place }}
-              {% elif page.extra.venue %}
-                <em>{{ page.extra.venue }}</em>
-
-              {% endif %}
+                {% if page.extra.venue %}
+                    <em>{{ page.extra.venue }}</em>
+                {% endif %}
+                {% if page.extra.place %}
+                    ({{ page.extra.place }})
+                {% endif %}
               </div>
-
 
             <div class="pub-authors">
               {{ page.extra.all_authors }}
@@ -68,19 +67,13 @@
 
             {% if page.content %}
               <details class="pub-abstract">
-                <summary><a><span class="abstract-label">Abstract</span></a></summary>
+                <summary><a><span class="abstract-label">Summary</span></a></summary>
                 <div class="pub-abstract-text">
                   <div class="pub-abstract-inner">
                   {{ page.content | safe }}
                   </div>
                 </div>
               </details>
-            {% endif %}
-
-            {% if page.extra.citation %}
-              <div class="pub-citation">
-                {{ page.extra.citation | safe }}
-              </div>
             {% endif %}
 
               <div class="pub-icon">
