@@ -2,16 +2,10 @@
    Publication layout
    ========================= */
 
-.pub-year {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--muted-color);
-}
-
 .pub-list {
   list-style: none;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .pub-item {
@@ -39,8 +33,7 @@
 .pub-venue {
   font-family: 'Lora', serif;
   font-size: 1rem;
-  margin-top: 0.2rem;
-  margin-bottom: 0.6rem;
+  margin: 0.2rem 0 0.6rem;
 }
 
 .pub-authors {
@@ -53,39 +46,29 @@
 .pub-citation {
   margin-top: 1rem;
   font-size: 0.9rem;
-  color: var(--main-color);
   opacity: 0.9;
 }
 
 .pub-icon {
-  height: 1em;
-  vertical-align: middle;
-  margin-right: 0.2em;
   margin-top: 0.5rem;
 }
 
+
 /* =========================
-   Abstract disclosure (grid-based)
+   Abstract disclosure
    ========================= */
 
 .pub-abstract {
   margin-top: 0.6rem;
 }
 
-/* Summary */
 .pub-abstract > summary {
-  text-decoration: none;
   cursor: pointer;
   font-weight: 500;
-  color: var(--main-color);
-  list-style: none;
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-}
-
-.pub-abstract > summary .abstract-label {
-  text-decoration: underline;
+  list-style: none;
 }
 
 .pub-abstract > summary::-webkit-details-marker {
@@ -101,70 +84,106 @@
   transform: rotate(90deg);
 }
 
-/* Grid animation container */
 .pub-abstract-text {
   display: grid;
   grid-template-rows: 0fr;
   transition: grid-template-rows 260ms cubic-bezier(.2, .6, .3, 1);
   margin-top: 0.4rem;
-  padding-left: 0.5rem;
 }
 
-/* Inner wrapper — THIS is the magic */
-.pub-abstract-inner {
-  overflow: hidden;
-  font-size: small;
-  font-weight: 400;
-  color: var(--main-color);
-}
-
-.pub-abstract-inner p {
-  font-size: inherit;
-  margin-top: 0.4rem;
-  opacity: 0.8;
-}
-
-/* Open state */
 .pub-abstract[open] > .pub-abstract-text {
   grid-template-rows: 1fr;
 }
 
-/* Reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  .pub-abstract-text,
-  .pub-abstract > summary::before {
-    transition: none;
-  }
+.pub-abstract-inner {
+  overflow: hidden;
+  font-size: small;
+  opacity: 0.8;
 }
 
 
 /* =========================
-   Year column layout
+   Year grouping — MOBILE FIRST
    ========================= */
 
 .pub-year-row {
   display: flex;
-  align-items: stretch;
-  margin-bottom: 2.5rem;
+  flex-direction: column;
 }
 
+/* Year label */
 .pub-year-col {
   display: flex;
-  justify-content: flex-end;
-  padding-right: 1rem;
+  justify-content: center;
+  align-items: center;
   position: relative;
-}
-
-.pub-year-col::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 0.5rem;
-  bottom: 0.5rem;
-  width: 2px;
-  background-color: var(--muted-color);
+  margin-bottom: 1rem;
 }
 
 .pub-year {
-  align-self: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--muted-color);
+  text-align: center;
+}
+
+/* Horizontal line (mobile) */
+.pub-year-col::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.5rem;
+  height: 2px;
+  background-color: var(--muted-color);
+}
+
+/* Content column */
+.pub-year-row > .content {
+  position: relative;
+}
+
+.pub-list {
+  position: relative;
+}
+
+/* =========================
+   Tablet / Desktop enhancement
+   ========================= */
+
+@media (min-width: $breakpoint-med) {
+
+  .pub-year-row {
+    position: relative;
+  }
+
+  /* Year column */
+  .pub-year-col {
+    position: absolute;
+    left: -4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    text-align: right;
+    padding-right: 0.5rem;
+  }
+
+  .pub-year {
+    text-align: right;
+  }
+
+  /* Remove horizontal line */
+  .pub-year-col::after {
+    content: none;
+  }
+
+  .pub-list::before {
+    content: "";
+    position: absolute;
+    left: -1rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--muted-color);
+  }
 }

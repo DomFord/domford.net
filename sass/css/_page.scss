@@ -1,23 +1,25 @@
 .content {
     min-height: 80vh;
-    font-size: 1.2em;
-    font-weight: lighter;
+    font-size: 1rem;
+    font-weight: normal;
     ul {
         li {
-            font-weight: 300;
+            font-weight: normal;
         }
     }
     table {
         border-spacing: 0;
-        border-right: 1px solid var(--main-color);
+        border-right: 0px solid var(--main-color);
         border-bottom: 1px solid var(--main-color);
         th, td {
             padding: .5em;
             border-top: 1px solid var(--main-color);
-            border-left: 1px solid var(--main-color);
+            border-left: 0px solid var(--main-color);
+            border-right: 0px solid var(--main-color)
         }
         th {
             background-color: var(--hover-bg);
+            text-align: left;
         }
     }
 }
@@ -58,4 +60,8 @@ main {
         width: 6em;
         height: 6em;
     }
+}
+
+p > strong {
+    font-family: var(--font-family);
 }

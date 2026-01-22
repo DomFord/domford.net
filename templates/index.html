@@ -1,20 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="row content" id="flexbox">
-  <div class="col-2"></div>
-  <div class="col-5 content" id="index-text">
-    <h1 class="center">
-      <em>about me</em>
-     </h1>
+  <div class="col-2-sm col-2"> </div>
+
+  <div class="col-5-sm col-5 content" id="index-text">
+    <h1 class="center"><em>about me</em></h1>
     {% if section.content %}
-      {{ section.content | safe }} 
+      {{ section.content | safe }}
     {% elif page.content %}
       {{ page.content }}
     {% endif %}
   </div>
-  <div class="col-3">
+
+  <div class="col-3-sm col-3">
     {% include "partials/profile.html" %}
     {% include "partials/latest-links.html" %}
   </div>
 </div>
+
 {% endblock %}
