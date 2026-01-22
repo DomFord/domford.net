@@ -5,7 +5,7 @@ minify_html = true
 
 # The site title and description; used in feeds by default.
 title = "Dom Ford"
-description = "Personal academic website of games researcher Dom Ford."
+description = "Personal website of games researcher Dom Ford."
 
 # The default language; used in feeds.
 default_language = "en"
