@@ -5,87 +5,79 @@
 {% set pages = section.pages | sort(attribute="date", reverse=true) %}
 {% set grouped = pages | group_by(attribute="year") %}
 
-<div class="row">
-  <div class="col-2"></div>
-  <div class="col-7 content">
+<div class="page-publications">
 
-{# Collect years #}
-{% set years = [] %}
-{% for y, _items in grouped %}
-  {% set_global years = years | concat(with=[y]) %}
-{% endfor %}
+  {# Collect years #}
+  {% set years = [] %}
+  {% for y, _items in grouped %}
+    {% set_global years = years | concat(with=[y]) %}
+  {% endfor %}
+  {% set years = years | sort | reverse %}
 
-{# Sort years newest → oldest #}
-{% set years = years | sort | reverse %}
+  {% for year in years %}
+    {% set items = grouped[year] %}
 
-{% for year in years %}
-  {% set items = grouped[year] %}
-
-  <div class="row pub-year-row">
-    <div class="col-2 pub-year-col">
-      <div class="pub-year">
-        {{ year }}
+    <section class="pub-year-row" aria-labelledby="year-{{ year }}">
+      <div class="pub-year-col" id="year-{{ year }}">
+        <span class="pub-year">{{ year }}</span>
       </div>
-    </div>
-    <div class="col-7 content">
-      <ul class="pub-list">
-        {# Sort publications newest → oldest #}
-        {% for page in items | sort(attribute="date") | reverse %}
-          <li class="pub-item">
-            {% if page.extra.type is defined %}
-            <div class="pub-type">
-              {{ page.extra.type | safe }}
-            </div>
-            {% endif %}
-            <div class="pub-title">
-              {% if page.extra.title_html is defined %}
-                {{ page.extra.title_html | safe }}
-              {% else %}
-                {{ page.title }}
+
+      <div class="pub-content">
+        <ul class="pub-list">
+
+          {% for page in items | sort(attribute="date") | reverse %}
+            <li class="pub-item">
+
+              {% if page.extra.type %}
+                <div class="pub-type">{{ page.extra.type | safe }}</div>
               {% endif %}
-            </div>
+
+              <div class="pub-title">
+                {% if page.extra.title_html %}
+                  {{ page.extra.title_html | safe }}
+                {% else %}
+                  {{ page.title }}
+                {% endif %}
+              </div>
 
               <div class="pub-venue">
                 {% if page.extra.venue %}
-                    <em>{{ page.extra.venue }}</em>
+                  <em>{{ page.extra.venue }}</em>
                 {% endif %}
                 {% if page.extra.place %}
-                    ({{ page.extra.place }})
+                  ({{ page.extra.place }})
                 {% endif %}
               </div>
 
-            <div class="pub-authors">
-              {{ page.extra.all_authors }}
-            </div>
+              <div class="pub-authors">{{ page.extra.all_authors }}</div>
 
-            {% if page.content %}
-              <details class="pub-abstract">
-                <summary><a><span class="abstract-label">Summary</span></a></summary>
-                <div class="pub-abstract-text">
-                  <div class="pub-abstract-inner">
-                  {{ page.content | safe }}
+              {% if page.content %}
+                <details class="pub-abstract">
+                  <summary><span class="abstract-label">Summary</span></summary>
+                  <div class="pub-abstract-text">
+                    <div class="pub-abstract-inner">
+                      {{ page.content | safe }}
+                    </div>
                   </div>
-                </div>
-              </details>
-            {% endif %}
+                </details>
+              {% endif %}
 
               <div class="pub-icon">
-            {% if page.extra.doi %}
-                <a href="https://doi.org/{{ page.extra.doi }}"
-                   aria-label="DOI"
-                   class="icon link"></a>
-            {% elif page.extra.url %}
-                <a href="{{ page.extra.url }}"
-                   aria-label="URL"
-                   class="icon link"></a>
-            {% endif %}
+                {% if page.extra.doi %}
+                  <a href="https://doi.org/{{ page.extra.doi }}" aria-label="DOI" class="icon link"></a>
+                {% elif page.extra.url %}
+                  <a href="{{ page.extra.url }}" aria-label="URL" class="icon link"></a>
+                {% endif %}
               </div>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-{% endfor %}
-  </div>
+
+            </li>
+          {% endfor %}
+
+        </ul>
+      </div>
+    </section>
+
+  {% endfor %}
 </div>
+
 {% endblock %}
