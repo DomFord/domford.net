@@ -1,6 +1,39 @@
-/* =========================
-   Publication layout
-   ========================= */
+.page-publications {
+  margin: 0 auto;
+  max-width: 40rem; // nice readable width
+  padding: 2rem 0;
+}
+
+.pub-year-row {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.pub-year-col {
+  display: flex;
+  flex-direction: column;
+  width: 4rem;              // narrow column
+  flex-shrink: 0;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border-right: 2px solid var(--main-color);
+  position: relative;
+}
+
+.pub-year {
+  font-family: var(--font-family-headers);
+  font-size: 1.4rem;
+  font-weight: bold;
+  opacity: 0.7;
+  position: sticky;
+  top: 2rem; // optional: keeps the year visible while scrolling
+}
+
+.pub-content {
+  flex: 1;
+}
 
 .pub-list {
   list-style: none;
@@ -9,181 +42,88 @@
 }
 
 .pub-item {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 .pub-type {
-  font-family: 'Inter', sans-serif;
-  font-size: small;
-  font-style: italic;
-  opacity: 0.5;
-  margin-bottom: 0.2rem;
-  border-top: 1px dotted var(--muted-color);
-  padding-top: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+  opacity: 0.6;
 }
 
 .pub-title {
-  font-family: 'Lora', serif;
-  font-weight: 600;
-  font-size: 1.2rem;
-  color: var(--main-color);
-  margin-bottom: 0.2rem;
+  font-family: var(--font-family-headers);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
 }
 
 .pub-venue {
-  font-family: 'Lora', serif;
-  font-size: 1rem;
-  margin: 0.2rem 0 0.6rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-bottom: 0.25rem;
 }
 
 .pub-authors {
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
-  color: var(--main-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
 }
 
 .pub-citation {
-  margin-top: 1rem;
-  font-size: 0.9rem;
-  opacity: 0.9;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  opacity: 0.7;
+}
+
+.pub-abstract summary {
+  cursor: pointer;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.pub-abstract-text {
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid rgba(0,0,0,0.1);
+}
+
+.pub-abstract-inner {
+  padding: 0.5rem 0;
+  line-height: 1.5;
 }
 
 .pub-icon {
   margin-top: 0.5rem;
 }
 
-
-/* =========================
-   Abstract disclosure
-   ========================= */
-
-.pub-abstract {
-  margin-top: 0.6rem;
+.pub-icon .icon.link {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.7;
 }
 
-.pub-abstract > summary {
-  cursor: pointer;
-  font-weight: 500;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  list-style: none;
+.pub-icon .icon.link:hover {
+  opacity: 1;
 }
 
-.pub-abstract > summary::-webkit-details-marker {
-  display: none;
-}
-
-.pub-abstract > summary::before {
-  content: "▸";
-  transition: transform 160ms ease;
-}
-
-.pub-abstract[open] > summary::before {
-  transform: rotate(90deg);
-}
-
-.pub-abstract-text {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 260ms cubic-bezier(.2, .6, .3, 1);
-  margin-top: 0.4rem;
-}
-
-.pub-abstract[open] > .pub-abstract-text {
-  grid-template-rows: 1fr;
-}
-
-.pub-abstract-inner {
-  overflow: hidden;
-  font-size: small;
-  opacity: 0.8;
-}
-
-
-/* =========================
-   Year grouping — MOBILE FIRST
-   ========================= */
-
-.pub-year-row {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Year label */
-.pub-year-col {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-bottom: 1rem;
-}
-
-.pub-year {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: var(--muted-color);
-  text-align: center;
-}
-
-/* Horizontal line (mobile) */
-.pub-year-col::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -0.5rem;
-  height: 2px;
-  background-color: var(--muted-color);
-}
-
-/* Content column */
-.pub-year-row > .content {
-  position: relative;
-}
-
-.pub-list {
-  position: relative;
-}
-
-/* =========================
-   Tablet / Desktop enhancement
-   ========================= */
-
-@media (min-width: $breakpoint-med) {
-
+@media (max-width: 720px) {
   .pub-year-row {
-    position: relative;
+    flex-direction: column;
   }
 
-  /* Year column */
   .pub-year-col {
-    position: absolute;
-    left: -4rem;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 2.5rem;
-    text-align: right;
-    padding-right: 0.5rem;
-  }
-
-  .pub-year {
-    text-align: right;
-  }
-
-  /* Remove horizontal line */
-  .pub-year-col::after {
-    content: none;
-  }
-
-  .pub-list::before {
-    content: "";
-    position: absolute;
-    left: -1rem;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background-color: var(--muted-color);
+    width: auto;
+    border-right: none;
+    border-bottom: 2px solid var(--main-color);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
   }
 }
