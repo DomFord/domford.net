@@ -1,5 +1,5 @@
 +++
-title = "In the Media"
+title = "In the Media | Dom Ford"
 description = "Public engagement with me and my research."
 template = "media.html"
 page_template = "page.html"

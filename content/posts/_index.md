@@ -1,5 +1,5 @@
 +++
-title = "Posts"
+title = "Posts | Dom Ford"
 
 description = "Posts"
 

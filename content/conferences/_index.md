@@ -1,5 +1,5 @@
 +++
-title = "Conference Presentations"
+title = "Conference Presentations | Dom Ford"
 description = "Selected conference talks and presentations."
 template = "publications.html"
 page_template = "page.html"
