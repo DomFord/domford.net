@@ -16,6 +16,7 @@
 {% endif %}
   <meta name="author" content="{{config.extra.author}}">
   {% if page.extra.keywords is defined %}<meta name="keywords" content="{{ page.extra.keywords }}">{% endif %}
+  <link rel="alternate" type="application/atom+xml" href="/posts/atom.xml">
   <link type="text/css" rel="stylesheet" href="{{ get_url(path="css/grid.css") }}?v={{ cdn_version }}">
   <link type="text/css" rel="stylesheet" href="{{ get_url(path="css/style.css") }}?v={{ cdn_version }}">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path="images/apple-touch-icon.png") }}>

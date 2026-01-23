@@ -1,5 +1,6 @@
 +++
 title = "Longlisted for Enter Open Access Award 2024"
+authors = ["Dom Ford"]
 date = 2024-06-19
 description = "I've been longlisted for the Enter Open Access Award 2024, celebrating researchers furthering the cause of open access publishing."
 draft = false

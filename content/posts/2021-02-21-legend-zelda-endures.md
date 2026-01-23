@@ -1,5 +1,6 @@
 +++
 title = "Why The Legend of Zelda Endures"
+authors = ["Dom Ford"]
 date = 2021-02-21
 description = "The Legend of Zelda turns 35"
 draft = false

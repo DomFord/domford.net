@@ -1,6 +1,7 @@
 +++
 title = "Exorcising Big Tech: The Operating System"
-date = 2026-01-23
+authors = ["Dom Ford"]
+date = 2026-01-22T15:00:00Z
 description = "My futile attempt to rid my life of big tech."
 draft = false
 

@@ -1,5 +1,6 @@
 +++
 title = "Call for papers – Special issue on fictional games and fictional game studies"
+authors = ["Dom Ford"]
 date = 2024-02-16
 description = "Along with Stefano Gualeni and Riccardo Fassone, I am editing a special issue of Eludamos on fictional games and fictional game studies."
 draft = false

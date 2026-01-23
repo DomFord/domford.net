@@ -7,6 +7,8 @@ minify_html = true
 title = "Dom Ford"
 description = "Personal website of games researcher Dom Ford."
 
+# generate_feeds = true
+
 # The default language; used in feeds.
 default_language = "en"
 

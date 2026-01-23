@@ -1,5 +1,6 @@
 +++
 title = "New Books Network podcast on Mytholudics"
+authors = ["Dom Ford"]
 date = 2025-08-14
 description = "I was invited to talk about my book, Mytholudics, on the New Books Network"
 draft = false
