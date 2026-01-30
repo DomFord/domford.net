@@ -1,36 +1,63 @@
 [
   {
-    "title": "Communicative artificial intelligence for nonplayer characters in digital games: Mapping the field",
-    "title_html": "Communicative artificial intelligence for nonplayer characters in digital games: Mapping the field",
-    "authors": [
-      {
-        "family": "Ford",
-        "given": "Dom"
-      }
-    ],
-    "year": "2025",
-    "venue": "Abstract Proceedings of DiGRA 2025: Games at the Crossroads",
-    "doi": "10.26503/dl.v2025i3.2489",
-    "slug": "2025-communicative-artificial-intelligence-for-nonplayer-characte",
-    "url": "/publications/2025-communicative-artificial-intelligence-for-nonplayer-characte/"
-  },
-  {
-    "title": "The magic prison: Game rules as a tool for dread in <i>Sir Gawain and the Green Knight</i> and <i>Inscryption</i>",
-    "title_html": "The magic prison: Game rules as a tool for dread in <i>Sir Gawain and the Green Knight</i> and <i>Inscryption</i>",
+    "title": "“Honor died on the beach”: Constructing Japaneseness through monstrosity in <i>Ghost of Tsushima</i>",
+    "title_html": "“Honor died on the beach”: Constructing Japaneseness through monstrosity in <i>Ghost of Tsushima</i>",
     "authors": [
       {
         "family": "Ford",
         "given": "Dom"
       },
       {
-        "family": "Thorkildsen",
-        "given": "Sophie"
+        "family": "Blom",
+        "given": "Joleen"
       }
     ],
-    "year": "2023",
-    "venue": "Extended Abstract Proceedings of the 2023 DiGRA International Conference: Limits and Margins of Games",
-    "doi": "10.26503/dl.v2023i2.2122",
-    "slug": "2023-the-magic-prison",
-    "url": "/publications/2023-the-magic-prison/"
+    "year": "2025",
+    "venue": "Monstrosity in games and play: A multidisciplinary examination of the monstrous in contemporary cultures",
+    "doi": "",
+    "slug": "2025-honor-died-on-the-beach",
+    "url": "/publications/2025-honor-died-on-the-beach/"
+  },
+  {
+    "title": "The curse of knowledge: An introduction",
+    "title_html": "The curse of knowledge: An introduction",
+    "authors": [
+      {
+        "family": "Ford",
+        "given": "Dom"
+      },
+      {
+        "family": "Gualeni",
+        "given": "Stefano"
+      },
+      {
+        "family": "Van de Mosselaer",
+        "given": "Nele"
+      },
+      {
+        "family": "Vella",
+        "given": "Daniel"
+      }
+    ],
+    "year": "2026",
+    "venue": "Scholar’s codex: Academia explores the games of FromSoftware",
+    "doi": "",
+    "slug": "2026-the-curse-of-knowledge",
+    "url": "/publications/2026-the-curse-of-knowledge/"
+  },
+  {
+    "title": "The fires of speculation: Bramd",
+    "title_html": "The fires of speculation: Bramd",
+    "authors": [
+      {
+        "family": "Ford",
+        "given": "Dom"
+      }
+    ],
+    "year": "2026",
+    "venue": "Scholar’s codex: Academia explores the games of FromSoftware",
+    "doi": "",
+    "slug": "2026-the-fires-of-speculation",
+    "url": "/publications/2026-the-fires-of-speculation/"
   }
 ]

@@ -5,6 +5,8 @@ authors = ["Dom Ford"]
 
 [extra]
 type = "conference paper"
+editors = "[]"
+all_editors = " (editors)"
 all_authors = "Dom Ford"
 title_html = '''
 Beyond the wall: The boundaries of the neomedieval town in singleplayer roleplaying games

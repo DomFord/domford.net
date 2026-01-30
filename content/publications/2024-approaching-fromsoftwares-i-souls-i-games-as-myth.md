@@ -5,6 +5,8 @@ authors = ["Dom Ford"]
 
 [extra]
 type = "journal article"
+editors = "[]"
+all_editors = " (editors)"
 all_authors = "Dom Ford"
 title_html = '''
 Approaching FromSoftware’s <i>Souls</i> games as myth

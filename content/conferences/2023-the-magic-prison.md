@@ -6,7 +6,7 @@ authors = ["Dom Ford", "Sophie Thorkildsen"]
 [extra]
 type = "extended abstract presentation"
 conference = "2023 DiGRA International Conference: Limits and Margins of Games"
-place = "Seville, Spain"
+place = ""
 all_authors = "Dom Ford and Sophie Thorkildsen"
 title_html = '''
 The magic prison: Game rules as a tool for dread in <i>Sir Gawain and the Green Knight</i> and <i>Inscryption</i>
@@ -18,7 +18,7 @@ authors_structured = [
   { family = "Thorkildsen", given = "Sophie" },
 ]
 doi = "10.26503/dl.v2023i2.2122"
-citation = "Ford, D., & Thorkildsen, S. (2023). <em>The magic prison: Game rules as a tool for dread in <i>Sir Gawain and the Green Knight</i> and <i>Inscryption</i></em> [Extended abstract]. 2023 DiGRA International Conference: Limits and Margins of Games, Seville, Spain. <a href='https://doi.org/10.26503/dl.v2023i2.2122'>https://doi.org/10.26503/dl.v2023i2.2122</a>"
+citation = "Ford, D., & Thorkildsen, S. (2023). <em>The magic prison: Game rules as a tool for dread in <i>Sir Gawain and the Green Knight</i> and <i>Inscryption</i></em> [Extended abstract]. 2023 DiGRA International Conference: Limits and Margins of Games, . <a href='https://doi.org/10.26503/dl.v2023i2.2122'>https://doi.org/10.26503/dl.v2023i2.2122</a>"
 taxonomies = { type = ["extended abstract presentation"] }
 +++
 

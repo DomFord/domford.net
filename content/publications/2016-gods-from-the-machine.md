@@ -5,6 +5,8 @@ authors = ["Dom Ford"]
 
 [extra]
 type = "thesis"
+editors = "[]"
+all_editors = " (editors)"
 all_authors = "Dom Ford"
 title_html = '''
 Gods from the machine: Godhood and morality in roleplaying videogames

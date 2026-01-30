@@ -6,7 +6,7 @@ authors = ["Dom Ford"]
 [extra]
 type = "extended abstract presentation"
 conference = "DiGRA International Conference 2025: Games at the Crossroads"
-place = "Valletta, Malta"
+place = ""
 all_authors = "Dom Ford"
 title_html = '''
 Communicative artificial intelligence for nonplayer characters in digital games: Mapping the field
@@ -17,7 +17,7 @@ authors_structured = [
   { family = "Ford", given = "Dom" },
 ]
 doi = "10.26503/dl.v2025i3.2489"
-citation = "Ford, D. (2025, June 16). <em>Communicative artificial intelligence for nonplayer characters in digital games: Mapping the field</em> [Extended abstract]. DiGRA International Conference 2025: Games at the Crossroads, Valletta, Malta. <a href='https://doi.org/10.26503/dl.v2025i3.2489'>https://doi.org/10.26503/dl.v2025i3.2489</a>"
+citation = "Ford, D. (2025, June 16). <em>Communicative artificial intelligence for nonplayer characters in digital games: Mapping the field</em> [Extended abstract]. DiGRA International Conference 2025: Games at the Crossroads, . <a href='https://doi.org/10.26503/dl.v2025i3.2489'>https://doi.org/10.26503/dl.v2025i3.2489</a>"
 taxonomies = { type = ["extended abstract presentation"] }
 +++
 

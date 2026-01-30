@@ -5,6 +5,8 @@ authors = ["Dom Ford"]
 
 [extra]
 type = "conference paper"
+editors = "[{'family': 'Yannakakis', 'given': 'Georgios N.'}, {'family': 'Liapis', 'given': 'Antonios'}, {'family': 'Kyburz', 'given': 'Penny'}, {'family': 'Volz', 'given': 'Vanessa'}, {'family': 'Khosmood', 'given': 'Foaad'}, {'family': 'Lopes', 'given': 'Phil'}]"
+all_editors = "Georgios N. Yannakakis, Antonios Liapis, Penny Kyburz, Vanessa Volz, Foaad Khosmood and Phil Lopes (editors)"
 all_authors = "Dom Ford"
 title_html = '''
 Giantness and excess in <i>Dark Souls</i>

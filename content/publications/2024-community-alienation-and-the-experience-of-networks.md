@@ -5,6 +5,8 @@ authors = ["Dom Ford"]
 
 [extra]
 type = "journal article"
+editors = "[]"
+all_editors = " (editors)"
 all_authors = "Dom Ford"
 title_html = '''
 Community, alienation and the experience of networks: Gamevironments and theories of community

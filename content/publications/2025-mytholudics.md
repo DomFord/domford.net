@@ -5,6 +5,8 @@ authors = ["Dom Ford"]
 
 [extra]
 type = "book"
+editors = "[]"
+all_editors = " (editors)"
 all_authors = "Dom Ford"
 title_html = '''
 Mytholudics: Games and myth

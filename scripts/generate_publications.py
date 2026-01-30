@@ -48,6 +48,9 @@ def hash_text(text: str) -> str:
 def format_authors(author_list):
     return [f"{a['family']}, {a['given']}" for a in author_list]
 
+def format_editors(editor_list):
+    return [f"{a['family']}, {a['given']} (Eds.)," for a in author_list]
+
 def format_full_name(person):
     return f"{person['given']} {person['family']}"
 
@@ -306,17 +309,28 @@ def generate_conference_paper_citation(pub):
     return citation
 
 def generate_book_citation(pub):
-    authors = join_names(
-        [format_initial_name(a) for a in pub["authors"]]
-    )
+    authors = join_names([format_initial_name(a) for a in pub["authors"]])
     year = pub["year"]
     title = pub["title"]
-    editors = join_names(
-        [format_initial_name(e) for e in pub["editors"]]
-    )
+    editors = join_names([format_initial_name(e) for e in pub["editors"]])
     publisher = pub.get("publisher", "")
 
     citation = f"{authors} ({year}). <em>{title}</em>. {publisher}."
+
+    if pub.get("doi"):
+        citation += f" <a href='https://doi.org/{pub['doi']}'>https://doi.org/{pub['doi']}</a>"
+    elif pub.get("url"):
+        citation += f" <a href='{pub['url']}'>{pub['url']}</a>"
+
+    return citation
+
+def generate_edited_collection_citation(pub):
+    authors = join_names([format_initial_name(a) for a in pub["editors"]])
+    year = pub["year"]
+    title = pub["title"]
+    publisher = pub.get("publisher", "")
+
+    citation = f"{authors} (Eds.). ({year}). <em>{title}</em>. {publisher}."
 
     if pub.get("doi"):
         citation += f" <a href='https://doi.org/{pub['doi']}'>https://doi.org/{pub['doi']}</a>"
@@ -415,8 +429,11 @@ def normalize_entry(entry):
 def render_markdown_pubs(pub):
 
     authors_list = [format_full_name(a) for a in pub["authors"]]
+    editors_list = [format_full_name(e) for e in pub["editors"]]
     authors_toml = ", ".join(f'"{toml_escape(a)}"' for a in authors_list)
+    editors_toml = ", ".join(f'"{toml_escape(e)}"' for e in editors_list)
     all_authors = join_full_names(authors_list)
+    all_editors = f'{join_full_names(editors_list)} (editors)'
     lines = [
         "+++",
         f'title = "{toml_escape(pub["title"])}"',
@@ -425,6 +442,8 @@ def render_markdown_pubs(pub):
         "",
         "[extra]",
         f'type = "{pub["type"]}"',
+        f'editors = "{pub["editors"]}"',
+        f'all_editors = "{all_editors}"',
         f'all_authors = "{all_authors}"',
         "title_html = '''",
         pub["title_html"],
@@ -452,7 +471,10 @@ def render_markdown_pubs(pub):
     elif pub["type"] == "thesis":
         citation = generate_thesis_citation(pub)
     elif pub["type"] == "book":
-        citation = generate_book_citation(pub)
+        if pub["authors"]:
+            citation = generate_book_citation(pub)
+        else:
+            citation = generate_edited_collection_citation(pub)
 
     lines.append(f'citation = "{toml_escape(citation)}"')
     lines.append(f'taxonomies = {{ type = ["{pub["type"]}"] }}')

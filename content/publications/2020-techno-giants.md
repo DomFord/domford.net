@@ -5,6 +5,8 @@ authors = ["Dom Ford"]
 
 [extra]
 type = "conference paper"
+editors = "[]"
+all_editors = " (editors)"
 all_authors = "Dom Ford"
 title_html = '''
 Techno-giants: The giant, the machine and the human

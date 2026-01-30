@@ -45,7 +45,13 @@
                   {% endif %}
                 </div>
 
-                <div class="pub-authors">{{ page.extra.all_authors }}</div>
+                <div class="pub-authors">
+                  {% if page.authors %}
+                    {{ page.extra.all_authors }}
+                  {% else %}
+                    {{ page.extra.all_editors }}
+                  {% endif %}
+                </div>
 
                 {% if page.content %}
                   <details class="pub-abstract">

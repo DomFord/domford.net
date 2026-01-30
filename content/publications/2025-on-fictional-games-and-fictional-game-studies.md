@@ -5,6 +5,8 @@ authors = ["Stefano Gualeni", "Riccardo Fassone", "Dom Ford"]
 
 [extra]
 type = "journal article"
+editors = "[]"
+all_editors = " (editors)"
 all_authors = "Stefano Gualeni, Riccardo Fassone and Dom Ford"
 title_html = '''
 On fictional games and fictional game studies

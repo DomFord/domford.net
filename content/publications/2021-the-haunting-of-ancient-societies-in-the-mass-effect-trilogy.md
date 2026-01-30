@@ -5,6 +5,8 @@ authors = ["Dom Ford"]
 
 [extra]
 type = "journal article"
+editors = "[]"
+all_editors = " (editors)"
 all_authors = "Dom Ford"
 title_html = '''
 The haunting of ancient societies in the Mass Effect trilogy and <i>The Legend of Zelda: Breath of the Wild</i>
