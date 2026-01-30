@@ -28,7 +28,6 @@
   height: 24px;
   display: inline-block;
   margin: 0.25rem;
-  margin-bottom: 2rem;
 
   /* The visible color of the icon */
   background-color: var(--icon-color);
@@ -44,6 +43,8 @@
   /* Optional: smooth hover transitions */
   transition: background-color 0.2s ease, transform 0.2s ease;
 }
+    
+.profile-links > .icon { margin-bottom: 2rem; }
 
 .icon:hover {
   background-color: var(--icon-color-hover);
