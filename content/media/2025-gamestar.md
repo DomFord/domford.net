@@ -1,7 +1,7 @@
 +++
 title = "24 years after its release, this game is a huge success – because it takes you seriously."
 date = 2025-12-26
-authors = ["Martin Dietrich (interviewer, host)", "Sebastian Tyzak (host) "Dom Ford (interviewee)"]
+authors = ["Martin Dietrich (interviewer, host)", "Sebastian Tyzak (host), "Dom Ford (interviewee)"]
 
 [extra]
 type = "interview"
