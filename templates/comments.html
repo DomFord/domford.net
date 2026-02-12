@@ -1,4 +1,4 @@
-{% if page.extra.show_comments %}
+{% if page.extra.show_comments | default(value=false) %}
   <div class="row">
     <div class="col-2"></div>
     <div class="col-8" id="giscusWidget">

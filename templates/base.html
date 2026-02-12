@@ -1,7 +1,22 @@
 {% set cdn_version = now() | date(format="%d%m%Y%H%M%S") %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head
+  data-comments-enabled="{%- if page is defined and page.extra.show_comments | default(value=false) -%}true{%- else -%}false{%- endif -%}"
+  data-base-url="{{ get_url(path="") }}"
+  data-giscus-src="https://giscus.app/client.js"
+  data-giscus-repo="{{ config.extra.giscus["data-repo"] }}"
+  data-giscus-repo-id="{{ config.extra.giscus["data-repo-id"] }}"
+  data-giscus-category="{{ config.extra.giscus["data-category"] }}"
+  data-giscus-category-id="{{ config.extra.giscus["data-category-id"] }}"
+  data-giscus-mapping="{{ config.extra.giscus["data-mapping"] }}"
+  data-giscus-strict="{{ config.extra.giscus["data-strict"] }}"
+  data-giscus-reactions-enabled="{{ config.extra.giscus["data-reactions-enabled"] }}"
+  data-giscus-emit-metadata="{{ config.extra.giscus["data-emit-metadata"] }}"
+  data-giscus-input-position="{{ config.extra.giscus["data-input-position"] }}"
+  data-giscus-lang="{{ config.extra.giscus["data-lang"] }}"
+  data-giscus-crossorigin="{{ config.extra.giscus.crossorigin }}"
+  data-giscus-nonce="{{ config.extra.nonce }}">
   <meta charset="utf-8">
   <title>
     {%- if page.title -%} {{ page.title }}

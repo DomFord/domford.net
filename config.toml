@@ -61,3 +61,18 @@ nonce=""
 # [extra.footer.icons]
 # github = "#"
 # linkedin = "#"
+
+[extra.giscus]
+data-repo="domford/domford.net"
+data-repo-id="R_kgDOKm-xMg"
+data-category="General"
+data-category-id="DIC_kwDOKm-xMs4C2SAs"
+data-mapping="pathname"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="1"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="en"
+data-loading="lazy"
+crossorigin="anonymous"
