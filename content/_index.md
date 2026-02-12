@@ -75,4 +75,4 @@ I wrote my [PhD](https://pure.itu.dk/en/publications/mytholudics-understanding-g
 
 Here you’ll find links to all the other relevant internet places you can find me at, all of my publications, games and other projects, and the occasional blog post whenever I feel like writing something here.
 
-<small>*Last update: 29 January 2026.*</small>
+<small>*Last update: 12 February 2026.*</small>
