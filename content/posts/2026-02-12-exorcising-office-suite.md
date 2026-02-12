@@ -120,6 +120,8 @@ All of this is premised on the idea that I want an office *suite*: one package o
 
 There are many more alternatives if you don’t need a whole suite. Proton offers Google-style collaborative [docs](https://proton.me/drive/docs) and [sheets](https://proton.me/drive/sheets). You could do all your writing in markdown using a markdown editor like [Obsidian](https://obsidian.md/) (which, incidentally, is what I’m using to write this post and what I use for notetaking and knowledge management – more on that in another blog post). There are also many who swear by LaTeX, particularly those in more technical disciplines or the ‘harder’ sciences. [Overleaf](https://www.overleaf.com/) is a popular online LaTeX editor that allows for real-time collaboration.
 
+It's also well worth keeping an eye on recent initiatives like the [French government's](https://impress-preprod.beta.numerique.gouv.fr/home/), to produce more in-house, open source software for office work.
+
 # The bottom line
 I thought it would be harder to leave Word than it was. LibreOffice is not perfect, but it is very solid for what I need it for. But we all use office suits differently – it turns out to be a very personal thing. Because it’s so core to our work, it’s software that has to mould around our workflows with all their idiosyncrasies.
 
