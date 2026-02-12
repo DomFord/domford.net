@@ -16,7 +16,7 @@ show_shares = false
 keywords = "Legend of Zelda,myth"
 title_html = "Why <em>The Legend of Zelda</em> Endures"
 +++
-<div style="text-align: center;">{{ resize_image(path="static/images/loz0.jpg", width=500, height=500, op="fit_width") }}</div>
+<div class="centered">{{ resize_image(path="static/images/loz0.jpg", width=750, op="fit_width") }}</div>
 
 [I was recently interviewed by DR](https://www.dr.dk/nyheder/kultur/gaming/en-af-de-bedste-nogensinde-derfor-er-legendarisk-spilserie-stadig-et), the Danish public broadcaster, about the what makes the The Legend of Zelda series so enduring and popular for the occasion of its 35th anniversary. On this day in 1986, *The Legend of Zelda* was released on the Famicom. *Breath of the Wild*, released 32 years later with [a score of 97 on Metacritic](https://www.metacritic.com/game/switch/the-legend-of-zelda-breath-of-the-wild), doesn't suggest it's a series that has grown long in the tooth.
 
@@ -30,7 +30,7 @@ There are two elements I want to highlight. And here I'm taking as given the fac
 
 I said in the interview that one reason for The Legend of Zelda's success is that it strikes a balance between familiarity and strangeness. Each game feels at the same time like home and like a new adventure. There's enough to latch onto that starting a new Zelda game isn't a great undertaking in learning an alien world and getting to grips with obscure lore. But there's always enough difference that exploring Hyrule for the fifteenth time still feels like a new place, and nor does it feel like the same game with a new skin.
 
-{{ resize_image(path="static/images/loz1.jpg", width=500, height=500, op="fit_width") }}
+<div class="centered">{{ resize_image(path="static/images/loz1.jpg", width=750, op="fit_width") }}</div>
 
 It feels in many ways akin to Shigeru Miyamoto's inspiration for the series: exploring the countryside as a kid in rural Japan. Close enough to home to be ultimately safe and in familiar territory, but far enough from home that it feels like an adventure.
 
@@ -44,13 +44,13 @@ What allows for that balance between familiarity and strangeness, I believe, fro
 
 With notable exceptions, each game revolves around three characters, each representing a piece of the divinely powerful Triforce. The hero and player-character Link represents the Courage piece of the Triforce. Princess Zelda, Wisdom. And the big bad Ganon, Power. Ganon, with his lust for power, usually disrupts the balance between the three, and must be taken down by the combination of courage and wisdom.
 
-{{ resize_image(path="static/images/loz2.png", width=500, height=500, op="fit_width") }}
+<div class="centered">{{ resize_image(path="static/images/loz2.png", width=750, op="fit_width") }}</div>
 
 The focus in worldbuilding is not on individual characters, but on symbols. So each Link, Zelda and Ganon are actually reincarnations of the 'essence' of Link, Zelda and Ganon. What this allows is a very mythic sort of worldbuilding, one in which continuity and singular narrative coherence is not necessary (just look at [the mess that is the 'canonical' Zelda universe timeline](https://zelda.gamepedia.com/Zelda_Timeline)). Instead, we get retellings of the same fundamental *relations* of events.
 
 Link can be a warrior of old held in cryogenic sleep for a century, or an unassuming young boy without a fairy. He can be a cheeky youngster living on a tiny island with his grandmother and sister, or a knight-in-training in a city above the clouds. And who knows who Link will be in the future. Perhaps he won't always be a 'he', in a similar way that people questioned whether the Doctor in *Doctor Who* had to be male, or in conversations about a female James Bond.
 
-{{ resize_image(path="static/images/loz3.png", width=500, height=500, op="fit_width") }}
+<div class="centered">{{ resize_image(path="static/images/loz3.png", width=750, op="fit_width") }}</div>
 
 And typically, these relations of symbols lead to familiar narrative trajectories. A great evil (representing Power) rises from some slumber or imprisonment and throws off the balance of powers by imperilling the kingdom and often the Princess Zelda as body politic (Wisdom). All hope seems lost, and it is only through the rise of an unassuming hero against the odds (Courage) that the great evil is defeated and the kingdom restored.
 

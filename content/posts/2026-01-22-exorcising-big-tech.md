@@ -68,9 +68,10 @@ One **huge** caveat is that this mostly goes for my personal PC at home. My work
 
 Over time, I’ll write up my experiences with each of these. Click on the links below to find the blog posts I’ve put out so far.
 
-[The Operating System](/posts/exorcising-operating-system)
+- [The Operating System](/posts/exorcising-operating-system)
+- [The Office Suite](/posts/exorcising-office-suite)
 
-*Last update: 22 January 2026.*
+*Last update: 12 February 2026.*
 
 # General
 

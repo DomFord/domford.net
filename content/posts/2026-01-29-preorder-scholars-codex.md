@@ -16,7 +16,9 @@ show_shares = true
 keywords = "book,edited collection,FromSoftware,Demon’s Souls,Dark Souls,Bloodborne,Sekiro,Elden Ring"
 title_html = "SCHOLAR’S CODEX: Preorder Now!"
 +++
-{{ resize_image(path="static/images/scholars-codex.webp", width=500, height=500, op="fit_width") }}
+<div class="centered">
+{{ resize_image(path="static/images/scholars-codex.webp", width=750, op="fit_width") }}
+</div>
 
 🛒 [Preorder from Tune & Fairweather](https://www.tuneandfairweather.com/products/scholars-codex)
 

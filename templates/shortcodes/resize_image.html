@@ -1,2 +1,6 @@
+{% if height %}
 {% set image = resize_image(path=path, width=width, height=height, op=op) %}
+{% else %}
+{% set image = resize_image(path=path, width=width, op=op) %}
+{% endif %}
 <img src="{{ image.url }}" />

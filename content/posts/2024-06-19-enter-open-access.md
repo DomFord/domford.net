@@ -16,7 +16,7 @@ show_shares = false
 keywords = "open access,Enter Award,awards"
 title_html = "Longlisted for Enter Open Access Award 2024"
 +++
-<div style="text-align: center;">{{ resize_image(path="static/images/open-access-award.jpg", width=500, height=500, op="fit_width") }}</div>
+<div class="centered">{{ resize_image(path="static/images/open-access-award.jpg", width=750, op="fit_width") }}</div>
 
 I'm delighted to have been [longlisted for the Enter Award 2024](https://enter-award.irights-lab.de/longlist/)!
 

@@ -17,7 +17,7 @@ keywords = "big tech,enshittification,technofeudalism,operating systems, linux"
 title_html = "Exorcising Big Tech: The Operating System"
 +++
 
->*This is the first of my blog posts detailing how I am and have been trying to remove big tech from my life. Read the introductory post first: [Exorcising Big Tech](/posts/exorcising-big-tech).*
+>*This is the first of my blog posts detailing how I am and have been trying to remove big tech from my life. Read the introductory post first: [Exorcising Big Tech](/posts/exorcising-big-tech). Also check out my post on switching [office suites](/posts/exorcising-office-suite).*
 
 >**My bottom line**: It has never been easier to get off of Windows or macOS, but it still takes a little bit of knowhow. **If you can, switch to Linux.** I only have experience with [CachyOS](https://cachyos.org/), and my experience has been great. [Mint](https://www.linuxmint.com/) and [Zorin OS](https://zorin.com/) are often recommended as simple, familiar, intuitive and stable distributions.
 
@@ -31,7 +31,9 @@ So the only real contender is Linux. Linux is perfect for my criteria. But if yo
 
 [DistroWatch.com](https://distrowatch.com/) epitomises this. Looking straight from the 90s, it is a hub of information on the many possible distros you can choose. It even has a ranking of distros based on page hits.
 
-{{ resize_image(path="static/images/distrowatch.png", width=500, height=500, op="fit_width") }}
+<div class="centered">
+{{ resize_image(path="static/images/distrowatch.png", width=750, op="fit_width") }}
+</div>
 
 The main choice to make is what you want out of your OS. Distributions are divided into a number of ‘families’ based on certain landmark distributions and their derivatives, but it’s better to focus on what your goals are rather than the names. But some of the major families you might hear about are [Ubuntu](https://ubuntu.com/), [Debian](https://www.debian.org/), [Arch](https://archlinux.org/), Red Hat, [Gentoo](https://www.gentoo.org/), [Slackware](https://www.slackware.com/).
 
@@ -43,7 +45,9 @@ That also means it’s known for breaking fairly often. There are many features 
 # “Oh god can it please just work”
 If you want to switch to Linux but you don’t want to fiddle with the command line too much, there are plenty of options too. Whether you’re coming from Windows or macOS, there are also choices that intentionally mimic those interfaces, so it will be a familiar experience. [Zorin OS](https://zorin.com/os/), for instance, is explicitly targeted at new Linux users coming from Windows. [Mint](https://www.linuxmint.com/) is also a classic recommendation for this vibe. [Bazzite](https://bazzite.gg/) is one aimed at gamers.
 
-{{ resize_image(path="static/images/zorinos.png", width=500, height=500, op="fit_width") }}
+<div class="centered">
+{{ resize_image(path="static/images/zorinos.png", width=750, op="fit_width") }}
+</div>
 
 # Desktop environments
 Whichever you choose, know that the distribution and the *desktop environment* are separate things, unlike in Windows and macOS. (Well, they are separate, but you don’t get a choice.) Two popular ones are the Windows-esque [KDE Plasma](https://kde.org/plasma-desktop/) and the macOS-esque [GNOME](https://www.gnome.org/). These will make your computer look and feel like Windows or macOS respectively (before customisation, if you are so inclined), but can be installed on many different distros. 
@@ -67,7 +71,9 @@ Hipster that I am, I chose the most popular distro at the moment. CachyOS is an 
 
 For example, to update everything, I click on a little icon in my taskbar and it opens the updater.
 
-{{ resize_image(path="static/images/cachyos-update.png", width=500, height=500, op="fit_width") }}
+<div class="centered">
+{{ resize_image(path="static/images/cachyos-update.png", width=750, op="fit_width") }}
+</div>
 
 It tells me what packages have updates, and I just have to press ‘enter‘ and type in my password. Installing apps is also shockingly easy, once you get the hang of it. For example, to install Firefox, I would just have to open the command line and type `sudo pacman -S firefox`. Once you’re used to the syntax (`sudo` means using admin privileges, `pacman` is the name of the package manager, `-S` means ‘sync’ and `firefox` tells it what package to sync with), it feels like cheating. Instead of what I’d do on Windows – navigating to the website, finding the download page, downloading the installer, opening it, navigating through the options – I effectively just type `install firefox` and, like magic, it happens. Package managers like Pacman also keep track of all the dependencies that each piece of software needs and so can pool them. There is no equivalent to that on Windows, and the result is that every installer brings all the dependencies along with it, inflating the size.
 

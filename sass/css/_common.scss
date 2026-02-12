@@ -128,3 +128,18 @@ details > summary {
         }
     }
 }
+.centered {
+    text-align: center;
+}
+
+.centered img {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .centered img {
+        max-width: 600px;
+    }
+}
