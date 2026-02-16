@@ -14,6 +14,7 @@ tags = ["big tech","enshittification","technofeudalism"]
 show_copyright = true
 show_comments = true
 show_shares = true
+show_toc = true
 keywords = "big tech,enshittification,technofeudalism"
 title_html = "Exorcising Big Tech"
 +++
@@ -70,8 +71,9 @@ Over time, I’ll write up my experiences with each of these. Click on the links
 
 - [The Operating System](/posts/exorcising-operating-system)
 - [The Office Suite](/posts/exorcising-office-suite)
+- [The Reference Manager](/posts/exorcising-reference-manager)
 
-*Last update: 12 February 2026.*
+*Last update: 16 February 2026.*
 
 # General
 
@@ -92,7 +94,7 @@ Over time, I’ll write up my experiences with each of these. Click on the links
 | ✅      | Email client      | [Outlook](https://outlook.office.com/)       | [Evolution](https://gnome.pages.gitlab.gnome.org/evolution/help/)      | Evolution is the only Linux email client I can hook my work email to.                                 |
 | ✅      | PDF client        | [Nitro PDF Pro](https://www.gonitro.com/) | [Okular](https://okular.kde.org/)         | I did have a good reader/editor through my employment at Bremen. Unfortunately, I can’t find a good FOSS editor. Okular is a good reader though.                                     |
 | ✅      | Notes             | [Notion](https://www.notion.com/)      | [Obsidian](https://obsidian.md/)              |                                                                     |
-| ✅      | Reference manager | [Zotero](https://www.zotero.org/)        | —              | Already using the GOAT.                                                                               |
+| ✅      | [Reference manager](/posts/exorcising-reference-manager) | [Zotero](https://www.zotero.org/)        | —              | Already using the GOAT.                                                                               |
 | ✅      | Code editor       | [VSCode](https://code.visualstudio.com/)        | [Kate](https://kate-editor.org/), [VSCodium](https://vscodium.com/) |                                                                                                       |
 | ❌      | QDA               | [MaxQDA](https://www.maxqda.com/)        | ?              | [OpenQDA](https://openqda.org/), maybe, for FOSS? Else [Nvivo](https://lumivero.com/products/nvivo/), since my workplace has a license for it.                                                                                              |
 
