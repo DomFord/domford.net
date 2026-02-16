@@ -23,7 +23,7 @@ title_html = "Exorcising Big Tech: The Reference Manager"
 
 ***
 
-For once, the choice is easy. It’s [Zotero](https://www.zotero.org/). Zotero is the best, cheapest and most ethical reference management software, and it’s not even close. It is free, open source, run by a nonprofit (Corporation for Digital Scholarship, based in the US), and at least on a par with, if not more powerful than, all its competitors.
+For once, the choice is easy. It’s [Zotero](https://www.zotero.org/). Zotero is the best, cheapest and most ethical reference management software, and it’s not even close. It is free, open source, run by a nonprofit ([Corporation for Digital Scholarship](https://digitalscholar.org/), based in the US), and at least on a par with, if not more powerful than, all its competitors.
 
 [Wikipedia has a good comparison table](https://en.wikipedia.org/wiki/Comparison_of_reference_management_software), but here’s my own covering just the main competitors I hear about and my take on them.
 
