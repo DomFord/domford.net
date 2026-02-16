@@ -50,7 +50,7 @@ The focus in worldbuilding is not on individual characters, but on symbols. So e
 
 Link can be a warrior of old held in cryogenic sleep for a century, or an unassuming young boy without a fairy. He can be a cheeky youngster living on a tiny island with his grandmother and sister, or a knight-in-training in a city above the clouds. And who knows who Link will be in the future. Perhaps he won't always be a 'he', in a similar way that people questioned whether the Doctor in *Doctor Who* had to be male, or in conversations about a female James Bond.
 
-<div class="centered">{{ display_image(path="static/images/loz3.png", width=750, op="fit_width") }}</div>
+<div class="centered">{{ display_image(path="static/images/loz3.png", width=700, op="fit_width") }}</div>
 
 And typically, these relations of symbols lead to familiar narrative trajectories. A great evil (representing Power) rises from some slumber or imprisonment and throws off the balance of powers by imperilling the kingdom and often the Princess Zelda as body politic (Wisdom). All hope seems lost, and it is only through the rise of an unassuming hero against the odds (Courage) that the great evil is defeated and the kingdom restored.
 
