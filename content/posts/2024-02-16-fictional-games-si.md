@@ -16,7 +16,7 @@ show_shares = false
 keywords = "call for papers,fictional games,special issue"
 title_html = "Call for papers – Special issue on fictional games and fictional game studies"
 +++
-<div class="centered">{{ resize_image(path="static/images/fictional-games.jpg", width=750, op="fit_width") }}</div>
+<div class="centered">{{ display_image(path="static/images/fictional-games.jpg", width=750, op="fit_width") }}</div>
 
 [See this call on the _Eludamos_ website.](https://eludamos.org/index.php/eludamos/announcement/view/117)
 

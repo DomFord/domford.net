@@ -33,7 +33,7 @@ So the only real contender is Linux. Linux is perfect for my criteria. But if yo
 [DistroWatch.com](https://distrowatch.com/) epitomises this. Looking straight from the 90s, it is a hub of information on the many possible distros you can choose. It even has a ranking of distros based on page hits.
 
 <div class="centered">
-{{ resize_image(path="static/images/distrowatch.png", width=750, op="fit_width") }}
+{{ display_image(path="static/images/distrowatch.png", width=750, op="fit_width") }}
 </div>
 
 The main choice to make is what you want out of your OS. Distributions are divided into a number of ‘families’ based on certain landmark distributions and their derivatives, but it’s better to focus on what your goals are rather than the names. But some of the major families you might hear about are [Ubuntu](https://ubuntu.com/), [Debian](https://www.debian.org/), [Arch](https://archlinux.org/), Red Hat, [Gentoo](https://www.gentoo.org/), [Slackware](https://www.slackware.com/).
@@ -47,7 +47,7 @@ That also means it’s known for breaking fairly often. There are many features 
 If you want to switch to Linux but you don’t want to fiddle with the command line too much, there are plenty of options too. Whether you’re coming from Windows or macOS, there are also choices that intentionally mimic those interfaces, so it will be a familiar experience. [Zorin OS](https://zorin.com/os/), for instance, is explicitly targeted at new Linux users coming from Windows. [Mint](https://www.linuxmint.com/) is also a classic recommendation for this vibe. [Bazzite](https://bazzite.gg/) is one aimed at gamers.
 
 <div class="centered">
-{{ resize_image(path="static/images/zorinos.png", width=750, op="fit_width") }}
+{{ display_image(path="static/images/zorinos.png", width=750, op="fit_width") }}
 </div>
 
 # Desktop environments
@@ -73,7 +73,7 @@ Hipster that I am, I chose the most popular distro at the moment. CachyOS is an 
 For example, to update everything, I click on a little icon in my taskbar and it opens the updater.
 
 <div class="centered">
-{{ resize_image(path="static/images/cachyos-update.png", width=750, op="fit_width") }}
+{{ display_image(path="static/images/cachyos-update.png", width=750, op="fit_width") }}
 </div>
 
 It tells me what packages have updates, and I just have to press ‘enter‘ and type in my password. Installing apps is also shockingly easy, once you get the hang of it. For example, to install Firefox, I would just have to open the command line and type `sudo pacman -S firefox`. Once you’re used to the syntax (`sudo` means using admin privileges, `pacman` is the name of the package manager, `-S` means ‘sync’ and `firefox` tells it what package to sync with), it feels like cheating. Instead of what I’d do on Windows – navigating to the website, finding the download page, downloading the installer, opening it, navigating through the options – I effectively just type `install firefox` and, like magic, it happens. Package managers like Pacman also keep track of all the dependencies that each piece of software needs and so can pool them. There is no equivalent to that on Windows, and the result is that every installer brings all the dependencies along with it, inflating the size.

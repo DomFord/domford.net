@@ -31,7 +31,7 @@ For many years I have defended the Microsoft Office suite. I have defended it ag
 But I have never been so incensed than when I opened up my Word one day to see this.
 
 <div class="centered">
-{{ resize_image(path="static/images/word-copilot.png", width=750, op="fit_width") }}
+{{ display_image(path="static/images/word-copilot.png", width=750, op="fit_width") }}
 </div>
 
 It was a statement of intent. You could turn it off at the beginning, but that didn’t matter. (You can’t turn it off now, anyway, it seems.) But inserting Copilot into Word in this way – not just to the side or as a new option in the menu, but right where I’m writing, unavoidable – showed that, going forward, the core principles of Word would be moving towards ‘co-writing’ with an AI assistant. This is anathema to the kind of work I use Word for: knowledge work. I agree with [Jill Walker Rettberg’s call to stop using AI in this kind of work](https://www.aftenposten.no/meninger/debatt/i/LMyAwR/stopp-bruken-av-kunstig-intelligens-til-kunnskapsarbeid):
@@ -59,7 +59,7 @@ Those are what I consider core to an office suite. For these purposes, most peop
 There are many options. I obviously haven’t tried them all. In fact, I’ve tried very few. That’s because I went to [LibreOffice](https://www.libreoffice.org/) quite early on, and have found it to be a very complete offering. On top of that, it’s open source (originally forked from the now-defunct [OpenOffice](https://www.openoffice.org/)), and is run by the nonprofit organisation [The Document Foundation](https://www.documentfoundation.org/), based in Germany.
 
 <div class="centered">
-{{ resize_image(path="static/images/libreoffice.png", width=750, op="fit_width") }}
+{{ display_image(path="static/images/libreoffice.png", width=750, op="fit_width") }}
 
 *An empty document in LibreOffice Writer in light mode, with ribbon-based interface and with the [Zotero](https://www.zotero.org/) add-on toolbar.*
 </div>

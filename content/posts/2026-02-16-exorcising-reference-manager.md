@@ -52,7 +52,7 @@ It’s easier to programmatically transform sentence case into title case than v
 >
 > `✅ "Honor died on the beach": constructing Japaneseness through monstrosity in <i>Ghost of Tsushima</i>`
 
-<div class="centered">{{ resize_image(path="static/images/zotero-input.png", width=500, op="fit_width") }}</div>
+<div class="centered">{{ display_image(path="static/images/zotero-input.png", width=1000, op="fit_width") }}</div>
 
 Proper nouns are always capitalised anyway, and each referencing style has different rules for whether to render titles in sentence or title case, and even in what ‘title case’ even entails, exactly. Storing it in sentence case and letting the parser handle the title case is the most robust solution.  With the correct example above, Zotero outputs it like so:
 
@@ -86,7 +86,7 @@ In my field, probably the most common wall that people hit is that there is no �
 In any case, put games in as `Software`. Input everything as normal, but put the developer in as `Programmer`. Click the little boxes next to the plus and minus symbols to switch the name field from two fields (i.e., first name and last name) to a single field (for mononyms, organisation names, etc.).
 
 <div class="centered">
-{{ resize_image(path="static/images/zotero-game-reference.png", width=500, op="fit_width") }}
+{{ display_image(path="static/images/zotero-game-reference.png", width=1000, op="fit_width") }}
 </div>
 
 ### TV series and using date ranges
@@ -110,7 +110,7 @@ If the item you’re trying to reference doesn’t have a type of its own or a c
 ## Use prefixes and suffixes
 We don’t exclusively cite with the straightforward “(Smith, 2021, p. 36)”. Sometimes we want a cheeky “(see Smith, 2021, p. 36 for a more in-depth study on this)”. Many then revert to manual citation for this. But Zotero can handle this with prefixes and suffixes. It’s as simple as it sounds: write in the prefix whatever you want to appear in the parentheses before the citation, and in the suffix whatever you want to appear after. It also gives you a preview so you can check what it looks like.
 
-<div class="centered">{{ resize_image(path="static/images/zotero-prefix-suffix.png", width=500, op="fit_width") }}</div>
+<div class="centered">{{ display_image(path="static/images/zotero-prefix-suffix.png", width=750, op="fit_width") }}</div>
 
 ## Before you submit, save and then unlink
 Another mild irritation as a copyeditor is when reference manager fields are left in the document. It can mess things up and can sometimes be a pain to remove. But, of course, when you submit you don’t always know that this will be the final version, so it makes sense that you don’t want to fully unlink yet.
@@ -121,7 +121,7 @@ When your document is ready, save it, then save a *new copy* (I just add `_unlin
 Sometimes you do want to edit a reference, but you don’t want to wait for it to be unlinked. Maybe you don’t want to forget about it, for instance. I’ve done this before when I haven’t wanted to include the book series and series volume in the reference (a bit overkill), but because that’s in the metadata, it will try to add it (depending on the referencing style selected). Go to the document’s Zotero document preferences, and from there you can edit the displayed output of each individual reference. Note that this prevents it from being automatically updated, so be sure that it’s not a reference that you’re going to update (for example, don’t do it with an online first article that you will likely want to update later down the line).
 
 <div class="centered">
-{{ resize_image(path="static/images/zotero-bibliography.png", width=750, op="fit_width") }}
+{{ display_image(path="static/images/zotero-bibliography.png", width=750, op="fit_width") }}
 
 *See where I’ve highlighted text – you can edit the reference output in that box.*</div>
 
