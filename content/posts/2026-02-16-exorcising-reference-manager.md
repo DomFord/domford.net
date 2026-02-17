@@ -130,6 +130,15 @@ Zotero is solid on its own, and being open source, it’s already under communit
 
 There are also many plugins that aren’t listed there, but you’ll have to do your own digging for those. If you think of a feature that you wish Zotero had, do a quick search to see if someone has actually made a plugin for it. A small frustration with relying on plugins is that new versions can render them outdated, and plugin authors may not active maintain them.
 
+## Zotero is also an RSS feed manager – use it for journals and blogs
+In the left-hand sidebar, scroll down to the bottom and you’ll see a collection called Feeds. Right click on that and you can add any RSS feed. This is especially useful for two things.
+
+First, and most related to Zotero as a reference manager, you can add the RSS feeds of journals, which automatically populates with every new article that journal publishes. You can then click Add to “My Library” to immediately send that article to your library. (The RSS feed usually does not produce the cleanest metadata, so you will have to clean the entry a bit.)
+
+<div class="centered">{{ display_image(path="static/images/zotero-rss.png", width=750, op="fit_width") }}</div>
+
+Second, you can add any RSS feed here. If you add a blog, you’ll be able to see any new blog post that comes out from that website. You can then either double click it to be taken to the URL for the blog post, or you can technically read it in-app. The content of the blog post goes into the `Abstract` field on the right-hand sidebar. It’s not the best reader, but it works!
+
 # Closing thoughts
 Well, this has gotten a bit long. If you know me well, you know I am big on referencing formats. Don’t ask me why. But referencing is important, and proper use of a reference manager can save you enormous amounts of time and energy.
 
