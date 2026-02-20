@@ -23,7 +23,7 @@ title_html = "Exorcising Big Tech: The Web Browser"
 
 ***
 
-[Google Chrome](https://www.google.com/chrome/) is *nearly* – but technically not quite – a monopoly in the web browser space. They missed out on the trifecta, as [in 2024 they *were* ruled to hold a monopoly in two spaces](https://arstechnica.com/tech-policy/2024/08/google-loses-dojs-big-monopoly-trial-over-search-business/): internet search and text advertising. Google were given a stay of execution with Chrome, however, [when they were not forced to sell it](https://arstechnica.com/gadgets/2025/09/google-wont-have-to-sell-chrome-judge-rules/).
+[Google Chrome](https://www.google.com/chrome/) is *nearly* – but technically not quite – a monopoly in the web browser space. They missed out on the trifecta, as [in 2024 they *were* ruled to hold a monopoly in only two spaces](https://arstechnica.com/tech-policy/2024/08/google-loses-dojs-big-monopoly-trial-over-search-business/): internet search and text advertising. Google were given a stay of execution with Chrome, however, [when they were not forced to sell it](https://arstechnica.com/gadgets/2025/09/google-wont-have-to-sell-chrome-judge-rules/).
 
 <div class="centered">{{ display_image(path="static/images/chrome-market-share.png", width=1000, op="fit_width") }}
 
