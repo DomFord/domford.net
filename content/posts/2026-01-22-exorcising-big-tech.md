@@ -72,8 +72,9 @@ Over time, I’ll write up my experiences with each of these. Click on the links
 - [The Operating System](/posts/exorcising-operating-system)
 - [The Office Suite](/posts/exorcising-office-suite)
 - [The Reference Manager](/posts/exorcising-reference-manager)
+- [The Web Browser](/posts/exorcising-web-browser)
 
-*Last update: 16 February 2026.*
+*Last update: 20 February 2026.*
 
 # General
 
@@ -81,7 +82,7 @@ Over time, I’ll write up my experiences with each of these. Click on the links
 | ------ | -------------------- | --------------- | --------- | ---------------------------------------- |
 | ✅      | [Operating system](/posts/exorcising-operating-system) | Windows 11      | [cachyOS](https://cachyos.org/)   |                                          |
 | ❌      | Phone OS             | [OxygenOS](https://www.oneplus.in/oxygenos16)         | ?         | [GrapheneOS](https://grapheneos.org/)? Would need a Pixel phone though... |
-| ✅      | Web browser          | [Firefox Nightly](https://www.firefox.com/en-US/firefox/149.0a1/releasenotes/) | -         |                                          |
+| ✅      | [Web browser](/posts/exorcising-web-browser)          | [Firefox Nightly](https://www.firefox.com/en-US/firefox/149.0a1/releasenotes/) | -         |                                          |
 | ✅      | Password manager     | [Firefox](https://www.firefox.com/en-US/features/password-manager/)         | [Bitwarden](https://bitwarden.com/) |                                          |
 | ✅      | Cloud storage        | [OneDrive](https://onedrive.live.com/)        | [Filen](https://filen.io/)     | I use OneDrive for some work things, since it is their officially supported cloud service.                                          |
 | ✅      | VPN                  | None            | [Mullvad](https://mullvad.net/en)   |                                          |

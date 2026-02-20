@@ -18,7 +18,7 @@ keywords = "big tech,enshittification,technofeudalism,operating systems, linux"
 title_html = "Exorcising Big Tech: The Operating System"
 +++
 
->*This is the first of my blog posts detailing how I am and have been trying to remove big tech from my life. Read the introductory post first: [Exorcising Big Tech](/posts/exorcising-big-tech). Also check out my post on switching [office suites](/posts/exorcising-office-suite) and [reference manager](/posts/exorcising-reference-manager).*
+>*This is the first of my blog posts detailing how I am and have been trying to remove big tech from my life. Read the introductory post first: [Exorcising Big Tech](/posts/exorcising-big-tech). Also check out my post on switching [office suites](/posts/exorcising-office-suite), [reference managers](/posts/exorcising-reference-manager) and [web browsers](/posts/exorcising-web-browser).*
 
 >**My bottom line**: It has never been easier to get off of Windows or macOS, but it still takes a little bit of knowhow. **If you can, switch to Linux.** I only have experience with [CachyOS](https://cachyos.org/), and my experience has been great. [Mint](https://www.linuxmint.com/) and [Zorin OS](https://zorin.com/) are often recommended as simple, familiar, intuitive and stable distributions.
 

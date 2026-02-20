@@ -17,7 +17,7 @@ show_toc = true
 keywords = "big tech,enshittification,technofeudalism,reference manager,Zotero"
 title_html = "Exorcising Big Tech: The Reference Manager"
 +++
-> *This is the third of my blog posts detailing how I am and have been trying to remove big tech from my life. Read the introductory post first: [Exorcising Big Tech](/posts/exorcising-big-tech). Also check out my post on switching [operating systems](/posts/exorcising-operating-system) and [office suites](/posts/exorcising-office-suite).*
+> *This is the third of my blog posts detailing how I am and have been trying to remove big tech from my life. Read the introductory post first: [Exorcising Big Tech](/posts/exorcising-big-tech). Also check out my post on switching [operating systems](/posts/exorcising-operating-system), [office suites](/posts/exorcising-office-suite) and [web browsers](/posts/exorcising-web-browser).*
 
 > **My bottom line**: Use [Zotero](https://www.zotero.org/).
 

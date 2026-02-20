@@ -18,7 +18,7 @@ keywords = "big tech,enshittification,technofeudalism,office suite, LibreOffice"
 title_html = "Exorcising Big Tech: The Office Suite"
 +++
 
-> *This is the second of my blog posts detailing how I am and have been trying to remove big tech from my life. Read the introductory post first: [Exorcising Big Tech](/posts/exorcising-big-tech). Also check out my posts on switching [operating systems](/posts/exorcising-operating-system) and [reference manager](/posts/exorcising-reference-manager).*
+> *This is the second of my blog posts detailing how I am and have been trying to remove big tech from my life. Read the introductory post first: [Exorcising Big Tech](/posts/exorcising-big-tech). Also check out my posts on switching [operating systems](/posts/exorcising-operating-system), [reference managers](/posts/exorcising-reference-manager) and [web browsers](/posts/exorcising-web-browser).*
 
 > **My bottom line**: The office suite is central to what we do in the humanities and social sciences, so it becomes a very personal choice that depends on your workflow. I strongly recommend gradually switching over to [LibreOffice](https://www.libreoffice.org/). It works similarly to familiar office suites and is as or more powerful in most areas, with some where it lacks.
 
