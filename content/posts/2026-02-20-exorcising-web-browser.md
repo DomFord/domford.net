@@ -55,6 +55,10 @@ Personally, I use [Firefox Nightly](https://www.firefox.com/en-US/firefox/149.0a
 
 *A fresh window in my Firefox Nightly.*</div>
 
+I also like Firefox’s approach to AI integration. Rather than forcing it into everything, AI features are clearly marked and described, with both granular and sweeping options to enable or block them. Features can be set to `Available`, `Enabled` or `Blocked`. `Blocked` is pretty clear, but even after reading the description I’m not *entirely* sure what the difference between `Available` and `Blocked` is. Still, I like this approach.
+
+<div class="centered">{{ display_image(path="static/images/firefox-ai.png", width=1000, op="fit_width") }}</div>
+
 There are [a](https://www.zdnet.com/home-and-office/work-life/i-speed-tested-11-browsers-and-the-fastest-might-surprise-you/) [thousand](https://www.browserating.com/) [browser](https://www.cloudwards.net/fastest-browser/) [performance](https://www.tech2geek.net/fastest-web-browser-in-2025-speed-test-results-comparison/) [comparisons](https://www.pcworld.com/article/2390201/browser-speed-2024-this-is-how-fast-chrome-firefox-edge-co.html) you can find. I would say that selecting your browser based on how many milliseconds faster it can load a page is silly. The reality is that all modern browsers perform comparably well. But it can also depend on a lot of things: your machine, your extensions, how the webpage was developed, and so on. If one seems to be performing noticeably bad for you, by all means try another. I regularly use other browsers and see no real difference.
 
 The choice for me is then mostly down to ethics and privacy. For me, that rules out Chromium-based browsers. There are other Firefox-based browsers – like [LibreWolf](https://librewolf.net/), [Zen Browser](https://zen-browser.app/), [WaterFox](https://www.waterfox.com/) and [Floorp](https://floorp.app/) – but honestly I’ve been satisfied enough with Firefox that I haven’t tried them enough to properly test them, and haven’t felt the need to. By all means check them out, however.
