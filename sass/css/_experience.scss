@@ -1,0 +1,74 @@
+.experience-page {
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+.experience-intro {
+  margin-bottom: 1.5rem;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.experience-card {
+  background: var(--code-bg-color);
+  border: 1px solid var(--hover-bg);
+  border-radius: 0.85rem;
+  padding: 1rem 1.1rem;
+}
+
+.experience-card-header {
+  margin-bottom: 0.4rem;
+}
+
+.experience-role {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+}
+
+.experience-org {
+  font-weight: 600;
+}
+
+.experience-org p {
+  margin: 0;
+}
+
+.experience-org p + p {
+  margin-top: 0.25rem;
+}
+
+.experience-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+
+.experience-summary {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.experience-details {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.experience-details li {
+  margin-bottom: 0.25rem;
+}
+
+.experience-details li p {
+  margin: 0;
+}
+
+.experience-details li:last-child {
+  margin-bottom: 0;
+}

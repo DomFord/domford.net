@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-8 content experience-page">
+    <h1 class="center">Academic Employment</h1>
+
+    {% if section.content %}
+      <div class="experience-intro">{{ section.content | safe }}</div>
+    {% endif %}
+
+    {% if section.extra.workplaces %}
+      <div class="experience-list">
+        {% for workplace in section.extra.workplaces %}
+          <article class="experience-card">
+            <div class="experience-card-header">
+              <h2 class="experience-role">{{ workplace.role }}</h2>
+              <div class="experience-org">
+                {{ workplace.organisation | markdown | safe }}
+              </div>
+            </div>
+
+            <div class="experience-meta">
+              {% if workplace.location %}
+                <span>{{ workplace.location }}</span>
+              {% endif %}
+              {% if workplace.start or workplace.end %}
+                <span>
+                  {{ workplace.start | default(value="") }}{% if workplace.start and workplace.end %} – {% endif %}{{ workplace.end | default(value="") }}
+                </span>
+              {% endif %}
+            </div>
+
+            {% if workplace.summary %}
+              <p class="experience-summary">{{ workplace.summary }}</p>
+            {% endif %}
+
+            {% if workplace.details %}
+              <ul class="experience-details">
+                {% for detail in workplace.details %}
+                  <li>{{ detail | markdown | safe }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+  <div class="col-2"></div>
+</div>
+
+{% endblock %}
