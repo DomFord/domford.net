@@ -22,8 +22,8 @@ start = "October 2025"
 end = "Present"
 summary = ""
 details = [
-  "LEAD AI programme (Marie Skłodowska-Curie Grant Agreement No. 101126560).",
-  "Center for Digital Narrative (Centre of Excellence funded by the Norwegian Research Council and the University of Bergen – Project no. 332643).",
+  "LEAD AI programme (Marie Skłodowska-Curie Grant Agreement No. 101126560)",
+  "Center for Digital Narrative (Centre of Excellence funded by the Norwegian Research Council and the University of Bergen – Project no. 332643)",
 ]
 
 [[extra.workplaces]]
@@ -34,10 +34,10 @@ start = "April 2023"
 end = "September 2025"
 summary = ""
 details = [
-  "Managing editor for [*gamevironments*](https://journals.suub.uni-bremen.de/index.php/gamevironments/).",
-  "Teacher, course manager and course designer for seminars in [BA Media and Communication Studies](https://zemki.uni-bremen.de/studium/ba-kommunikations-und-medienwissenschaft/), [MA Media and Public Engagement](https://zemki.uni-bremen.de/en/studies/m-a-media-and-public-engagement-2/) and [MA Digital Media and Society](https://zemki.uni-bremen.de/en/studies/m-a-digital-media-and-society/).",
+  "Managing editor for [*gamevironments*](https://journals.suub.uni-bremen.de/index.php/gamevironments/)",
+  "Teacher, course manager and course designer for seminars in [BA Media and Communication Studies](https://zemki.uni-bremen.de/studium/ba-kommunikations-und-medienwissenschaft/), [MA Media and Public Engagement](https://zemki.uni-bremen.de/en/studies/m-a-media-and-public-engagement-2/) and [MA Digital Media and Society](https://zemki.uni-bremen.de/en/studies/m-a-digital-media-and-society/)",
   "Classes: *Rituals in Digital Games* (Summer 2023 & 2024); *Comunity Formation in Digital Games* (Summer 2023 & 2024); *Play Design* (Winter 2023 & 2024, Summer 2024); *Communication, Media and Ethics in Digital Society* (Winter 2023 & 2024); *Digital Games and Community* (Winter 2024)",
-  "Thesis and individual project supervisor and co-supervisor for BA and MA students."
+  "Thesis and individual project supervisor and co-supervisor for BA and MA students"
 ]
 
 [[extra.workplaces]]
@@ -48,7 +48,7 @@ start = "September 2023"
 end = "January 2024"
 summary = ""
 details = [
-  "Teaching for [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games) class Games and Culture (15 ECTS).",
+  "Teaching for [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games) class Games and Culture (15 ECTS)",
 ]
 
 [[extra.workplaces]]
@@ -59,8 +59,11 @@ start = "August 2019"
 end = "December 2022"
 summary = ""
 details = [
-  "Teacher for classes in [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games).",
-  "Classes: *Games and Culture* (Autumn 2020); *Advanced Topics in Game Studies* (Autumn 2021)."
+  "Dissertation: [*Mytholudics: Understanding Games As/Through Myth*](https://pure.itu.dk/en/publications/mytholudics-understanding-games-asthrough-myth)",
+  "Supervisor: [Hans-Joachim Løvind Backe](https://pure.itu.dk/en/persons/hans-joachim-l%C3%B8vind-backe/)",
+  "Awarded with an [Elite Research Travel Grant](https://ufsn.dk/english/research-and-innovation/communicating-research/elite-research/) (*EliteForsk-rejsestipendium*, DKK 200,000, Danish Ministry of Higher Education and Science)",
+  "Teacher for classes in [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games)",
+  "Classes: *Games and Culture* (Autumn 2020); *Advanced Topics in Game Studies* (Autumn 2021)"
 ]
 
 [[extra.workplaces]]
@@ -71,7 +74,7 @@ start = "February 2019"
 end = "June 2019"
 summary = ""
 details = [
-  "Teaching for [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games) class Play Design (15 ECTS).",
+  "Teaching for [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games) class Play Design (15 ECTS)",
 ]
 
 [[extra.workplaces]]
@@ -82,6 +85,6 @@ start = "September 2018"
 end = "January 2019"
 summary = ""
 details = [
-  "Teaching for [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games) class Games and Culture (15 ECTS).",
+  "Teaching for [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games) class Games and Culture (15 ECTS)",
 ]
 +++
