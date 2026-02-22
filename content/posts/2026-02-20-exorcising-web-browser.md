@@ -55,7 +55,7 @@ Personally, I use [Firefox Nightly](https://www.firefox.com/en-US/firefox/149.0a
 
 *A fresh window in my Firefox Nightly.*</div>
 
-I also like Firefox’s approach to AI integration. Rather than forcing it into everything, AI features are clearly marked and described, with both granular and sweeping options to enable or block them. Features can be set to `Available`, `Enabled` or `Blocked`. `Blocked` is pretty clear, but even after reading the description I’m not *entirely* sure what the difference between `Available` and `Blocked` is. Still, I like this approach.
+I also like Firefox’s approach to AI integration. Rather than forcing it into everything, AI features are clearly marked and described, with both granular and sweeping options to enable or block them. Features can be set to `Available`, `Enabled` or `Blocked`. `Blocked` is pretty clear, but even after reading the description I’m not *entirely* sure what the difference between `Available` and `Enabled` is. Still, I like this approach.
 
 <div class="centered">{{ display_image(path="static/images/firefox-ai.png", width=1000, op="fit_width") }}</div>
 
