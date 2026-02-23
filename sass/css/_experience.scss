@@ -24,6 +24,23 @@
   margin-bottom: 0.4rem;
 }
 
+.experience-card-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.2rem;
+  flex-wrap: nowrap;
+}
+
+.experience-date-top {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-muted, #888);
+  white-space: nowrap;
+  margin-left: 1.5rem;
+  align-self: flex-start;
+}
+
 .experience-role {
   font-size: 1.2rem;
   margin-top: 0;
@@ -32,6 +49,11 @@
 
 .experience-org {
   font-weight: 600;
+  white-space: normal;
+  min-width: 0;
+  max-width: 32vw;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .experience-org p {

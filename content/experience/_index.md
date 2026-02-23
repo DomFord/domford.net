@@ -15,10 +15,14 @@ show_toc = false
 show_date = false
 
 [[extra.workplaces]]
-organisation = "[Center for Digital Narrative](https://www.uib.no/en/cdn) & [LEAD AI](https://www.uib.no/en/leadai), [University of Bergen](https://www.uib.no/en)"
+organisation = """
+  [Center for Digital Narrative](https://www.uib.no/en/cdn) & [LEAD AI](https://www.uib.no/en/leadai)
+  
+  [University of Bergen](https://www.uib.no/en)
+"""
 role = "Postdoctoral Research Fellow"
 location = "Bergen, Norway"
-start = "October 2025"
+start = "Oct 2025"
 end = "Present"
 summary = ""
 details = [
@@ -27,11 +31,15 @@ details = [
 ]
 
 [[extra.workplaces]]
-organisation = "[ZeMKI, Centre for Media, Communication and Information Research](https://zemki.uni-bremen.de/en/) & [Institute for Religious Studies and Related Didactics](https://www.uni-bremen.de/en/religionswissenschaft/), [University of Bremen](https://www.uni-bremen.de/en/)"
+organisation = """
+  [ZeMKI, Centre for Media, Communication and Information Research](https://zemki.uni-bremen.de/en/) & [Institute for Religious Studies and Related Didactics](https://www.uni-bremen.de/en/religionswissenschaft/)
+  
+  [University of Bremen](https://www.uni-bremen.de/en/)
+  """
 role = "Postdoctoral Researcher"
 location = "Bremen, Germany"
-start = "April 2023"
-end = "September 2025"
+start = "Apr 2023"
+end = "Sep 2025"
 summary = ""
 details = [
   "Managing editor for [*gamevironments*](https://journals.suub.uni-bremen.de/index.php/gamevironments/)",
@@ -44,19 +52,23 @@ details = [
 organisation = "[IT University of Copenhagen](https://en.itu.dk/)"
 role = "Assistant Lecturer"
 location = "Copenhagen, Denmark"
-start = "September 2023"
-end = "January 2024"
+start = "Sep 2023"
+end = "Jan 2024"
 summary = ""
 details = [
   "Teaching for [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games) class Games and Culture (15 ECTS)",
 ]
 
 [[extra.workplaces]]
-organisation = "[Center for Digital Play](https://digitalplay.itu.dk/), [IT University of Copenhagen](https://en.itu.dk/)"
+organisation = """
+  [Center for Digital Play](https://digitalplay.itu.dk/)
+
+  [IT University of Copenhagen](https://en.itu.dk/)
+  """
 role = "PhD Fellow"
 location = "Copenhagen, Denmark"
-start = "August 2019"
-end = "December 2022"
+start = "Aug 2019"
+end = "Dec 2022"
 summary = ""
 details = [
   "Dissertation: [*Mytholudics: Understanding Games As/Through Myth*](https://pure.itu.dk/en/publications/mytholudics-understanding-games-asthrough-myth)",
@@ -70,8 +82,8 @@ details = [
 organisation = "[IT University of Copenhagen](https://en.itu.dk/)"
 role = "Teaching Assistant"
 location = "Copenhagen, Denmark"
-start = "February 2019"
-end = "June 2019"
+start = "Feb 2019"
+end = "Jun 2019"
 summary = ""
 details = [
   "Teaching for [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games) class Play Design (15 ECTS)",
@@ -81,8 +93,8 @@ details = [
 organisation = "[IT University of Copenhagen](https://en.itu.dk/)"
 role = "Teaching Assistant"
 location = "Copenhagen, Denmark"
-start = "September 2018"
-end = "January 2019"
+start = "Sep 2018"
+end = "Jan 2019"
 summary = ""
 details = [
   "Teaching for [MSc Games](https://en.itu.dk/Programmes/MSc-Programmes/Games) class Games and Culture (15 ECTS)",

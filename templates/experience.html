@@ -15,21 +15,24 @@
       <div class="experience-list">
         {% for workplace in section.extra.workplaces %}
           <article class="experience-card">
-            <div class="experience-card-header">
-              <h2 class="experience-role">{{ workplace.role }}</h2>
-              <div class="experience-org">
-                {{ workplace.organisation | markdown | safe }}
+
+            <div class="experience-card-header experience-card-header-flex">
+              <div>
+                <h2 class="experience-role">{{ workplace.role }}</h2>
+                <div class="experience-org">
+                  {{ workplace.organisation | markdown | safe }}
+                </div>
               </div>
+              {% if workplace.start or workplace.end %}
+                <div class="experience-date-top">
+                  {{ workplace.start | default(value="") }}{% if workplace.start and workplace.end %} – {% endif %}{{ workplace.end | default(value="") }}
+                </div>
+              {% endif %}
             </div>
 
             <div class="experience-meta">
               {% if workplace.location %}
                 <span>{{ workplace.location }}</span>
-              {% endif %}
-              {% if workplace.start or workplace.end %}
-                <span>
-                  {{ workplace.start | default(value="") }}{% if workplace.start and workplace.end %} – {% endif %}{{ workplace.end | default(value="") }}
-                </span>
               {% endif %}
             </div>
 
