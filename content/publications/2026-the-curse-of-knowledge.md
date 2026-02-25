@@ -11,7 +11,7 @@ all_authors = "Dom Ford, Stefano Gualeni, Nele Van de Mosselaer and Daniel Vella
 title_html = '''
 The curse of knowledge: An introduction
 '''
-venue = "Scholar’s codex: Academia explores the games of FromSoftware"
+venue = "Scholar's codex: academia explores the games of FromSoftware"
 url = ""
 authors_structured = [
   { family = "Ford", given = "Dom" },
@@ -19,7 +19,7 @@ authors_structured = [
   { family = "Van de Mosselaer", given = "Nele" },
   { family = "Vella", given = "Daniel" },
 ]
-citation = "Ford, D., Gualeni, S., Van de Mosselaer, N., & Vella, D. (2026). The curse of knowledge: An introduction. In Ford, D., Gualeni, S., Van de Mosselaer, N., & Vella, D. (Eds.), <em>Scholar’s codex: Academia explores the games of FromSoftware</em> (pp. 8–17). Tune & Fairweather."
+citation = "Ford, D., Gualeni, S., Van de Mosselaer, N., & Vella, D. (2026). The curse of knowledge: An introduction. In Ford, D., Gualeni, S., Van de Mosselaer, N., & Vella, D. (Eds.), <em>Scholar's codex: academia explores the games of FromSoftware</em> (pp. 8–17). Tune & Fairweather."
 taxonomies = { type = ["chapter"] }
 +++
 

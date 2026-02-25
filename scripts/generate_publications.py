@@ -543,7 +543,7 @@ def main():
     OUTPUT_DIR_PRESENTATIONS.mkdir(parents=True, exist_ok=True)
     SEARCH_DIR.mkdir(parents=True, exist_ok=True)
 
-    with open(INPUT) as f:
+    with open(INPUT, encoding="utf-8") as f:
         entries = json.load(f)
 
     search_index = []

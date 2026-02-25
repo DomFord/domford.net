@@ -15,7 +15,6 @@
       <div class="experience-list">
         {% for workplace in section.extra.workplaces %}
           <article class="experience-card">
-
             <div class="experience-card-header experience-card-header-flex">
               <div>
                 <h2 class="experience-role">{{ workplace.role }}</h2>
@@ -29,17 +28,14 @@
                 </div>
               {% endif %}
             </div>
-
             <div class="experience-meta">
               {% if workplace.location %}
                 <span>{{ workplace.location }}</span>
               {% endif %}
             </div>
-
             {% if workplace.summary %}
               <p class="experience-summary">{{ workplace.summary }}</p>
             {% endif %}
-
             {% if workplace.details %}
               <ul class="experience-details">
                 {% for detail in workplace.details %}
@@ -51,8 +47,27 @@
         {% endfor %}
       </div>
     {% endif %}
+
+    {% if section.extra.education %}
+      <h1 class="education-header">Education</h2>
+      <div class="education-list">
+        {% for edu in section.extra.education %}
+          <article class="education-card distinct">
+            <div class="education-card-header experience-card-header-flex">
+              <div>
+                <div class="education-degree">{{ edu.degree }}</div>
+                <div class="education-inst">{{ edu.institution | markdown | safe }}</div>
+              </div>
+              <div class="education-year">{{ edu.year }}</div>
+            </div>
+            {% if edu.dissertation %}
+              <div class="education-dissertation">{{ edu.dissertation | markdown | safe }}</div>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
-  <div class="col-2"></div>
 </div>
 
 {% endblock %}

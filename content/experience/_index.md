@@ -14,11 +14,36 @@ keywords = "experience,work,employment"
 show_toc = false
 show_date = false
 
+# Education cards
+[[extra.education]]
+degree = "PhD Game Studies"
+institution = "[IT University of Copenhagen](https://en.itu.dk/)"
+year = "2019–2022"
+dissertation = "Dissertation: [*Mytholudics: Understanding Games As/Through Myth*](https://pure.itu.dk/en/publications/mytholudics-understanding-games-asthrough-myth), supervised by [Hans-Joachim Løvind Backe](https://pure.itu.dk/en/persons/hans-joachim-l%C3%B8vind-backe/)"
+
+[[extra.education]]
+degree = "MSc Game Design and Theory"
+institution = "[IT University of Copenhagen](https://en.itu.dk/)"
+year = "2017–2019"
+dissertation = "Thesis: [*The Giant in Digital Roleplaying Games*](https://doi.org/10.13140/RG.2.2.32717.90089/2), supervised by [Espen Aarseth](https://www.scm.cityu.edu.hk/people/aarseth-espen)"
+
+[[extra.education]]
+degree = "MA English Literary Studies"
+institution = "[University of Exeter](https://www.exeter.ac.uk/)"
+year = "2015–2016"
+dissertation = "Thesis: [*Gods from the Machine: Godhood and Morality in Roleplaying Videogames*](https://doi.org/10.13140/RG.2.2.29690.75206/1), supervised by [Debra Ramsay](https://experts.exeter.ac.uk/24813-debra-ramsay)"
+
+[[extra.education]]
+degree = "BA (Hons) English"
+institution = "[University of Exeter](https://www.exeter.ac.uk/)"
+year = "2012–2015"
+dissertation = "Thesis: *Playing Arthurian Legend: The Arthurian Myth in Videogames*, supervised by [Pascale Aebischer](https://experts.exeter.ac.uk/1218-pascale-aebischer)"
+
 [[extra.workplaces]]
 organisation = """
   [Center for Digital Narrative](https://www.uib.no/en/cdn) & [LEAD AI](https://www.uib.no/en/leadai)
   
-  [University of Bergen](https://www.uib.no/en)
+  [University of Bergen](http2-2015s://www.uib.no/en)
 """
 role = "Postdoctoral Research Fellow"
 location = "Bergen, Norway"

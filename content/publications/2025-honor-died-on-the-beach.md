@@ -11,13 +11,13 @@ all_authors = "Dom Ford and Joleen Blom"
 title_html = '''
 “Honor died on the beach”: Constructing Japaneseness through monstrosity in <i>Ghost of Tsushima</i>
 '''
-venue = "Monstrosity in games and play: A multidisciplinary examination of the monstrous in contemporary cultures"
+venue = "Monstrosity in games and play: a multidisciplinary examination of the monstrous in contemporary cultures"
 url = "https://doi.org/10.5117/9789463725682_ch01"
 authors_structured = [
   { family = "Ford", given = "Dom" },
   { family = "Blom", given = "Joleen" },
 ]
-citation = "Ford, D., & Blom, J. (2025). “Honor died on the beach”: Constructing Japaneseness through monstrosity in <i>Ghost of Tsushima</i>. In Stang, S., Meriläinen, M., Blom, J., & Hassan, L. (Eds.), <em>Monstrosity in games and play: A multidisciplinary examination of the monstrous in contemporary cultures</em> (pp. 25–44). Amsterdam University Press. <a href='https://doi.org/10.5117/9789463725682_ch01'>https://doi.org/10.5117/9789463725682_ch01</a>"
+citation = "Ford, D., & Blom, J. (2025). “Honor died on the beach”: Constructing Japaneseness through monstrosity in <i>Ghost of Tsushima</i>. In Stang, S., Meriläinen, M., Blom, J., & Hassan, L. (Eds.), <em>Monstrosity in games and play: a multidisciplinary examination of the monstrous in contemporary cultures</em> (pp. 25–44). Amsterdam University Press. <a href='https://doi.org/10.5117/9789463725682_ch01'>https://doi.org/10.5117/9789463725682_ch01</a>"
 taxonomies = { type = ["chapter"] }
 +++
 

@@ -11,12 +11,12 @@ all_authors = "Dom Ford"
 title_html = '''
 The fires of speculation: Bramd
 '''
-venue = "Scholar’s codex: Academia explores the games of FromSoftware"
+venue = "Scholar's codex: academia explores the games of FromSoftware"
 url = ""
 authors_structured = [
   { family = "Ford", given = "Dom" },
 ]
-citation = "Ford, D. (2026). The fires of speculation: Bramd. In Ford, D., Gualeni, S., Van de Mosselaer, N., & Vella, D. (Eds.), <em>Scholar’s codex: Academia explores the games of FromSoftware</em> (pp. 46–59). Tune & Fairweather."
+citation = "Ford, D. (2026). The fires of speculation: Bramd. In Ford, D., Gualeni, S., Van de Mosselaer, N., & Vella, D. (Eds.), <em>Scholar's codex: academia explores the games of FromSoftware</em> (pp. 46–59). Tune & Fairweather."
 taxonomies = { type = ["chapter"] }
 +++
 
