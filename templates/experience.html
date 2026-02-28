@@ -1,73 +1,70 @@
 {% extends "base.html" %}
 
+
 {% block content %}
+    <div class="col-9 content experience-page">
+      <h1 class="center">Academic Employment</h1>
 
-<div class="row">
-  <div class="col-2"></div>
-  <div class="col-8 content experience-page">
-    <h1 class="center">Academic Employment</h1>
+      {% if section.content %}
+        <div class="experience-intro">{{ section.content | safe }}</div>
+      {% endif %}
 
-    {% if section.content %}
-      <div class="experience-intro">{{ section.content | safe }}</div>
-    {% endif %}
-
-    {% if section.extra.workplaces %}
-      <div class="experience-list">
-        {% for workplace in section.extra.workplaces %}
-          <article class="experience-card">
-            <div class="experience-card-header experience-card-header-flex">
-              <div>
-                <h2 class="experience-role">{{ workplace.role }}</h2>
-                <div class="experience-org">
-                  {{ workplace.organisation | markdown | safe }}
+      {% if section.extra.workplaces %}
+        <div class="experience-list">
+          {% for workplace in section.extra.workplaces %}
+            <article class="experience-card">
+              <div class="experience-card-header experience-card-header-flex">
+                <div>
+                  <h2 class="experience-role">{{ workplace.role }}</h2>
+                  <div class="experience-org">
+                    {{ workplace.organisation | markdown | safe }}
+                  </div>
                 </div>
+                {% if workplace.start or workplace.end %}
+                  <div class="experience-date-top">
+                    {{ workplace.start | default(value="") }}{% if workplace.start and workplace.end %} – {% endif %}{{ workplace.end | default(value="") }}
+                  </div>
+                {% endif %}
               </div>
-              {% if workplace.start or workplace.end %}
-                <div class="experience-date-top">
-                  {{ workplace.start | default(value="") }}{% if workplace.start and workplace.end %} – {% endif %}{{ workplace.end | default(value="") }}
-                </div>
+              <div class="experience-meta">
+                {% if workplace.location %}
+                  <span>{{ workplace.location }}</span>
+                {% endif %}
+              </div>
+              {% if workplace.summary %}
+                <p class="experience-summary">{{ workplace.summary }}</p>
               {% endif %}
-            </div>
-            <div class="experience-meta">
-              {% if workplace.location %}
-                <span>{{ workplace.location }}</span>
+              {% if workplace.details %}
+                <ul class="experience-details">
+                  {% for detail in workplace.details %}
+                    <li>{{ detail | markdown | safe }}</li>
+                  {% endfor %}
+                </ul>
               {% endif %}
-            </div>
-            {% if workplace.summary %}
-              <p class="experience-summary">{{ workplace.summary }}</p>
-            {% endif %}
-            {% if workplace.details %}
-              <ul class="experience-details">
-                {% for detail in workplace.details %}
-                  <li>{{ detail | markdown | safe }}</li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          </article>
-        {% endfor %}
-      </div>
-    {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+      {% endif %}
 
-    {% if section.extra.education %}
-      <h1 class="education-header">Education</h2>
-      <div class="education-list">
-        {% for edu in section.extra.education %}
-          <article class="education-card distinct">
-            <div class="education-card-header experience-card-header-flex">
-              <div>
-                <div class="education-degree">{{ edu.degree }}</div>
-                <div class="education-inst">{{ edu.institution | markdown | safe }}</div>
+      {% if section.extra.education %}
+        <h1 class="education-header">Education</h2>
+        <div class="education-list">
+          {% for edu in section.extra.education %}
+            <article class="education-card distinct">
+              <div class="education-card-header experience-card-header-flex">
+                <div>
+                  <div class="education-degree">{{ edu.degree }}</div>
+                  <div class="education-inst">{{ edu.institution | markdown | safe }}</div>
+                </div>
+                <div class="education-year">{{ edu.year }}</div>
               </div>
-              <div class="education-year">{{ edu.year }}</div>
-            </div>
-            {% if edu.dissertation %}
-              <div class="education-dissertation">{{ edu.dissertation | markdown | safe }}</div>
-            {% endif %}
-          </article>
-        {% endfor %}
-      </div>
-    {% endif %}
-  </div>
-</div>
+              {% if edu.dissertation %}
+                <div class="education-dissertation">{{ edu.dissertation | markdown | safe }}</div>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
 
 {% endblock %}

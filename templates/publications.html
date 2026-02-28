@@ -23,10 +23,8 @@
 
         <div class="pub-content">
           <ul class="pub-list">
-            {% set sorted_items = items | sort(attribute="date") | reverse %}
-            {% for page in sorted_items %}
-              {% set is_last = loop.index == sorted_items | length %}
-              <li class="pub-item{% if is_last %} pub-item-last{% endif %}">
+            {% for page in items | sort(attribute="date") | reverse %}
+              <li class="pub-item">
                 {% if page.extra.type is defined %}
                   <div class="pub-type">{{ page.extra.type | safe }}</div>
                 {% endif %}

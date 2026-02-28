@@ -1,58 +1,36 @@
 {% block footer %}
 {% if page.extra.show_copyright or section.extra.show_copyright or term is defined %}
 {%- set YEAR = now() | date(format="%Y") -%}
-<footer class="row">
-    <div class="col-2"></div>
-    <div class="col-8" id="footer-wrapper">
-        <div class="footer-text">{{ config.extra.copyright_string | replace (from="%YEAR%", to=YEAR) | markdown | safe }}</div><!--
-        {% if config.extra.footer.icons.github %}
-        <div class="footer-icons"><a href="{{config.extra.footer.icons.github}}" class="icon footer icon-gh"></a></div>
-        {% endif %}
-        {% if config.extra.footer.icons.linkedin %}
-        <div class="footer-icons"><a href="{{config.extra.footer.icons.linkedin}}" class="icon footer icon-linkedin"></a></div>
-        {% endif %}
-    </div>-->
-
-
-        {% if config.extra.bluesky %}
-            <div class="footer-icons"><a href="{{ config.extra.bluesky }}"
-               aria-label="Bluesky"
-               class="icon bluesky"></a></div>
-        {% endif %}
-
-
-        {% if config.extra.linkedin %}
-            <div class="footer-icons"><a href="{{ config.extra.linkedin }}"
-               aria-label="LinkedIn"
-               class="icon linkedin"></a></div>
-        {% endif %}
-
-
-        {% if config.extra.researchgate %}
-            <div class="footer-icons"><a href="{{ config.extra.researchgate }}"
-               aria-label="ResearchGate"
-               class="icon researchgate"></a></div>
-        {% endif %}
-
-        {% if config.extra.google_scholar %}
-            <div class="footer-icons"><a href="{{ config.extra.google_scholar }}"
-               aria-label="Google Scholar"
-               class="icon google-scholar"></a></div>
-        {% endif %}
-
-
-        {% if config.extra.orcid %}
-            <div class="footer-icons"><a href="{{ config.extra.orcid }}"
-               aria-label="ORCID"
-               class="icon orcid"></a></div>
-        {% endif %}
-
-        {% if config.extra.email %}
-            <div class="footer-icons"><a href="{{ config.extra.email }}"
-               aria-label="Email"
-               class="icon email"></a></div>
-        {% endif %}
-    <div class="col-2"></div>
+<footer>
+    <div class="container" id="footer-container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8" id="footer-wrapper">
+                <div class="footer-text">{{ config.extra.copyright_string | replace (from="%YEAR%", to=YEAR) | markdown | safe }}</div>
+                <div class="footer-icons">
+                    {% if config.extra.bluesky %}
+                        <a href="{{ config.extra.bluesky }}" aria-label="Bluesky" class="icon bluesky"></a>
+                    {% endif %}
+                    {% if config.extra.linkedin %}
+                        <a href="{{ config.extra.linkedin }}" aria-label="LinkedIn" class="icon linkedin"></a>
+                    {% endif %}
+                    {% if config.extra.researchgate %}
+                        <a href="{{ config.extra.researchgate }}" aria-label="ResearchGate" class="icon researchgate"></a>
+                    {% endif %}
+                    {% if config.extra.google_scholar %}
+                        <a href="{{ config.extra.google_scholar }}" aria-label="Google Scholar" class="icon google-scholar"></a>
+                    {% endif %}
+                    {% if config.extra.orcid %}
+                        <a href="{{ config.extra.orcid }}" aria-label="ORCID" class="icon orcid"></a>
+                    {% endif %}
+                    {% if config.extra.email %}
+                        <a href="{{ config.extra.email }}" aria-label="Email" class="icon email"></a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
 </footer>
 {% endif %}
 {% endblock footer %}
