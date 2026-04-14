@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@junobuild/core": "^3.3.2"
+    "@junobuild/core": "^3.3.2",
+    "slugify": "^1.6.9"
   }
 }
