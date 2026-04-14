@@ -47,6 +47,12 @@
   border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
+.pub-list > .pub-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
 .pub-type {
   font-size: 0.9rem;
   font-weight: 600;
