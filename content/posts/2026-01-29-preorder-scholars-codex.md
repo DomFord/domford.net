@@ -53,7 +53,7 @@ We felt that there was no reason that these chapters couldn't be both short and 
 - Kelsey Janse (Tilburg University)
 - Stefano Caselli (Independent researcher)
 - Charlene Putney (NEON AURELIUS)
-- Michał Kozub(Independent researcher)
+- Michał Kozub (Independent researcher)
 - Iga Ewa Smoleńska (Independent researcher)
 - Angelo M. Andriano (IULM University in Milan)
 - Ricardo Fassone (University of Turin)
