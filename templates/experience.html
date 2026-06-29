@@ -2,7 +2,9 @@
 
 
 {% block content %}
-    <div class="col-9 content experience-page">
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-8 content experience-page">
       <h1 class="center">Academic Employment</h1>
 
       {% if section.content %}
@@ -47,7 +49,7 @@
       {% endif %}
 
       {% if section.extra.education %}
-        <h1 class="education-header">Education</h2>
+        <h2 class="education-header">Education</h2>
         <div class="education-list">
           {% for edu in section.extra.education %}
             <article class="education-card distinct">
@@ -64,7 +66,8 @@
             </article>
           {% endfor %}
         </div>
-      {% endif %}
+      {% endif %}</div>
+      <div class="col-2"></div>
     </div>
 
 {% endblock %}
