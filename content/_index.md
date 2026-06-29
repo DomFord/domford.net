@@ -69,7 +69,7 @@ Previously I was a postdoc at the [University of Bremen](https://www.uni-bremen.
 
 My first book, *[Mytholudics: Games and Myth](https://doi.org/10.1515/9783111341743)*, proposes a method for analysing games both as conduits of mythologies within society and as mythological structures in themselves. It’s out now and published by De Gruyter.
 
-Preorders are now live for a public-facing edited collection I co-edited with Stefano Gualeni, Nele Van de Mosselaer and Daniel Vella, [*Scholar's Codex*](https://www.tuneandfairweather.com/products/scholars-codex), published by Tune & Fairweather. It features essays on the *Souls* games by 22 academics and writers, each focusing on an item from one of the games.
+**Now available**: a public-facing edited collection I co-edited with Stefano Gualeni, Nele Van de Mosselaer and Daniel Vella, [*Scholar's Codex*](https://www.tuneandfairweather.com/products/scholars-codex), published by Tune & Fairweather. It features essays on the *Souls* games by 22 academics and writers, each focusing on an item from one of the games.
 
 I wrote my [PhD](https://pure.itu.dk/en/publications/mytholudics-understanding-games-asthrough-myth) at the [IT University of Copenhagen](https://en.itu.dk/)’s [Center for Digital Play](https://digitalplay.itu.dk/) between 2019 and 2022.
 
