@@ -17,7 +17,7 @@ authors_structured = [
   { family = "Legierse", given = "Tom" },
   { family = "Ford", given = "Dom" },
 ]
-citation = "Legierse, T., & Ford, D. (2026, May 27). <em>Crashing out: Thresholds of anger in grassroots, competitive fighting game communities offline</em> []. The Northern Star Symposium 2026: Anger, Bodø, Norway."
+citation = "Legierse, T., & Ford, D. (2026, May 27). <em>Crashing out: Thresholds of anger in grassroots, competitive fighting game communities offline</em> [Conference presentation]. The Northern Star Symposium 2026: Anger, Bodø, Norway."
 taxonomies = { type = ["conference presentation"] }
 +++
 
