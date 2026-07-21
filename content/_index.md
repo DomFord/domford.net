@@ -65,14 +65,24 @@ index = true
 +++
 I’m a postdoctoral researcher at the [Center for Digital Narrative](https://www4.uib.no/en/research/research-centres/center-for-digital-narrative) at the [University of Bergen](https://www.uib.no/en), as part of the [LEAD AI programme](https://www.uib.no/en/leadai). My current project looks at nonplayer characters in games with AI-generated dialogue, how players respond to the use of this technology and how this use may challenge ideas in the philosophy of fiction like intentionality. I am also an editor for *[Eludamos](https://eludamos.org/index.php/eludamos)*.
 
-**Now available**: [*Scholar's Codex*](https://www.tuneandfairweather.com/products/scholars-codex), a public-facing edited collection I co-edited with Stefano Gualeni, Nele Van de Mosselaer and Daniel Vella, published by Tune & Fairweather. It features essays on the *Souls* games by 22 academics and writers, each focusing on an item from one of the games.
-
-Previously I was a postdoc at the [University of Bremen](https://www.uni-bremen.de/en/), part of the [Media and Religion](https://zemki.uni-bremen.de/en/lab-medien-und-religion/lab-media-and-religion/) lab in the [ZeMKI Centre for Media, Communication and Information Research](https://www.uni-bremen.de/en/zemki/). There I focused on [community formation in digital games](https://zemki.uni-bremen.de/en/forschungsprojekt/community-formation-in-digital-games/) and taught media studies, games and design in the ZeMKI’s [study programmes](https://zemki.uni-bremen.de/en/studies/). I was also the managing editor for *[gamevironments](https://journals.suub.uni-bremen.de/index.php/gamevironments/)*.
-
-My first book, *[Mytholudics: Games and Myth](https://doi.org/10.1515/9783111341743)*, proposes a method for analysing games both as conduits of mythologies within society and as mythological structures in themselves. It’s out now and published by De Gruyter.
+Previously, I was a postdoc at the [University of Bremen](https://www.uni-bremen.de/en/), part of the [Media and Religion](https://zemki.uni-bremen.de/en/lab-medien-und-religion/lab-media-and-religion/) lab in the [ZeMKI Centre for Media, Communication and Information Research](https://www.uni-bremen.de/en/zemki/). There I focused on [community formation in digital games](https://zemki.uni-bremen.de/en/forschungsprojekt/community-formation-in-digital-games/) and taught media studies, games and design in the ZeMKI’s [study programmes](https://zemki.uni-bremen.de/en/studies/). I was also the managing editor for *[gamevironments](https://journals.suub.uni-bremen.de/index.php/gamevironments/)*.
 
 I wrote my [PhD](https://pure.itu.dk/en/publications/mytholudics-understanding-games-asthrough-myth) at the [IT University of Copenhagen](https://en.itu.dk/)’s [Center for Digital Play](https://digitalplay.itu.dk/) between 2019 and 2022.
 
 Here you’ll find links to all the other relevant internet places you can find me at, all of my publications, games and other projects, and the occasional blog post whenever I feel like writing something here.
 
-<small>*Last updated 29 June 2026.*</small>
+<small>*Last updated 21 July 2026.*</small>
+
+***
+
+## <center>*my books*</center>
+
+*[Scholar's Codex](https://www.tuneandfairweather.com/products/scholars-codex)*, a public-facing edited collection I co-edited with Stefano Gualeni, Nele Van de Mosselaer and Daniel Vella, published by Tune & Fairweather. It features essays on the *Souls* games by 22 academics and writers, each focusing on an item from one of the games.
+
+*[Mytholudics: Games and Myth](https://doi.org/10.1515/9783111341743)* proposes a method for analysing games both as conduits of mythologies within society and as mythological structures in themselves. It’s out now and published by De Gruyter.
+
+***
+
+## <center>*peer review requests*</center>
+
+Please note that I prioritise my reviewing labour for diamond open access journals. If your journal is published by a for-profit publisher, I am very likely to say no.
