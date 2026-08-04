@@ -17,7 +17,7 @@ show_toc = true
 keywords = "myth,mytholudics"
 title_html = "Interviewed for Special Issue of <em>Via Panoramica</em>"
 +++
-In April 2025, I went to Lisbon to give my first keynote at the [International Conference on Victorian and American Myths in Video Games](https://vam2025.fcsh.unl.pt/). This was a wonderful conference, and out of it came the development of a special issue. Those seeds have now sprouted in *VIA PANORAMICA: Revista de Estudos Anglo-Americanos/ A Journal of Anglo-American Studies*, as volume 15, issue 1 on [‘New Perspectives on Game Studies: Victorian and American Frames of References for Digital Games’](https://ojs.letras.up.pt/index.php/VP/issue/view/1005).
+In April 2025, I went to Lisbon to give my first keynote at the [International Conference on Victorian and American Myths in Video Games](https://vam2025.fcsh.unl.pt/). This was a wonderful conference, and out of it came the development of a special issue. Those seeds have now sprouted in *VIA PANORAMICA: Revista de Estudos Anglo-Americanos / A Journal of Anglo-American Studies*, as volume 15, issue 1 on [‘New Perspectives on Game Studies: Victorian and American Frames of References for Digital Games’](https://ojs.letras.up.pt/index.php/VP/issue/view/1005).
 
 So many seeds sprouted that this issue is actually part two, with the first issue resulting from the conference being published in the Winter of 2025: [’From the Victortian Era to the American Experiment: Mythic Foundational Narratives in Video Games’](https://ojs.letras.up.pt/index.php/VP/issue/view/977).
 
