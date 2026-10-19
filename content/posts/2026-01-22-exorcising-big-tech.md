@@ -93,7 +93,7 @@ Over time, I’ll write up my experiences with each of these. Click on the links
 
 | Status | Software          | Before      | After        | Notes                                                                                              |
 | ------ | ----------------- | ------------- | -------------- | ----------------------------------------------------------------------------------------------------- |
-| ✅      | Office suite      | [Office365](https://www.office.com/)     | [LibreOffice](https://www.libreoffice.org/)    | Dual-boot required for some Office apps that are required for work and/or file compatibility reasons. |
+| ✅      | [Office suite](/posts/exorcising-office-suite)      | [Office365](https://www.office.com/)     | [LibreOffice](https://www.libreoffice.org/)    | Dual-boot required for some Office apps that are required for work and/or file compatibility reasons. |
 | ✅      | Email client      | [Outlook](https://outlook.office.com/)       | [Evolution](https://gnome.pages.gitlab.gnome.org/evolution/help/)      | Evolution is the only Linux email client I can hook my work email to.                                 |
 | ✅      | PDF client        | [Nitro PDF Pro](https://www.gonitro.com/) | [Okular](https://okular.kde.org/)         | I did have a good reader/editor through my employment at Bremen. Unfortunately, I can’t find a good FOSS editor. Okular is a good reader though.                                     |
 | ✅      | [Notes](/posts/exorcising-notetaking)             | [Notion](https://www.notion.com/)      | [Obsidian](https://obsidian.md/)              |                                                                     |
