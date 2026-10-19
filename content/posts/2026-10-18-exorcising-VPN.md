@@ -26,7 +26,7 @@ title_html = "Exorcising Big Tech: Using a VPN"
 Should you use a VPN? Your favourite YouTuber certainly thinks so – or is paid to say so, at least. And what do they have to do with big tech? Rather than previous blog posts – which were about things like a web browser or an office suite that you almost certainly use – you might not use a VPN. Or you might only use it to connect to your institution’s network from home or abroad.
 
 # What is a VPN?
-VPN stands for *virtual private network*. Basically, it’s a middleman. Instead of connecting directly to a website, you connect to your VPN’s servers which *then* connect to the website, and route the data back to your device. To that end, a VPN servers two basic functions.
+VPN stands for *virtual private network*. Basically, it’s a middleman. Instead of connecting directly to a website, you connect to your VPN’s servers which *then* connect to the website, and route the data back to your device. To that end, a VPN serves two basic functions.
 
 First, it masks your identity to the endpoint. The website or service only sees the connection from the VPN’s server, not your device which sent the original request to the VPN. That’s good for privacy and security because your machine is not identified as one of the nodes in the network, and therefore can’t* be identified or targeted. 
 

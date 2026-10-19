@@ -65,7 +65,7 @@ Here’s where I’m at so far. I’ll continue to update this as my journey con
 
 I hope in particular that my experiences will be useful to students and academics looking to do the same. [There](https://github.com/geraldohomero/best-foss-alternatives) [are](https://dev.to/dev_tips/top-20-european-alternatives-to-major-us-technology-services-you-could-change-right-now-1aan) [many](https://wire.com/en/blog/best-european-alternatives-to-big-tech) [lists](https://european-alternatives.eu/) [of](https://fossalternative.com/) [alternatives](https://opensourcealternative.to/) out there, but many of those write-ups (if they aren’t AI generated) are also very general, and don’t mention some of the specifics of this line of work that might influence our choices. One is exception is that [Jesper Juul wrote about switching office suites last year](https://www.jesperjuul.net/ludologist/2025/05/20/docs-office-alternatives/), which is a very valuable contribution. Personally, I disagree with his choices and some of his requirements/expectations. E.g., with his assertion that free tools automatically means ads and tracking - not true in FOSS - and that we should therefore skew towards proprietary, paid, but European software. But it’s well worth reading his suggestions for yourself.
 
-One **huge** caveat is that this mostly goes for my personal PC at home. My work laptop is still fully Microsoft-pilled because, as I mentioned, my workplace is far too integrated into that ecosystem. However, where I can – such as with the office suite and cloud storage – I am still switching to the alternatives below.
+One **huge** caveat is that this mostly goes for my personal PC at home. My work laptop is still fully Microsoft-pilled because, as I mentioned, my workplace is far too integrated into that ecosystem. However, where I can – such as with the office suite and cloud storage – I am still switching to the alternatives below. (UPDATE: I had to wipe and reset my work laptop anyway, so I now use Ubuntu at work, since it's the only Linux distro that is supported by UiB. I might update the OS post later and talk about my experiences with this.)
 
 Over time, I’ll write up my experiences with each of these. Click on the links below to find the blog posts I’ve put out so far.
 
@@ -74,6 +74,7 @@ Over time, I’ll write up my experiences with each of these. Click on the links
 - [The Reference Manager](/posts/exorcising-reference-manager)
 - [The Web Browser](/posts/exorcising-web-browser)
 - [Notetaking](/posts/exorcising-notetaking)
+- [Using a VPN](/posts/exorcising-VPN)
 
 *Last update: 27 April 2026.*
 
@@ -86,7 +87,7 @@ Over time, I’ll write up my experiences with each of these. Click on the links
 | ✅      | [Web browser](/posts/exorcising-web-browser)          | [Firefox Nightly](https://www.firefox.com/en-US/firefox/149.0a1/releasenotes/) | -         |                                          |
 | ✅      | Password manager     | [Firefox](https://www.firefox.com/en-US/features/password-manager/)         | [Bitwarden](https://bitwarden.com/) |                                          |
 | ✅      | Cloud storage        | [OneDrive](https://onedrive.live.com/)        | [Filen](https://filen.io/)     | I use OneDrive for some work things, since it is their officially supported cloud service.                                          |
-| ✅      | VPN                  | None            | [Mullvad](https://mullvad.net/en)   |                                          |
+| ✅      | [VPN](/posts/exorcising-VPN)                  | None            | [Mullvad](https://mullvad.net/en)   |                                          |
 
 # Work
 
