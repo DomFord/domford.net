@@ -76,7 +76,7 @@ Over time, I’ll write up my experiences with each of these. Click on the links
 - [Notetaking](/posts/exorcising-notetaking)
 - [Using a VPN](/posts/exorcising-VPN)
 
-*Last update: 27 April 2026.*
+*Last update: 19 October 2026.*
 
 # General
 
