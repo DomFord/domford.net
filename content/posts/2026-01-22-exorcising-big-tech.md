@@ -83,7 +83,7 @@ Over time, I’ll write up my experiences with each of these. Click on the links
 | Status | Software             | Before         | After   | Notes                                 |
 | ------ | -------------------- | --------------- | --------- | ---------------------------------------- |
 | ✅      | [Operating system](/posts/exorcising-operating-system) | Windows 11      | [cachyOS](https://cachyos.org/)   |                                          |
-| ❌      | Phone OS             | [OxygenOS](https://www.oneplus.in/oxygenos16)         | ?         | [GrapheneOS](https://grapheneos.org/)? Would need a Pixel phone though... |
+| 🔁      | Phone OS             | [OxygenOS](https://www.oneplus.in/oxygenos16)         | [Android 16](https://www.android.com/new-features-on-android/?category=android-16) with a [Fairphone Gen 6+](https://www.fairphone.com/the-fairphone-gen-6-plus)         | [GrapheneOS](https://grapheneos.org/)? Would need a Pixel phone though... |
 | ✅      | [Web browser](/posts/exorcising-web-browser)          | [Firefox Nightly](https://www.firefox.com/en-US/firefox/149.0a1/releasenotes/) | -         |                                          |
 | ✅      | Password manager     | [Firefox](https://www.firefox.com/en-US/features/password-manager/)         | [Bitwarden](https://bitwarden.com/) |                                          |
 | ✅      | Cloud storage        | [OneDrive](https://onedrive.live.com/)        | [Filen](https://filen.io/)     | I use OneDrive for some work things, since it is their officially supported cloud service.                                          |
