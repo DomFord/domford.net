@@ -19,43 +19,27 @@
     "url": "/publications/2026-crashing-out/"
   },
   {
-    "title": "Writing the <i>Scholar’s Codex</i>: A bonfireside chat with editors and authors of Tune & Fairweather’s new book",
-    "title_html": "Writing the <i>Scholar’s Codex</i>: A bonfireside chat with editors and authors of Tune & Fairweather’s new book",
+    "title": "Interview with DOM FORD",
+    "title_html": "Interview with DOM FORD",
     "authors": [
       {
-        "family": "Zingarelli",
-        "given": "Robin"
+        "family": "Pereira",
+        "given": "Teresa"
       },
       {
         "family": "Ford",
         "given": "Dom"
-      },
-      {
-        "family": "Gualeni",
-        "given": "Stefano"
-      },
-      {
-        "family": "Van de Mosselaer",
-        "given": "Nele"
-      },
-      {
-        "family": "Vella",
-        "given": "Daniel"
-      },
-      {
-        "family": "Kozyra",
-        "given": "Magdalena"
       }
     ],
     "year": "2026",
-    "venue": "",
+    "venue": "VIA PANORAMICA: Revista de Estudos Anglo-Americanos / A Journal of Anglo-American Studies",
     "doi": "",
-    "slug": "2026-writing-the-i-scholar-s-codex-i",
-    "url": "/publications/2026-writing-the-i-scholar-s-codex-i/"
+    "slug": "2026-interview-with-dom-ford",
+    "url": "/publications/2026-interview-with-dom-ford/"
   },
   {
-    "title": "Promise and paradox: What is the future being promoted for AI NPCs?",
-    "title_html": "Promise and paradox: What is the future being promoted for AI NPCs?",
+    "title": "Promotion and paradox: Promises of lifeness in the promotional material of generative AI software for non-player characters",
+    "title_html": "Promotion and paradox: Promises of lifeness in the promotional material of generative AI software for non-player characters",
     "authors": [
       {
         "family": "Ford",
@@ -63,9 +47,9 @@
       }
     ],
     "year": "2026",
-    "venue": "Generate AI & Videogame Characters Workshop",
-    "doi": "",
-    "slug": "2026-promise-and-paradox",
-    "url": "/publications/2026-promise-and-paradox/"
+    "venue": "AI characters",
+    "doi": "10.1515/9783112249581-005",
+    "slug": "2026-promotion-and-paradox",
+    "url": "/publications/2026-promotion-and-paradox/"
   }
 ]
