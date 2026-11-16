@@ -40,6 +40,14 @@ ALLOWED_TYPES_PRESENTATIONS = {
     "workshop"
 }
 
+# CSL-JSON types that belong to the hand-authored media section
+# ("In the Media"), not to generated publications or conferences.
+MEDIA_TYPES = {
+    "article-newspaper",
+    "article-magazine",
+    "post-weblog"
+}
+
 # ---------------- UTILITIES ----------------
 
 def hash_text(text: str) -> str:
@@ -558,6 +566,10 @@ def main():
         elif pub["type"] in ALLOWED_TYPES_PRESENTATIONS:
             out_dir = OUTPUT_DIR_PRESENTATIONS
             render_fn = render_markdown_presentation
+        elif raw_pub.get("type") in MEDIA_TYPES:
+            # Media (newspaper/magazine/blog) items live in content/media/ and
+            # are hand-authored, not generated here.
+            continue
         else:
             # Skip types we don't handle
             continue
@@ -567,15 +579,6 @@ def main():
         path = out_dir / f"{slug}.md"
 
         content = render_fn(pub)
-        new_hash = hash_text(content)
-
-        # If file exists and content unchanged, skip writing
-        if path.exists() and hash_text(path.read_text(encoding="utf-8")) == new_hash:
-            continue
-
-        path.write_text(content, encoding="utf-8")
-        print(f"Updated: {path}")
-
 
         search_index.append({
             "title": pub["title"],
@@ -587,6 +590,15 @@ def main():
             "slug": slug,
             "url": f"/publications/{slug}/",
         })
+
+        new_hash = hash_text(content)
+
+        # If file exists and content unchanged, skip writing
+        if path.exists() and hash_text(path.read_text(encoding="utf-8")) == new_hash:
+            continue
+
+        path.write_text(content, encoding="utf-8")
+        print(f"Updated: {path}")
 
     with open(SEARCH_DIR / "publications.json", "w", encoding="utf-8") as f:
         json.dump(search_index, f, indent=2, ensure_ascii=False)
