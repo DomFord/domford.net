@@ -1,14 +1,5 @@
 <div class="latest-links">
-{% set pubs_section = get_section(path="publications/_index.md") %}
-{% if not pubs_section %}
-  {% set_global pubs_section = none %}
-  {% for s in get_sections() %}
-    {% if s.path == "publications" or s.title == "Publications" %}
-      {% set_global pubs_section = s %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
+{% set pubs_section = get_section(path="publications/_index.md", allow_missing=true) %}
 {% if pubs_section %}
   {% set sorted_pubs = pubs_section.pages | sort(attribute="date", reverse=true) %}
   {% set latest_pub = sorted_pubs | last %}
@@ -25,16 +16,7 @@
   {% endif %}
 {% endif %}
 
-{% set conferences_section = get_section(path="conferences/_index.md") %}
-{% if not conferences_section %}
-    {% set_global conferences_section = none %}
-    {% for s in get_sections() %}
-      {% if  s.path == "conferences" or s.title == "Conferences" %}
-        {% set_global conferences_section = s %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
+{% set conferences_section = get_section(path="conferences/_index.md", allow_missing=true) %}
 {% if conferences_section %}
   {% set sorted_pubs = conferences_section.pages | sort(attribute="date", reverse=true) %}
   {% set latest_conference = sorted_pubs | last %}
@@ -51,17 +33,8 @@
 {% endif %}
 
 
-{# --- Posts: same pattern --- #}
-{% set posts_section = get_section(path="posts/_index.md") %}
-{% if not posts_section %}
-  {% set_global posts_section = none %}
-  {% for s in get_sections() %}
-    {% if s.path == "posts" or s.title == "Posts" %}
-      {% set_global posts_section = s %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
+{# --- Posts --- #}
+{% set posts_section = get_section(path="posts/_index.md", allow_missing=true) %}
 {% if posts_section %}
   {% set sorted_posts = posts_section.pages | sort(attribute="date", reverse=true) %}
   {% set latest_post = sorted_posts | last %}
@@ -79,16 +52,7 @@
   {% endif %}
 {% endif %}
 
-{% set media_section = get_section(path="media/_index.md") %}
-{% if not media_section %}
-  {% set_global media_section = none %}
-  {% for s in get_sections() %}
-    {% if s.path == "media" or s.title == "Media" %}
-      {% set_global media_section = s %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
-
+{% set media_section = get_section(path="media/_index.md", allow_missing=true) %}
 {% if media_section %}
   {% set sorted_media = media_section.pages | sort(attribute="date", reverse=true) %}
   {% set latest_media = sorted_media | last %}

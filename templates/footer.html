@@ -1,5 +1,5 @@
 {% block footer %}
-{% if page.extra.show_copyright or section.extra.show_copyright or term is defined %}
+{% if (page is defined and page.extra.show_copyright) or (section is defined and section.extra.show_copyright) or term is defined %}
 {%- set YEAR = now() | date(format="%Y") -%}
 <footer>
     <div class="container" id="footer-container">

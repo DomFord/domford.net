@@ -4,16 +4,11 @@
 
 {% set pages = section.pages | sort(attribute="date", reverse=true) %}
 {% set grouped = pages | group_by(attribute="year") %}
+{% set years = grouped | keys | sort | reverse %}
 
   <div class="row">
     <div class="col-2"></div>
     <div class="col-8 content page-publications">
-
-    {% set years = [] %}
-    {% for y, _items in grouped %}
-      {% set_global years = years | concat(with=[y]) %}
-    {% endfor %}
-    {% set years = years | sort | reverse %}
 
     {% for year in years %}
       {% set items = grouped[year] %}

@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>
-    {%- if page.title -%} {{ page.title }}
-    {%- elif section.title -%} {{ section.title }} 
+    {%- if page is defined and page.title -%} {{ page.title }}
+    {%- elif section is defined and section.title -%} {{ section.title }} 
     {%- endif -%}
   </title>
 {% if dsc is not defined %}
@@ -15,7 +15,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 {% endif %}
   <meta name="author" content="{{config.extra.author}}">
-  {% if page.extra.keywords is defined %}<meta name="keywords" content="{{ page.extra.keywords }}">{% endif %}
+  {% if page is defined and page.extra.keywords is defined %}<meta name="keywords" content="{{ page.extra.keywords }}">{% endif %}
   <link rel="alternate" type="application/atom+xml" href="/posts/atom.xml">
   <link type="text/css" rel="stylesheet" href="{{ get_url(path="css/grid.css") }}?v={{ cdn_version }}">
   <link type="text/css" rel="stylesheet" href="{{ get_url(path="css/style.css") }}?v={{ cdn_version }}">

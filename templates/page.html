@@ -4,16 +4,16 @@
     <div class="col-2"></div>
     <div class="col-8 content">
       <h1 class="center">
-        {%- if page.extra.title_html -%}{{ page.extra.title_html | safe }}
-        {%- elif page.title -%}{{ page.title | safe }}
-        {%- elif section.title -%}{{ section.title | safe }}
+        {%- if page is defined and page.extra.title_html -%}{{ page.extra.title_html | safe }}
+        {%- elif page is defined and page.title -%}{{ page.title | safe }}
+        {%- elif section is defined and section.title -%}{{ section.title | safe }}
         {%- endif -%}
        </h1>
-      {% if page.extras.show_date %}
+      {% if page.extra.show_date %}
       <h6>{{ page.date | date(format="%e %b %Y") }}</h6>
       {% endif %}
 
-      {%- if post.description -%}<div class="fullpost-desc">
+      {%- if page.description -%}<div class="fullpost-desc">
         <blockquote>{{ page.description }}</blockquote>
       </div>{%- endif -%}
       <div>
@@ -44,7 +44,7 @@
           {% endif %}
           {%- if page.content -%}
           {{ page.content | safe }}
-          {%- elif secion.content -%}
+          {%- elif section is defined and section.content -%}
           {{ section.content | safe }}
           {%- endif -%}
       </div>
@@ -58,7 +58,7 @@
         <ul>
           {% if page.taxonomies.tags %}
               {% for tag in page.taxonomies.tags %}
-          <li><a href="{{ get_taxonomy_url(kind='tags', name=tag) | safe }}" class="singlepost-tags">#{{ tag }}</a>&nbsp;</li>
+          <li><a href="{{ get_taxonomy_url(kind='tags', term=tag) | safe }}" class="singlepost-tags">#{{ tag }}</a>&nbsp;</li>
               {% endfor %}
             {% endif %}
         </ul>

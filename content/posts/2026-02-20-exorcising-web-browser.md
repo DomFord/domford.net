@@ -25,7 +25,7 @@ title_html = "Exorcising Big Tech: The Web Browser"
 
 [Google Chrome](https://www.google.com/chrome/) is *nearly* – but technically not quite – a monopoly in the web browser space. They missed out on the trifecta, as [in 2024 they *were* ruled to hold a monopoly in only two spaces](https://arstechnica.com/tech-policy/2024/08/google-loses-dojs-big-monopoly-trial-over-search-business/): internet search and text advertising. Google were given a stay of execution with Chrome, however, [when they were not forced to sell it](https://arstechnica.com/gadgets/2025/09/google-wont-have-to-sell-chrome-judge-rules/).
 
-<div class="centered">{{ display_image(path="static/images/chrome-market-share.png", width=1000, op="fit_width") }}
+<div class="centered">{{<display_image path="static/images/chrome-market-share.png" width={1000} op="fit_width" />}}
 
 *Source: [https://www.statista.com/chart/1438/browser-market-share-since-2008/](https://www.statista.com/chart/1438/browser-market-share-since-2008/)*</div>
 
@@ -36,7 +36,7 @@ But that’s not the whole story. Chrome itself is based on [Chromium](https://w
 
 In other words, Google’s reach extends *far*, much further than even the dominant market share of Chrome would suggest. The key question here, before we consider our choice of browser, is whether and to what extent *Chromium* is an issue. After all, it’s free and open source. The benefits of a Chromium-based browser are that you get a familiar browsing experience to Chrome, and most if not all of your extensions should still work just fine. The drawbacks are that [Chromium still ‘phones home’ to Google](https://www.techspot.com/news/103811-chromium-browsers-have-quietly-sending-user-information-google.html) in certain ways. Some Chromium-based browsers take steps to mitigate or eliminate the phoning home. Most notably, [ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) does what its name suggests. Brave also adds in some toggles in the browser settings, allowing users to opt out of some of those features.
 
-<div class="centered">{{ display_image(path="static/images/ungoogled-chromium.png", width=1000, op="fit_width") }}
+<div class="centered">{{<display_image path="static/images/ungoogled-chromium.png" width={1000} op="fit_width" />}}
 
 *A freshly installed ungoogled-chromium.*</div>
 
@@ -51,13 +51,13 @@ Firefox is run by [Mozilla](https://www.mozilla.org/en-US/). Technically speakin
 
 Personally, I use [Firefox Nightly](https://www.firefox.com/en-US/firefox/149.0a1/releasenotes/). The only difference compared with regular Firefox is that it gets bleeding-edge updates. It’s basically the [Arch](/posts/exorcising-operating-system) of Firefox versions. I don’t know, I just like getting shiny new updates and tinkering with software. Normal Firefox is just fine and more stable. 
 
-<div class="centered">{{ display_image(path="static/images/firefox-nightly.png", width=1000, op="fit_width") }}
+<div class="centered">{{<display_image path="static/images/firefox-nightly.png" width={1000} op="fit_width" />}}
 
 *A fresh window in my Firefox Nightly.*</div>
 
 I also like Firefox’s approach to AI integration. Rather than forcing it into everything, AI features are clearly marked and described, with both granular and sweeping options to enable or block them. Features can be set to `Available`, `Enabled` or `Blocked`. `Blocked` is pretty clear, but even after reading the description I’m not *entirely* sure what the difference between `Available` and `Enabled` is. Still, I like this approach.
 
-<div class="centered">{{ display_image(path="static/images/firefox-ai.png", width=1000, op="fit_width") }}</div>
+<div class="centered">{{<display_image path="static/images/firefox-ai.png" width={1000} op="fit_width" />}}</div>
 
 There are [a](https://www.zdnet.com/home-and-office/work-life/i-speed-tested-11-browsers-and-the-fastest-might-surprise-you/) [thousand](https://www.browserating.com/) [browser](https://www.cloudwards.net/fastest-browser/) [performance](https://www.tech2geek.net/fastest-web-browser-in-2025-speed-test-results-comparison/) [comparisons](https://www.pcworld.com/article/2390201/browser-speed-2024-this-is-how-fast-chrome-firefox-edge-co.html) you can find. I would say that selecting your browser based on how many milliseconds faster it can load a page is silly. The reality is that all modern browsers perform comparably well. But it can also depend on a lot of things: your machine, your extensions, how the webpage was developed, and so on. If one seems to be performing noticeably bad for you, by all means try another. I regularly use other browsers and see no real difference.
 

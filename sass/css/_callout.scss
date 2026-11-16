@@ -12,10 +12,28 @@
         margin: 0 auto;
         position: relative;
         padding: .6em;
-        * {
+        a {
+            color: var(--co-icon);
+        }
+        h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, dl, dd {
             padding: 0;
-            margin: 0;
-            color: var(--co-icon)
+        }
+        p, ul, ol, dl, blockquote {
+            margin: .5em 0;
+        }
+        p:first-child, ul:first-child, ol:first-child,
+        blockquote:first-child {
+            margin-top: 0;
+        }
+        p:last-child, ul:last-child, ol:last-child,
+        blockquote:last-child {
+            margin-bottom: 0;
+        }
+        ul, ol {
+            padding-left: 1.2em;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: var(--co-icon);
         }
         .co-body {
             line-height: 1.5em;

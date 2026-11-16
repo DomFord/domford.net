@@ -14,7 +14,7 @@
       {% endfor %}
     </ul>
     <div class="pagination">
-      {%- if paginator.previous  or paginator.next -%}    
+      {%- if paginator is defined and (paginator.previous  or paginator.next) -%}    
       {%- set pag_start = 1 -%}
       {%- set pag_end = paginator.number_pagers -%}
       {%- if paginator.previous -%}<a href = "{{ paginator.previous }}">&larr;</a>{%- endif -%}
