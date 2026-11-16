@@ -27,12 +27,13 @@ title_html = "Exorcising Big Tech: Using a VPN"
 
 ***
 
-> [!NOTE] **Update 16 November 2026**
-> I previously recommended Mullvad VPN, and what I wrote about its features, price stability and transparency and so on still hold. But I then became aware that Daniel Berntsson, co-founder and co-owner of Mullvad VPN, [donated SEK 5,000,000 to the Örebro Party](https://www.techradar.com/vpn/vpn-privacy-security/i-dont-like-that-he-made-this-donation-mullvad-ceo-reacts-to-co-founders-donation-to-controversial-swedish-populist-party), a party that espouses fascist policies like remigration and has been described as a group of [“racists, fascists and Nazis”](https://kvartal.se/christerelmochantaf/artiklar/chefredaktorens-angrepp-de-ar-nazister-rasister-fascister/cG9zdDozNjAwOA).
-> 
-> While it is important to note that the donation was made in a private capacity (rather than being from Mullvad itself), and Mullvad’s other co-founder, Fredrik Strömberg, [has said that he disagrees with Berntsson’s stance](https://www.techradar.com/vpn/vpn-privacy-security/i-dont-like-that-he-made-this-donation-mullvad-ceo-reacts-to-co-founders-donation-to-controversial-swedish-populist-party) and that it does not reflect Mullvad’s “values or mission”, Berntsson’s position as a co-owner means that Mullvad income is nonetheless being funnelled into the Örebro Party. I cannot support this, and so will move to IVPN when my currently paid Mullvad time expires.
-> 
-> I will leave the blog post as-is to show one of the additional difficulties with leaving big tech. That is, as soon as you start to care about the ethics of the tech you use, you realise that there are many ways to be unethical and that it can be a job in itself to keep on top of ethical ‘audits’ of the software you use. If I did not read tech news often, this story may well have completely passed me by – seeing as I don’t live in Sweden – and a significant part of my Mullvad payments would have continued to go to fascists.
+{% callout(type = 'info') %} **Update 16 November 2026**
+I previously recommended Mullvad VPN, and what I wrote about its features, price stability and transparency and so on still hold. But I then became aware that Daniel Berntsson, co-founder and co-owner of Mullvad VPN, [donated SEK 5,000,000 to the Örebro Party](https://www.techradar.com/vpn/vpn-privacy-security/i-dont-like-that-he-made-this-donation-mullvad-ceo-reacts-to-co-founders-donation-to-controversial-swedish-populist-party), a party that espouses fascist policies like remigration and has been described as a group of [“racists, fascists and Nazis”](https://kvartal.se/christerelmochantaf/artiklar/chefredaktorens-angrepp-de-ar-nazister-rasister-fascister/cG9zdDozNjAwOA).
+
+While it is important to note that the donation was made in a private capacity (rather than being from Mullvad itself), and Mullvad’s other co-founder, Fredrik Strömberg, [has said that he disagrees with Berntsson’s stance](https://www.techradar.com/vpn/vpn-privacy-security/i-dont-like-that-he-made-this-donation-mullvad-ceo-reacts-to-co-founders-donation-to-controversial-swedish-populist-party) and that it does not reflect Mullvad’s “values or mission”, Berntsson’s position as a co-owner means that Mullvad income is nonetheless being funnelled into the Örebro Party. I cannot support this, and so will move to IVPN when my currently paid Mullvad time expires.
+
+I will leave the blog post as-is to show one of the additional difficulties with leaving big tech. That is, as soon as you start to care about the ethics of the tech you use, you realise that there are many ways to be unethical and that it can be a job in itself to keep on top of ethical ‘audits’ of the software you use. If I did not read tech news often, this story may well have completely passed me by – seeing as I don’t live in Sweden – and a significant part of my Mullvad payments would have continued to go to fascists.
+{% end %}
 
 
 
@@ -133,8 +134,9 @@ So, for our VPN we’re looking for open source, but *not* free.
 This post has already gotten too long and has been unfinished for too long, so I won’t do a comparison table here, I’ll just shout-out my choice: [Mullvad](https://mullvad.net/en).
 
 
-> [!CAUTION]
+{% callout(type = 'alert') %}
 > Please read the update above. Instead of Mullvad, I now recommend [IVPN](https://www.ivpn.net/en/), whose VPN has many of the same features and policies, but without the subscription money going towards fascists.
+{% end %}
 
 
 Now, I’m not a dissident or a spy or anything like that, but if I were, I would trust Mullvad. They have a policy of not logging *any* customer data of any kind. Your account is simply a string of characters with no password. Bills are payable by convenient digital solutions like Google and Apple Pay, card, and PayPal, but they also accept cryptocurrency and even envelopes of cash if you want to be totally anonymous. [Their no-logging policy was proven in 2023](https://www.techradar.com/news/mullvads-no-log-policy-proven-after-police-raid) when the Swedish police tried to seize Mullvad’s computers at their Gothenburg office, but left empty handed because there simply was no customer data to seize.
