@@ -85,4 +85,4 @@ Here you’ll find links to all the other relevant internet places you can find 
 
 ## <center>*peer review requests*</center>
 
-Please note that I prioritise my reviewing labour for diamond open access journals. If your journal is published by a for-profit publisher, I am very likely to say no.
+Please note that I prioritise my reviewing labour for [diamond open access](https://en.wikipedia.org/wiki/Diamond_open_access) journals. If your journal is published by a for-profit publisher, I am very likely to say no.

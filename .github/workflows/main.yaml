@@ -4,25 +4,49 @@ on:
     branches: [ main ]
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
+  # Needed to poll the artifact list before deploying.
+  actions: read
+
+# Never run two Pages deployments at once; queue them instead.
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      # Latest Zola release. Check https://github.com/getzola/zola/releases
+      # before changing this, and update ZOLA_SHA256 to match.
+      ZOLA_VERSION: "0.23.6"
+      ZOLA_SHA256: "8f5132b3522412d04e395e0b25f6d68613ad272a873e54a2b3ebf664873024a4"
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Install Zola
         run: |
-          ZOLA_VERSION="0.23.6"
           ARCH="x86_64-unknown-linux-gnu"
           URL="https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-${ARCH}.tar.gz"
-          curl -sL "$URL" -o zola.tar.gz
+          curl -sSL --fail "$URL" -o zola.tar.gz
+          echo "${ZOLA_SHA256}  zola.tar.gz" | sha256sum -c -
           tar -xzf zola.tar.gz
           sudo mv zola /usr/local/bin/zola
+
+      - name: Verify Zola version
+        run: |
+          installed="$(zola --version | awk '{print $2}')"
+          echo "Installed Zola: ${installed} (expected ${ZOLA_VERSION})"
+          if [ "$installed" != "$ZOLA_VERSION" ]; then
+            echo "::error::Zola version mismatch: expected ${ZOLA_VERSION}, got ${installed}"
+            exit 1
+          fi
 
       - name: Build site
         run: zola build
@@ -41,5 +65,27 @@ jobs:
         with:
           path: ./public
 
+      # The artifact list API is eventually consistent. deploy-pages can run
+      # before the upload is visible to it and fail with "No artifacts named
+      # github-pages were found", so wait until it is actually listed.
+      - name: Wait for Pages artifact to be visible
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for attempt in $(seq 1 30); do
+            found=$(gh api \
+              "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" \
+              --jq '[.artifacts[] | select(.name == "github-pages")] | length')
+            if [ "$found" -ge 1 ]; then
+              echo "Pages artifact is available (attempt ${attempt})."
+              exit 0
+            fi
+            echo "Attempt ${attempt}/30: artifact not listed yet, retrying in 5s..."
+            sleep 5
+          done
+          echo "::error::Pages artifact never became visible; not deploying."
+          exit 1
+
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
