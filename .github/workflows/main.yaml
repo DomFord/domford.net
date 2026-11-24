@@ -7,8 +7,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-  # Needed to poll the artifact list before deploying.
-  actions: read
 
 # Never run two Pages deployments at once; queue them instead.
 concurrency:
@@ -16,16 +14,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     env:
       # Latest Zola release. Check https://github.com/getzola/zola/releases
       # before changing this, and update ZOLA_SHA256 to match.
       ZOLA_VERSION: "0.23.6"
       ZOLA_SHA256: "8f5132b3522412d04e395e0b25f6d68613ad272a873e54a2b3ebf664873024a4"
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -51,41 +46,40 @@ jobs:
       - name: Build site
         run: zola build
 
-      - name: Show build output
+      - name: Check build output
         run: |
-          echo "CWD: $(pwd)"
           ls -la public
-          find public -maxdepth 3 -type f -print
-
-      - name: Fail if public missing
-        run: test -d public && test "$(ls -A public)" || (echo "public missing or empty" && exit 1)
+          test -d public && test "$(ls -A public)" || (echo "public missing or empty" && exit 1)
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 
-      # The artifact list API is eventually consistent. deploy-pages can run
-      # before the upload is visible to it and fail with "No artifacts named
-      # github-pages were found", so wait until it is actually listed.
-      - name: Wait for Pages artifact to be visible
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          for attempt in $(seq 1 30); do
-            found=$(gh api \
-              "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" \
-              --jq '[.artifacts[] | select(.name == "github-pages")] | length')
-            if [ "$found" -ge 1 ]; then
-              echo "Pages artifact is available (attempt ${attempt})."
-              exit 0
-            fi
-            echo "Attempt ${attempt}/30: artifact not listed yet, retrying in 5s..."
-            sleep 5
-          done
-          echo "::error::Pages artifact never became visible; not deploying."
-          exit 1
-
+  deploy:
+    # Deliberately a separate job. deploy-pages looks the artifact up through the
+    # Actions artifact service, which can return nothing for an artifact that was
+    # finalised a fraction of a second earlier (actions/deploy-pages#451). A new
+    # job adds a few seconds and, unlike a re-run of a combined job, does not
+    # upload a second github-pages artifact.
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+
+      # The lookup failure happens before any deployment is created, so a retry
+      # is safe and usually succeeds once the artifact has propagated.
+      - name: Wait for the artifact to propagate
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 30
+
+      - name: Retry deployment
+        id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
